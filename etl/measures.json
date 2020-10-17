@@ -1,0 +1,6392 @@
+{
+  "Italy": [
+    {
+      "Response_measure": "AdaptationOfWorkplace",
+      "Country": "Italy",
+      "date_end": "NA",
+      "date_start": "2020-03-10",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosDaycare",
+      "Country": "Italy",
+      "date_end": "2020-06-10",
+      "date_start": "2020-03-10",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosDaycarePartial",
+      "Country": "Italy",
+      "date_end": "2020-03-09",
+      "date_start": "2020-03-04",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosDaycarePartial",
+      "Country": "Italy",
+      "date_end": "2020-09-14",
+      "date_start": "2020-06-11",
+      "change": "3"
+    },
+    {
+      "Response_measure": "ClosHigh",
+      "Country": "Italy",
+      "date_end": "2020-06-10",
+      "date_start": "2020-03-10",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosHighPartial",
+      "Country": "Italy",
+      "date_end": "2020-03-09",
+      "date_start": "2020-03-04",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosHighPartial",
+      "Country": "Italy",
+      "date_end": "2020-09-14",
+      "date_start": "2020-06-11",
+      "change": "3"
+    },
+    {
+      "Response_measure": "ClosPrim",
+      "Country": "Italy",
+      "date_end": "2020-09-14",
+      "date_start": "2020-03-11",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosPrimPartial",
+      "Country": "Italy",
+      "date_end": "2020-03-10",
+      "date_start": "2020-03-04",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosPubAnyPartial",
+      "Country": "Italy",
+      "date_end": "NA",
+      "date_start": "2020-03-10",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosSec",
+      "Country": "Italy",
+      "date_end": "2020-06-16",
+      "date_start": "2020-03-04",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosSec",
+      "Country": "Italy",
+      "date_end": "2020-09-14",
+      "date_start": "2020-07-05",
+      "change": "3"
+    },
+    {
+      "Response_measure": "ClosSecPartial",
+      "Country": "Italy",
+      "date_end": "2020-07-04",
+      "date_start": "2020-06-17",
+      "change": "1"
+    },
+    {
+      "Response_measure": "EntertainmentVenues",
+      "Country": "Italy",
+      "date_end": "2020-05-17",
+      "date_start": "2020-03-10",
+      "change": "1"
+    },
+    {
+      "Response_measure": "EntertainmentVenuesPartial",
+      "Country": "Italy",
+      "date_end": "2020-06-15",
+      "date_start": "2020-05-18",
+      "change": "1"
+    },
+    {
+      "Response_measure": "GymsSportsCentres",
+      "Country": "Italy",
+      "date_end": "2020-05-24",
+      "date_start": "2020-03-10",
+      "change": "1"
+    },
+    {
+      "Response_measure": "GymsSportsCentresPartial",
+      "Country": "Italy",
+      "date_end": "NA",
+      "date_start": "2020-05-25",
+      "change": "1"
+    },
+    {
+      "Response_measure": "IndoorOver100",
+      "Country": "Italy",
+      "date_end": "2020-08-06",
+      "date_start": "2020-06-12",
+      "change": "1"
+    },
+    {
+      "Response_measure": "IndoorOver500",
+      "Country": "Italy",
+      "date_end": "NA",
+      "date_start": "2020-08-07",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MasksMandatoryAllSpaces",
+      "Country": "Italy",
+      "date_end": "2020-07-14",
+      "date_start": "2020-04-26",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MasksMandatoryAllSpaces",
+      "Country": "Italy",
+      "date_end": "2020-09-30",
+      "date_start": "2020-08-16",
+      "change": "3"
+    },
+    {
+      "Response_measure": "MasksMandatoryAllSpacesPartial",
+      "Country": "Italy",
+      "date_end": "2020-08-15",
+      "date_start": "2020-07-15",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MasksMandatoryClosedSpaces",
+      "Country": "Italy",
+      "date_end": "NA",
+      "date_start": "2020-04-14",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MassGatherAllPartial",
+      "Country": "Italy",
+      "date_end": "NA",
+      "date_start": "2020-06-12",
+      "change": "1"
+    },
+    {
+      "Response_measure": "NonEssentialShops",
+      "Country": "Italy",
+      "date_end": "2020-04-13",
+      "date_start": "2020-03-10",
+      "change": "1"
+    },
+    {
+      "Response_measure": "NonEssentialShopsPartial",
+      "Country": "Italy",
+      "date_end": "2020-05-18",
+      "date_start": "2020-04-14",
+      "change": "1"
+    },
+    {
+      "Response_measure": "OutdoorOver1000",
+      "Country": "Italy",
+      "date_end": "NA",
+      "date_start": "2020-08-07",
+      "change": "1"
+    },
+    {
+      "Response_measure": "OutdoorOver500",
+      "Country": "Italy",
+      "date_end": "2020-08-06",
+      "date_start": "2020-06-12",
+      "change": "1"
+    },
+    {
+      "Response_measure": "PlaceOfWorship",
+      "Country": "Italy",
+      "date_end": "2020-06-15",
+      "date_start": "2020-03-10",
+      "change": "1"
+    },
+    {
+      "Response_measure": "RestaurantsCafesPartial",
+      "Country": "Italy",
+      "date_end": "2020-05-18",
+      "date_start": "2020-03-10",
+      "change": "1"
+    },
+    {
+      "Response_measure": "StayHomeOrder",
+      "Country": "Italy",
+      "date_end": "2020-05-04",
+      "date_start": "2020-03-10",
+      "change": "1"
+    },
+    {
+      "Response_measure": "StayHomeRiskG",
+      "Country": "Italy",
+      "date_end": "NA",
+      "date_start": "2020-03-04",
+      "change": "1"
+    },
+    {
+      "Response_measure": "Teleworking",
+      "Country": "Italy",
+      "date_end": "NA",
+      "date_start": "2020-03-12",
+      "change": "1"
+    }
+  ],
+  "Lithuania": [
+    {
+      "Response_measure": "ClosDaycare",
+      "Country": "Lithuania",
+      "date_end": "2020-04-26",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosDaycarePartial",
+      "Country": "Lithuania",
+      "date_end": "2020-05-27",
+      "date_start": "2020-04-27",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosHigh",
+      "Country": "Lithuania",
+      "date_end": "2020-05-24",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosHighPartial",
+      "Country": "Lithuania",
+      "date_end": "2020-06-30",
+      "date_start": "2020-05-25",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosPrim",
+      "Country": "Lithuania",
+      "date_end": "2020-05-24",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosPrimPartial",
+      "Country": "Lithuania",
+      "date_end": "2020-06-23",
+      "date_start": "2020-05-25",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosPubAnyPartial",
+      "Country": "Lithuania",
+      "date_end": "NA",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosSec",
+      "Country": "Lithuania",
+      "date_end": "2020-05-31",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosSecPartial",
+      "Country": "Lithuania",
+      "date_end": "2020-06-16",
+      "date_start": "2020-06-01",
+      "change": "1"
+    },
+    {
+      "Response_measure": "EntertainmentVenues",
+      "Country": "Lithuania",
+      "date_end": "2020-04-26",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "EntertainmentVenuesPartial",
+      "Country": "Lithuania",
+      "date_end": "2020-07-17",
+      "date_start": "2020-04-27",
+      "change": "1"
+    },
+    {
+      "Response_measure": "GymsSportsCentresPartial",
+      "Country": "Lithuania",
+      "date_end": "2020-06-16",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "IndoorOver100",
+      "Country": "Lithuania",
+      "date_end": "2020-06-15",
+      "date_start": "2020-06-01",
+      "change": "1"
+    },
+    {
+      "Response_measure": "IndoorOver1000",
+      "Country": "Lithuania",
+      "date_end": "2020-08-31",
+      "date_start": "2020-08-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "IndoorOver5",
+      "Country": "Lithuania",
+      "date_end": "2020-05-31",
+      "date_start": "2020-03-12",
+      "change": "1"
+    },
+    {
+      "Response_measure": "IndoorOver500",
+      "Country": "Lithuania",
+      "date_end": "2020-07-31",
+      "date_start": "2020-06-17",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MasksMandatoryAllSpacesPartial",
+      "Country": "Lithuania",
+      "date_end": "2020-06-16",
+      "date_start": "2020-04-30",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MasksMandatoryClosedSpaces",
+      "Country": "Lithuania",
+      "date_end": "2020-05-13",
+      "date_start": "2020-04-10",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MasksMandatoryClosedSpacesPartial",
+      "Country": "Lithuania",
+      "date_end": "NA",
+      "date_start": "2020-08-01",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MasksVoluntaryAllSpaces",
+      "Country": "Lithuania",
+      "date_end": "2020-04-09",
+      "date_start": "2020-03-23",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MasksVoluntaryAllSpaces",
+      "Country": "Lithuania",
+      "date_end": "NA",
+      "date_start": "2020-06-16",
+      "change": "3"
+    },
+    {
+      "Response_measure": "MassGatherAll",
+      "Country": "Lithuania",
+      "date_end": "2020-03-18",
+      "date_start": "2020-03-12",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MassGatherAll",
+      "Country": "Lithuania",
+      "date_end": "2020-08-15",
+      "date_start": "2020-07-01",
+      "change": "3"
+    },
+    {
+      "Response_measure": "MassGatherAllPartial",
+      "Country": "Lithuania",
+      "date_end": "2020-06-30",
+      "date_start": "2020-03-19",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MassGatherAllPartial",
+      "Country": "Lithuania",
+      "date_end": "2020-08-31",
+      "date_start": "2020-08-16",
+      "change": "3"
+    },
+    {
+      "Response_measure": "NonEssentialShops",
+      "Country": "Lithuania",
+      "date_end": "2020-04-22",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "NonEssentialShopsPartial",
+      "Country": "Lithuania",
+      "date_end": "NA",
+      "date_start": "2020-04-23",
+      "change": "1"
+    },
+    {
+      "Response_measure": "OutdoorOver1000",
+      "Country": "Lithuania",
+      "date_end": "2020-08-31",
+      "date_start": "2020-06-17",
+      "change": "1"
+    },
+    {
+      "Response_measure": "OutdoorOver5",
+      "Country": "Lithuania",
+      "date_end": "2020-06-08",
+      "date_start": "2020-03-19",
+      "change": "1"
+    },
+    {
+      "Response_measure": "OutdoorOver50",
+      "Country": "Lithuania",
+      "date_end": "2020-06-16",
+      "date_start": "2020-06-09",
+      "change": "1"
+    },
+    {
+      "Response_measure": "PlaceOfWorship",
+      "Country": "Lithuania",
+      "date_end": "2020-04-26",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "PlaceOfWorshipPartial",
+      "Country": "Lithuania",
+      "date_end": "2020-06-16",
+      "date_start": "2020-04-27",
+      "change": "1"
+    },
+    {
+      "Response_measure": "RestaurantsCafes",
+      "Country": "Lithuania",
+      "date_end": "2020-05-03",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "RestaurantsCafesPartial",
+      "Country": "Lithuania",
+      "date_end": "2020-06-16",
+      "date_start": "2020-05-04",
+      "change": "1"
+    },
+    {
+      "Response_measure": "StayHomeGen",
+      "Country": "Lithuania",
+      "date_end": "2020-06-16",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "Teleworking",
+      "Country": "Lithuania",
+      "date_end": "2020-06-15",
+      "date_start": "2020-03-10",
+      "change": "1"
+    },
+    {
+      "Response_measure": "TeleworkingPartial",
+      "Country": "Lithuania",
+      "date_end": "NA",
+      "date_start": "2020-06-16",
+      "change": "1"
+    }
+  ],
+  "Luxembourg": [
+    {
+      "Response_measure": "ClosDaycare",
+      "Country": "Luxembourg",
+      "date_end": "2020-05-24",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosHigh",
+      "Country": "Luxembourg",
+      "date_end": "2020-05-24",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosPrim",
+      "Country": "Luxembourg",
+      "date_end": "2020-05-24",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosPubAnyPartial",
+      "Country": "Luxembourg",
+      "date_end": "NA",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosSec",
+      "Country": "Luxembourg",
+      "date_end": "2020-05-04",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosSecPartial",
+      "Country": "Luxembourg",
+      "date_end": "2020-05-26",
+      "date_start": "2020-05-05",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosureOfPublicTransportPartial",
+      "Country": "Luxembourg",
+      "date_end": "2020-06-08",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "EntertainmentVenues",
+      "Country": "Luxembourg",
+      "date_end": "2020-05-10",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "EntertainmentVenuesPartial",
+      "Country": "Luxembourg",
+      "date_end": "NA",
+      "date_start": "2020-05-11",
+      "change": "1"
+    },
+    {
+      "Response_measure": "GymsSportsCentres",
+      "Country": "Luxembourg",
+      "date_end": "2020-05-29",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "IndoorOver1000",
+      "Country": "Luxembourg",
+      "date_end": "2020-03-15",
+      "date_start": "2020-03-09",
+      "change": "1"
+    },
+    {
+      "Response_measure": "IndoorOver5",
+      "Country": "Luxembourg",
+      "date_end": "2020-05-11",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "IndoorOver50",
+      "Country": "Luxembourg",
+      "date_end": "NA",
+      "date_start": "2020-05-12",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MasksMandatoryAllSpaces",
+      "Country": "Luxembourg",
+      "date_end": "2020-04-19",
+      "date_start": "2020-03-18",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MasksMandatoryAllSpacesPartial",
+      "Country": "Luxembourg",
+      "date_end": "NA",
+      "date_start": "2020-06-22",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MasksMandatoryClosedSpacesPartial",
+      "Country": "Luxembourg",
+      "date_end": "NA",
+      "date_start": "2020-04-20",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MassGatherAll",
+      "Country": "Luxembourg",
+      "date_end": "2020-03-15",
+      "date_start": "2020-03-09",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MassGatherAllPartial",
+      "Country": "Luxembourg",
+      "date_end": "NA",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "NonEssentialShops",
+      "Country": "Luxembourg",
+      "date_end": "2020-04-19",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "NonEssentialShopsPartial",
+      "Country": "Luxembourg",
+      "date_end": "2020-05-11",
+      "date_start": "2020-04-20",
+      "change": "1"
+    },
+    {
+      "Response_measure": "OutdoorOver5",
+      "Country": "Luxembourg",
+      "date_end": "2020-05-11",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "OutdoorOver500",
+      "Country": "Luxembourg",
+      "date_end": "2020-07-31",
+      "date_start": "2020-05-12",
+      "change": "1"
+    },
+    {
+      "Response_measure": "RestaurantsCafes",
+      "Country": "Luxembourg",
+      "date_end": "2020-05-29",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "RestaurantsCafesPartial",
+      "Country": "Luxembourg",
+      "date_end": "NA",
+      "date_start": "2020-05-30",
+      "change": "1"
+    },
+    {
+      "Response_measure": "StayHomeOrder",
+      "Country": "Luxembourg",
+      "date_end": "2020-04-19",
+      "date_start": "2020-03-18",
+      "change": "1"
+    },
+    {
+      "Response_measure": "StayHomeOrderPartial",
+      "Country": "Luxembourg",
+      "date_end": "2020-05-11",
+      "date_start": "2020-04-20",
+      "change": "1"
+    },
+    {
+      "Response_measure": "StayHomeRiskG",
+      "Country": "Luxembourg",
+      "date_end": "NA",
+      "date_start": "2020-03-12",
+      "change": "1"
+    },
+    {
+      "Response_measure": "Teleworking",
+      "Country": "Luxembourg",
+      "date_end": "NA",
+      "date_start": "2020-03-13",
+      "change": "1"
+    }
+  ],
+  "France": [
+    {
+      "Response_measure": "ClosDaycare",
+      "Country": "France",
+      "date_end": "2020-06-01",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosDaycarePartial",
+      "Country": "France",
+      "date_end": "2020-06-22",
+      "date_start": "2020-06-02",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosHighPartial",
+      "Country": "France",
+      "date_end": "2020-06-22",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosPrimPartial",
+      "Country": "France",
+      "date_end": "2020-06-22",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosPubAny",
+      "Country": "France",
+      "date_end": "2020-05-10",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosPubAnyPartial",
+      "Country": "France",
+      "date_end": "2020-06-22",
+      "date_start": "2020-05-11",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosSec",
+      "Country": "France",
+      "date_end": "2020-05-10",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosSecPartial",
+      "Country": "France",
+      "date_end": "2020-06-22",
+      "date_start": "2020-05-11",
+      "change": "1"
+    },
+    {
+      "Response_measure": "EntertainmentVenues",
+      "Country": "France",
+      "date_end": "2020-06-01",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "EntertainmentVenuesPartial",
+      "Country": "France",
+      "date_end": "2020-06-22",
+      "date_start": "2020-06-02",
+      "change": "1"
+    },
+    {
+      "Response_measure": "GymsSportsCentres",
+      "Country": "France",
+      "date_end": "2020-06-22",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "IndoorOver1000",
+      "Country": "France",
+      "date_end": "NA",
+      "date_start": "2020-02-29",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MasksMandatoryClosedSpaces",
+      "Country": "France",
+      "date_end": "NA",
+      "date_start": "2020-05-18",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MasksVoluntaryAllSpaces",
+      "Country": "France",
+      "date_end": "2020-07-25",
+      "date_start": "2020-05-11",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MasksVoluntaryClosedSpaces",
+      "Country": "France",
+      "date_end": "2020-05-17",
+      "date_start": "2020-05-11",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MassGatherAll",
+      "Country": "France",
+      "date_end": "2020-09-17",
+      "date_start": "2020-02-29",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MassGatherAllPartial",
+      "Country": "France",
+      "date_end": "NA",
+      "date_start": "2020-09-18",
+      "change": "1"
+    },
+    {
+      "Response_measure": "NonEssentialShops",
+      "Country": "France",
+      "date_end": "2020-05-10",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "NonEssentialShopsPartial",
+      "Country": "France",
+      "date_end": "2020-06-02",
+      "date_start": "2020-05-11",
+      "change": "1"
+    },
+    {
+      "Response_measure": "OutdoorOver1000",
+      "Country": "France",
+      "date_end": "2020-03-16",
+      "date_start": "2020-03-13",
+      "change": "1"
+    },
+    {
+      "Response_measure": "OutdoorOver1000",
+      "Country": "France",
+      "date_end": "2020-07-11",
+      "date_start": "2020-06-16",
+      "change": "3"
+    },
+    {
+      "Response_measure": "OutdoorOver5",
+      "Country": "France",
+      "date_end": "2020-06-15",
+      "date_start": "2020-03-17",
+      "change": "1"
+    },
+    {
+      "Response_measure": "OutdoorOver50",
+      "Country": "France",
+      "date_end": "NA",
+      "date_start": "2020-09-18",
+      "change": "1"
+    },
+    {
+      "Response_measure": "RestaurantsCafes",
+      "Country": "France",
+      "date_end": "2020-06-01",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "RestaurantsCafesPartial",
+      "Country": "France",
+      "date_end": "2020-06-15",
+      "date_start": "2020-06-02",
+      "change": "1"
+    },
+    {
+      "Response_measure": "StayHomeOrder",
+      "Country": "France",
+      "date_end": "2020-05-11",
+      "date_start": "2020-03-17",
+      "change": "1"
+    },
+    {
+      "Response_measure": "StayHomeOrderPartial",
+      "Country": "France",
+      "date_end": "2020-06-02",
+      "date_start": "2020-05-12",
+      "change": "1"
+    },
+    {
+      "Response_measure": "Teleworking",
+      "Country": "France",
+      "date_end": "2020-05-10",
+      "date_start": "2020-03-17",
+      "change": "1"
+    },
+    {
+      "Response_measure": "TeleworkingPartial",
+      "Country": "France",
+      "date_end": "NA",
+      "date_start": "2020-05-11",
+      "change": "1"
+    },
+    {
+      "Response_measure": "WorkplaceClosures",
+      "Country": "France",
+      "date_end": "2020-05-11",
+      "date_start": "2020-03-17",
+      "change": "1"
+    }
+  ],
+  "Slovakia": [
+    {
+      "Response_measure": "ClosDaycare",
+      "Country": "Slovakia",
+      "date_end": "2020-06-01",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosHigh",
+      "Country": "Slovakia",
+      "date_end": "2020-06-09",
+      "date_start": "2020-03-12",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosHighPartial",
+      "Country": "Slovakia",
+      "date_end": "NA",
+      "date_start": "2020-06-10",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosPrim",
+      "Country": "Slovakia",
+      "date_end": "2020-06-01",
+      "date_start": "2020-03-12",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosPubAny",
+      "Country": "Slovakia",
+      "date_end": "2020-05-20",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosPubAny",
+      "Country": "Slovakia",
+      "date_end": "NA",
+      "date_start": "2020-10-01",
+      "change": "3"
+    },
+    {
+      "Response_measure": "ClosSec",
+      "Country": "Slovakia",
+      "date_end": "2020-06-01",
+      "date_start": "2020-03-12",
+      "change": "1"
+    },
+    {
+      "Response_measure": "EntertainmentVenues",
+      "Country": "Slovakia",
+      "date_end": "2020-05-20",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "GymsSportsCentres",
+      "Country": "Slovakia",
+      "date_end": "2020-05-20",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "IndoorOver100",
+      "Country": "Slovakia",
+      "date_end": "2020-06-10",
+      "date_start": "2020-05-28",
+      "change": "1"
+    },
+    {
+      "Response_measure": "IndoorOver50",
+      "Country": "Slovakia",
+      "date_end": "2020-05-27",
+      "date_start": "2020-03-09",
+      "change": "1"
+    },
+    {
+      "Response_measure": "IndoorOver50",
+      "Country": "Slovakia",
+      "date_end": "NA",
+      "date_start": "2020-10-01",
+      "change": "3"
+    },
+    {
+      "Response_measure": "IndoorOver500",
+      "Country": "Slovakia",
+      "date_end": "2020-09-30",
+      "date_start": "2020-09-01",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MasksMandatoryAllSpaces",
+      "Country": "Slovakia",
+      "date_end": "2020-04-20",
+      "date_start": "2020-03-12",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MasksMandatoryAllSpaces",
+      "Country": "Slovakia",
+      "date_end": "NA",
+      "date_start": "2020-10-01",
+      "change": "3"
+    },
+    {
+      "Response_measure": "MasksMandatoryAllSpacesPartial",
+      "Country": "Slovakia",
+      "date_end": "2020-06-30",
+      "date_start": "2020-04-21",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MasksMandatoryClosedSpaces",
+      "Country": "Slovakia",
+      "date_end": "NA",
+      "date_start": "2020-07-01",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MasksVoluntaryAllSpaces",
+      "Country": "Slovakia",
+      "date_end": "2020-09-30",
+      "date_start": "2020-07-01",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MassGatherAll",
+      "Country": "Slovakia",
+      "date_end": "2020-06-10",
+      "date_start": "2020-03-09",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MassGatherAll",
+      "Country": "Slovakia",
+      "date_end": "NA",
+      "date_start": "2020-09-01",
+      "change": "3"
+    },
+    {
+      "Response_measure": "OutdoorOver100",
+      "Country": "Slovakia",
+      "date_end": "2020-06-10",
+      "date_start": "2020-05-28",
+      "change": "1"
+    },
+    {
+      "Response_measure": "OutdoorOver1000",
+      "Country": "Slovakia",
+      "date_end": "2020-09-30",
+      "date_start": "2020-09-01",
+      "change": "1"
+    },
+    {
+      "Response_measure": "OutdoorOver50",
+      "Country": "Slovakia",
+      "date_end": "2020-05-27",
+      "date_start": "2020-03-09",
+      "change": "1"
+    },
+    {
+      "Response_measure": "OutdoorOver50",
+      "Country": "Slovakia",
+      "date_end": "NA",
+      "date_start": "2020-10-01",
+      "change": "3"
+    },
+    {
+      "Response_measure": "RestaurantsCafes",
+      "Country": "Slovakia",
+      "date_end": "2020-05-20",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "RestaurantsCafes",
+      "Country": "Slovakia",
+      "date_end": "NA",
+      "date_start": "2020-10-01",
+      "change": "3"
+    }
+  ],
+  "Ireland": [
+    {
+      "Response_measure": "ClosDaycare",
+      "Country": "Ireland",
+      "date_end": "2020-06-29",
+      "date_start": "2020-03-12",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosHigh",
+      "Country": "Ireland",
+      "date_end": "NA",
+      "date_start": "2020-03-12",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosPrim",
+      "Country": "Ireland",
+      "date_end": "2020-08-24",
+      "date_start": "2020-03-12",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosPubAny",
+      "Country": "Ireland",
+      "date_end": "2020-03-26",
+      "date_start": "2020-03-12",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosPubAny",
+      "Country": "Ireland",
+      "date_end": "2020-06-29",
+      "date_start": "2020-06-06",
+      "change": "3"
+    },
+    {
+      "Response_measure": "ClosPubAnyPartial",
+      "Country": "Ireland",
+      "date_end": "2020-06-05",
+      "date_start": "2020-03-27",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosPubAnyPartial",
+      "Country": "Ireland",
+      "date_end": "NA",
+      "date_start": "2020-10-06",
+      "change": "3"
+    },
+    {
+      "Response_measure": "ClosSec",
+      "Country": "Ireland",
+      "date_end": "2020-08-31",
+      "date_start": "2020-03-12",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosureOfPublicTransportPartial",
+      "Country": "Ireland",
+      "date_end": "2020-06-05",
+      "date_start": "2020-03-27",
+      "change": "1"
+    },
+    {
+      "Response_measure": "EntertainmentVenues",
+      "Country": "Ireland",
+      "date_end": "2020-06-29",
+      "date_start": "2020-03-12",
+      "change": "1"
+    },
+    {
+      "Response_measure": "EntertainmentVenues",
+      "Country": "Ireland",
+      "date_end": "NA",
+      "date_start": "2020-10-06",
+      "change": "3"
+    },
+    {
+      "Response_measure": "GymsSportsCentres",
+      "Country": "Ireland",
+      "date_end": "2020-06-29",
+      "date_start": "2020-03-24",
+      "change": "1"
+    },
+    {
+      "Response_measure": "GymsSportsCentresPartial",
+      "Country": "Ireland",
+      "date_end": "NA",
+      "date_start": "2020-10-06",
+      "change": "1"
+    },
+    {
+      "Response_measure": "IndoorOver100",
+      "Country": "Ireland",
+      "date_end": "2020-03-23",
+      "date_start": "2020-03-12",
+      "change": "1"
+    },
+    {
+      "Response_measure": "IndoorOver5",
+      "Country": "Ireland",
+      "date_end": "2020-06-28",
+      "date_start": "2020-03-24",
+      "change": "1"
+    },
+    {
+      "Response_measure": "IndoorOver50",
+      "Country": "Ireland",
+      "date_end": "NA",
+      "date_start": "2020-06-29",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MasksMandatoryClosedSpaces",
+      "Country": "Ireland",
+      "date_end": "NA",
+      "date_start": "2020-06-29",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MasksVoluntaryAllSpaces",
+      "Country": "Ireland",
+      "date_end": "NA",
+      "date_start": "2020-05-18",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MassGatherAll",
+      "Country": "Ireland",
+      "date_end": "NA",
+      "date_start": "2020-03-12",
+      "change": "1"
+    },
+    {
+      "Response_measure": "NonEssentialShops",
+      "Country": "Ireland",
+      "date_end": "2020-06-29",
+      "date_start": "2020-03-24",
+      "change": "1"
+    },
+    {
+      "Response_measure": "OutdoorOver5",
+      "Country": "Ireland",
+      "date_end": "2020-06-28",
+      "date_start": "2020-03-24",
+      "change": "1"
+    },
+    {
+      "Response_measure": "OutdoorOver50",
+      "Country": "Ireland",
+      "date_end": "NA",
+      "date_start": "2020-08-24",
+      "change": "1"
+    },
+    {
+      "Response_measure": "OutdoorOver500",
+      "Country": "Ireland",
+      "date_end": "2020-03-23",
+      "date_start": "2020-03-12",
+      "change": "1"
+    },
+    {
+      "Response_measure": "OutdoorOver500",
+      "Country": "Ireland",
+      "date_end": "2020-08-23",
+      "date_start": "2020-06-29",
+      "change": "3"
+    },
+    {
+      "Response_measure": "PlaceOfWorshipPartial",
+      "Country": "Ireland",
+      "date_end": "NA",
+      "date_start": "2020-10-06",
+      "change": "1"
+    },
+    {
+      "Response_measure": "RestaurantsCafes",
+      "Country": "Ireland",
+      "date_end": "2020-06-29",
+      "date_start": "2020-03-24",
+      "change": "1"
+    },
+    {
+      "Response_measure": "RestaurantsCafesPartial",
+      "Country": "Ireland",
+      "date_end": "NA",
+      "date_start": "2020-10-06",
+      "change": "1"
+    },
+    {
+      "Response_measure": "StayHomeGen",
+      "Country": "Ireland",
+      "date_end": "2020-03-26",
+      "date_start": "2020-03-24",
+      "change": "1"
+    },
+    {
+      "Response_measure": "StayHomeGen",
+      "Country": "Ireland",
+      "date_end": "2020-06-26",
+      "date_start": "2020-05-18",
+      "change": "3"
+    },
+    {
+      "Response_measure": "StayHomeGenPartial",
+      "Country": "Ireland",
+      "date_end": "2020-03-23",
+      "date_start": "2020-03-12",
+      "change": "1"
+    },
+    {
+      "Response_measure": "StayHomeOrder",
+      "Country": "Ireland",
+      "date_end": "2020-05-17",
+      "date_start": "2020-03-27",
+      "change": "1"
+    },
+    {
+      "Response_measure": "StayHomeRiskG",
+      "Country": "Ireland",
+      "date_end": "NA",
+      "date_start": "2020-03-12",
+      "change": "1"
+    },
+    {
+      "Response_measure": "Teleworking",
+      "Country": "Ireland",
+      "date_end": "2020-06-07",
+      "date_start": "2020-03-12",
+      "change": "1"
+    },
+    {
+      "Response_measure": "TeleworkingPartial",
+      "Country": "Ireland",
+      "date_end": "NA",
+      "date_start": "2020-06-08",
+      "change": "1"
+    }
+  ],
+  "Norway": [
+    {
+      "Response_measure": "ClosDaycare",
+      "Country": "Norway",
+      "date_end": "2020-04-20",
+      "date_start": "2020-03-12",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosHigh",
+      "Country": "Norway",
+      "date_end": "2020-06-15",
+      "date_start": "2020-03-12",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosPrim",
+      "Country": "Norway",
+      "date_end": "2020-04-27",
+      "date_start": "2020-03-12",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosPubAnyPartial",
+      "Country": "Norway",
+      "date_end": "NA",
+      "date_start": "2020-03-12",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosSec",
+      "Country": "Norway",
+      "date_end": "2020-05-11",
+      "date_start": "2020-03-12",
+      "change": "1"
+    },
+    {
+      "Response_measure": "EntertainmentVenues",
+      "Country": "Norway",
+      "date_end": "2020-05-31",
+      "date_start": "2020-03-12",
+      "change": "1"
+    },
+    {
+      "Response_measure": "EntertainmentVenuesPartial",
+      "Country": "Norway",
+      "date_end": "2020-06-15",
+      "date_start": "2020-06-01",
+      "change": "1"
+    },
+    {
+      "Response_measure": "GymsSportsCentres",
+      "Country": "Norway",
+      "date_end": "2020-06-15",
+      "date_start": "2020-03-12",
+      "change": "1"
+    },
+    {
+      "Response_measure": "IndoorOver5",
+      "Country": "Norway",
+      "date_end": "2020-05-06",
+      "date_start": "2020-03-12",
+      "change": "1"
+    },
+    {
+      "Response_measure": "IndoorOver50",
+      "Country": "Norway",
+      "date_end": "2020-06-14",
+      "date_start": "2020-05-07",
+      "change": "1"
+    },
+    {
+      "Response_measure": "IndoorOver500",
+      "Country": "Norway",
+      "date_end": "NA",
+      "date_start": "2020-06-15",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MasksMandatoryClosedSpacesPartial",
+      "Country": "Norway",
+      "date_end": "NA",
+      "date_start": "2020-08-14",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MassGatherAll",
+      "Country": "Norway",
+      "date_end": "2020-06-14",
+      "date_start": "2020-03-12",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MassGatherAllPartial",
+      "Country": "Norway",
+      "date_end": "NA",
+      "date_start": "2020-06-15",
+      "change": "1"
+    },
+    {
+      "Response_measure": "OutdoorOver5",
+      "Country": "Norway",
+      "date_end": "2020-05-06",
+      "date_start": "2020-03-12",
+      "change": "1"
+    },
+    {
+      "Response_measure": "OutdoorOver50",
+      "Country": "Norway",
+      "date_end": "2020-06-14",
+      "date_start": "2020-05-07",
+      "change": "1"
+    },
+    {
+      "Response_measure": "OutdoorOver500",
+      "Country": "Norway",
+      "date_end": "NA",
+      "date_start": "2020-06-15",
+      "change": "1"
+    },
+    {
+      "Response_measure": "RestaurantsCafesPartial",
+      "Country": "Norway",
+      "date_end": "NA",
+      "date_start": "2020-03-12",
+      "change": "1"
+    },
+    {
+      "Response_measure": "SocialCircle",
+      "Country": "Norway",
+      "date_end": "NA",
+      "date_start": "2020-06-02",
+      "change": "1"
+    },
+    {
+      "Response_measure": "StayHomeRiskG",
+      "Country": "Norway",
+      "date_end": "2020-06-01",
+      "date_start": "2020-03-12",
+      "change": "1"
+    },
+    {
+      "Response_measure": "Teleworking",
+      "Country": "Norway",
+      "date_end": "NA",
+      "date_start": "2020-03-10",
+      "change": "1"
+    }
+  ],
+  "Iceland": [
+    {
+      "Response_measure": "AdaptationOfWorkplace",
+      "Country": "Iceland",
+      "date_end": "NA",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosHigh",
+      "Country": "Iceland",
+      "date_end": "2020-05-04",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosPubAny",
+      "Country": "Iceland",
+      "date_end": "2020-05-03",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosPubAnyPartial",
+      "Country": "Iceland",
+      "date_end": "2020-06-15",
+      "date_start": "2020-05-04",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosPubAnyPartial",
+      "Country": "Iceland",
+      "date_end": "NA",
+      "date_start": "2020-08-31",
+      "change": "3"
+    },
+    {
+      "Response_measure": "ClosSec",
+      "Country": "Iceland",
+      "date_end": "2020-05-04",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "EntertainmentVenues",
+      "Country": "Iceland",
+      "date_end": "2020-05-03",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "EntertainmentVenuesPartial",
+      "Country": "Iceland",
+      "date_end": "2020-05-25",
+      "date_start": "2020-05-04",
+      "change": "1"
+    },
+    {
+      "Response_measure": "EntertainmentVenuesPartial",
+      "Country": "Iceland",
+      "date_end": "NA",
+      "date_start": "2020-08-31",
+      "change": "3"
+    },
+    {
+      "Response_measure": "GymsSportsCentres",
+      "Country": "Iceland",
+      "date_end": "2020-05-17",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "GymsSportsCentresPartial",
+      "Country": "Iceland",
+      "date_end": "2020-06-15",
+      "date_start": "2020-05-18",
+      "change": "1"
+    },
+    {
+      "Response_measure": "IndoorOver100",
+      "Country": "Iceland",
+      "date_end": "2020-03-23",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "IndoorOver100",
+      "Country": "Iceland",
+      "date_end": "2020-09-09",
+      "date_start": "2020-07-31",
+      "change": "3"
+    },
+    {
+      "Response_measure": "IndoorOver50",
+      "Country": "Iceland",
+      "date_end": "2020-05-25",
+      "date_start": "2020-03-24",
+      "change": "1"
+    },
+    {
+      "Response_measure": "IndoorOver500",
+      "Country": "Iceland",
+      "date_end": "2020-07-30",
+      "date_start": "2020-05-26",
+      "change": "1"
+    },
+    {
+      "Response_measure": "IndoorOver500",
+      "Country": "Iceland",
+      "date_end": "NA",
+      "date_start": "2020-09-10",
+      "change": "3"
+    },
+    {
+      "Response_measure": "MasksVoluntaryAllSpacesPartial",
+      "Country": "Iceland",
+      "date_end": "NA",
+      "date_start": "2020-07-31",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MassGatherAll",
+      "Country": "Iceland",
+      "date_end": "2020-05-24",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MassGatherAllPartial",
+      "Country": "Iceland",
+      "date_end": "NA",
+      "date_start": "2020-05-25",
+      "change": "1"
+    },
+    {
+      "Response_measure": "OutdoorOver100",
+      "Country": "Iceland",
+      "date_end": "2020-03-23",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "OutdoorOver100",
+      "Country": "Iceland",
+      "date_end": "2020-09-07",
+      "date_start": "2020-07-31",
+      "change": "3"
+    },
+    {
+      "Response_measure": "OutdoorOver50",
+      "Country": "Iceland",
+      "date_end": "2020-05-25",
+      "date_start": "2020-03-24",
+      "change": "1"
+    },
+    {
+      "Response_measure": "OutdoorOver500",
+      "Country": "Iceland",
+      "date_end": "2020-07-30",
+      "date_start": "2020-05-26",
+      "change": "1"
+    },
+    {
+      "Response_measure": "OutdoorOver500",
+      "Country": "Iceland",
+      "date_end": "NA",
+      "date_start": "2020-09-08",
+      "change": "3"
+    },
+    {
+      "Response_measure": "RestaurantsCafes",
+      "Country": "Iceland",
+      "date_end": "2020-05-25",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "StayHomeRiskG",
+      "Country": "Iceland",
+      "date_end": "NA",
+      "date_start": "2020-03-16",
+      "change": "1"
+    }
+  ],
+  "Czechia": [
+    {
+      "Response_measure": "AdaptationOfWorkplace",
+      "Country": "Czechia",
+      "date_end": "2020-05-11",
+      "date_start": "2020-03-24",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosDaycare",
+      "Country": "Czechia",
+      "date_end": "2020-05-11",
+      "date_start": "2020-03-11",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosHigh",
+      "Country": "Czechia",
+      "date_end": "2020-05-10",
+      "date_start": "2020-03-11",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosHighPartial",
+      "Country": "Czechia",
+      "date_end": "2020-08-31",
+      "date_start": "2020-05-11",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosPrim",
+      "Country": "Czechia",
+      "date_end": "2020-06-07",
+      "date_start": "2020-03-11",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosPrimPartial",
+      "Country": "Czechia",
+      "date_end": "2020-08-31",
+      "date_start": "2020-06-08",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosPubAnyPartial",
+      "Country": "Czechia",
+      "date_end": "NA",
+      "date_start": "2020-03-10",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosSec",
+      "Country": "Czechia",
+      "date_end": "2020-06-07",
+      "date_start": "2020-03-11",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosSecPartial",
+      "Country": "Czechia",
+      "date_end": "2020-08-31",
+      "date_start": "2020-06-08",
+      "change": "1"
+    },
+    {
+      "Response_measure": "EntertainmentVenuesPartial",
+      "Country": "Czechia",
+      "date_end": "NA",
+      "date_start": "2020-03-13",
+      "change": "1"
+    },
+    {
+      "Response_measure": "GymsSportsCentres",
+      "Country": "Czechia",
+      "date_end": "2020-04-26",
+      "date_start": "2020-03-13",
+      "change": "1"
+    },
+    {
+      "Response_measure": "GymsSportsCentresPartial",
+      "Country": "Czechia",
+      "date_end": "NA",
+      "date_start": "2020-04-27",
+      "change": "1"
+    },
+    {
+      "Response_measure": "IndoorOver5",
+      "Country": "Czechia",
+      "date_end": "2020-04-20",
+      "date_start": "2020-03-23",
+      "change": "1"
+    },
+    {
+      "Response_measure": "IndoorOver50",
+      "Country": "Czechia",
+      "date_end": "2020-03-22",
+      "date_start": "2020-03-12",
+      "change": "1"
+    },
+    {
+      "Response_measure": "IndoorOver50",
+      "Country": "Czechia",
+      "date_end": "2020-05-11",
+      "date_start": "2020-04-21",
+      "change": "3"
+    },
+    {
+      "Response_measure": "IndoorOver500",
+      "Country": "Czechia",
+      "date_end": "2020-03-11",
+      "date_start": "2020-03-04",
+      "change": "1"
+    },
+    {
+      "Response_measure": "IndoorOver500",
+      "Country": "Czechia",
+      "date_end": "NA",
+      "date_start": "2020-09-01",
+      "change": "3"
+    },
+    {
+      "Response_measure": "MasksMandatoryAllSpaces",
+      "Country": "Czechia",
+      "date_end": "2020-05-10",
+      "date_start": "2020-03-19",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MasksMandatoryAllSpacesPartial",
+      "Country": "Czechia",
+      "date_end": "2020-07-03",
+      "date_start": "2020-05-11",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MasksMandatoryClosedSpaces",
+      "Country": "Czechia",
+      "date_end": "NA",
+      "date_start": "2020-07-25",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MasksVoluntaryAllSpaces",
+      "Country": "Czechia",
+      "date_end": "2020-08-31",
+      "date_start": "2020-07-04",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MassGatherAll",
+      "Country": "Czechia",
+      "date_end": "2020-05-11",
+      "date_start": "2020-03-04",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MassGatherAll",
+      "Country": "Czechia",
+      "date_end": "NA",
+      "date_start": "2020-09-01",
+      "change": "3"
+    },
+    {
+      "Response_measure": "NonEssentialShops",
+      "Country": "Czechia",
+      "date_end": "2020-05-11",
+      "date_start": "2020-03-14",
+      "change": "1"
+    },
+    {
+      "Response_measure": "OutdoorOver1000",
+      "Country": "Czechia",
+      "date_end": "NA",
+      "date_start": "2020-09-01",
+      "change": "1"
+    },
+    {
+      "Response_measure": "OutdoorOver5",
+      "Country": "Czechia",
+      "date_end": "2020-04-20",
+      "date_start": "2020-03-23",
+      "change": "1"
+    },
+    {
+      "Response_measure": "OutdoorOver50",
+      "Country": "Czechia",
+      "date_end": "2020-03-22",
+      "date_start": "2020-03-12",
+      "change": "1"
+    },
+    {
+      "Response_measure": "OutdoorOver50",
+      "Country": "Czechia",
+      "date_end": "2020-05-11",
+      "date_start": "2020-04-21",
+      "change": "3"
+    },
+    {
+      "Response_measure": "OutdoorOver500",
+      "Country": "Czechia",
+      "date_end": "2020-03-11",
+      "date_start": "2020-03-04",
+      "change": "1"
+    },
+    {
+      "Response_measure": "PlaceOfWorshipPartial",
+      "Country": "Czechia",
+      "date_end": "NA",
+      "date_start": "2020-03-10",
+      "change": "1"
+    },
+    {
+      "Response_measure": "RestaurantsCafes",
+      "Country": "Czechia",
+      "date_end": "2020-05-11",
+      "date_start": "2020-03-14",
+      "change": "1"
+    },
+    {
+      "Response_measure": "StayHomeOrder",
+      "Country": "Czechia",
+      "date_end": "2020-04-24",
+      "date_start": "2020-03-16",
+      "change": "1"
+    }
+  ],
+  "Slovenia": [
+    {
+      "Response_measure": "ClosDaycare",
+      "Country": "Slovenia",
+      "date_end": "2020-05-17",
+      "date_start": "2020-03-12",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosHigh",
+      "Country": "Slovenia",
+      "date_end": "2020-05-29",
+      "date_start": "2020-03-12",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosPrim",
+      "Country": "Slovenia",
+      "date_end": "2020-05-17",
+      "date_start": "2020-03-12",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosPrimPartial",
+      "Country": "Slovenia",
+      "date_end": "2020-06-01",
+      "date_start": "2020-05-18",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosPubAny",
+      "Country": "Slovenia",
+      "date_end": "2020-04-28",
+      "date_start": "2020-03-14",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosPubAnyPartial",
+      "Country": "Slovenia",
+      "date_end": "NA",
+      "date_start": "2020-04-29",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosSec",
+      "Country": "Slovenia",
+      "date_end": "2020-05-31",
+      "date_start": "2020-03-12",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosSecPartial",
+      "Country": "Slovenia",
+      "date_end": "2020-06-23",
+      "date_start": "2020-06-01",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosureOfPublicTransport",
+      "Country": "Slovenia",
+      "date_end": "2020-05-04",
+      "date_start": "2020-03-14",
+      "change": "1"
+    },
+    {
+      "Response_measure": "EntertainmentVenues",
+      "Country": "Slovenia",
+      "date_end": "2020-04-28",
+      "date_start": "2020-03-15",
+      "change": "1"
+    },
+    {
+      "Response_measure": "EntertainmentVenuesPartial",
+      "Country": "Slovenia",
+      "date_end": "NA",
+      "date_start": "2020-04-29",
+      "change": "1"
+    },
+    {
+      "Response_measure": "GymsSportsCentres",
+      "Country": "Slovenia",
+      "date_end": "2020-05-17",
+      "date_start": "2020-03-15",
+      "change": "1"
+    },
+    {
+      "Response_measure": "GymsSportsCentresPartial",
+      "Country": "Slovenia",
+      "date_end": "2020-06-01",
+      "date_start": "2020-05-18",
+      "change": "1"
+    },
+    {
+      "Response_measure": "IndoorOver100",
+      "Country": "Slovenia",
+      "date_end": "2020-05-31",
+      "date_start": "2020-03-10",
+      "change": "1"
+    },
+    {
+      "Response_measure": "IndoorOver50",
+      "Country": "Slovenia",
+      "date_end": "2020-07-08",
+      "date_start": "2020-06-15",
+      "change": "1"
+    },
+    {
+      "Response_measure": "IndoorOver500",
+      "Country": "Slovenia",
+      "date_end": "2020-03-09",
+      "date_start": "2020-03-07",
+      "change": "1"
+    },
+    {
+      "Response_measure": "IndoorOver500",
+      "Country": "Slovenia",
+      "date_end": "2020-06-14",
+      "date_start": "2020-06-01",
+      "change": "3"
+    },
+    {
+      "Response_measure": "MasksMandatoryAllSpaces",
+      "Country": "Slovenia",
+      "date_end": "2020-06-01",
+      "date_start": "2020-03-30",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MasksMandatoryClosedSpaces",
+      "Country": "Slovenia",
+      "date_end": "NA",
+      "date_start": "2020-06-25",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MasksMandatoryClosedSpacesPartial",
+      "Country": "Slovenia",
+      "date_end": "2020-06-24",
+      "date_start": "2020-06-01",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MassGatherAll",
+      "Country": "Slovenia",
+      "date_end": "2020-07-08",
+      "date_start": "2020-03-07",
+      "change": "1"
+    },
+    {
+      "Response_measure": "NonEssentialShops",
+      "Country": "Slovenia",
+      "date_end": "2020-04-20",
+      "date_start": "2020-03-15",
+      "change": "1"
+    },
+    {
+      "Response_measure": "OutdoorOver5",
+      "Country": "Slovenia",
+      "date_end": "2020-05-17",
+      "date_start": "2020-03-19",
+      "change": "1"
+    },
+    {
+      "Response_measure": "OutdoorOver50",
+      "Country": "Slovenia",
+      "date_end": "2020-05-31",
+      "date_start": "2020-05-18",
+      "change": "1"
+    },
+    {
+      "Response_measure": "OutdoorOver500",
+      "Country": "Slovenia",
+      "date_end": "2020-03-18",
+      "date_start": "2020-03-10",
+      "change": "1"
+    },
+    {
+      "Response_measure": "OutdoorOver500",
+      "Country": "Slovenia",
+      "date_end": "2020-06-14",
+      "date_start": "2020-06-01",
+      "change": "3"
+    },
+    {
+      "Response_measure": "RestaurantsCafes",
+      "Country": "Slovenia",
+      "date_end": "2020-05-03",
+      "date_start": "2020-03-15",
+      "change": "1"
+    },
+    {
+      "Response_measure": "RestaurantsCafesPartial",
+      "Country": "Slovenia",
+      "date_end": "2020-05-18",
+      "date_start": "2020-05-04",
+      "change": "1"
+    },
+    {
+      "Response_measure": "StayHomeOrder",
+      "Country": "Slovenia",
+      "date_end": "2020-05-04",
+      "date_start": "2020-03-19",
+      "change": "1"
+    },
+    {
+      "Response_measure": "Teleworking",
+      "Country": "Slovenia",
+      "date_end": "NA",
+      "date_start": "2020-03-04",
+      "change": "1"
+    },
+    {
+      "Response_measure": "WorkplaceClosures",
+      "Country": "Slovenia",
+      "date_end": "2020-05-04",
+      "date_start": "2020-03-15",
+      "change": "1"
+    }
+  ],
+  "Germany": [
+    {
+      "Response_measure": "ClosDaycare",
+      "Country": "Germany",
+      "date_end": "2020-05-14",
+      "date_start": "2020-03-13",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosDaycarePartial",
+      "Country": "Germany",
+      "date_end": "2020-07-01",
+      "date_start": "2020-05-15",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosPrim",
+      "Country": "Germany",
+      "date_end": "2020-05-03",
+      "date_start": "2020-03-13",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosPrimPartial",
+      "Country": "Germany",
+      "date_end": "2020-06-29",
+      "date_start": "2020-05-04",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosPubAny",
+      "Country": "Germany",
+      "date_end": "2020-05-04",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosPubAnyPartial",
+      "Country": "Germany",
+      "date_end": "NA",
+      "date_start": "2020-05-05",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosSec",
+      "Country": "Germany",
+      "date_end": "2020-05-03",
+      "date_start": "2020-03-13",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosSecPartial",
+      "Country": "Germany",
+      "date_end": "2020-06-15",
+      "date_start": "2020-05-04",
+      "change": "1"
+    },
+    {
+      "Response_measure": "EntertainmentVenues",
+      "Country": "Germany",
+      "date_end": "2020-05-04",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "EntertainmentVenuesPartial",
+      "Country": "Germany",
+      "date_end": "NA",
+      "date_start": "2020-05-05",
+      "change": "1"
+    },
+    {
+      "Response_measure": "GymsSportsCentres",
+      "Country": "Germany",
+      "date_end": "2020-05-14",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "IndoorOver100",
+      "Country": "Germany",
+      "date_end": "2020-09-28",
+      "date_start": "2020-06-30",
+      "change": "1"
+    },
+    {
+      "Response_measure": "IndoorOver1000",
+      "Country": "Germany",
+      "date_end": "2020-03-22",
+      "date_start": "2020-03-08",
+      "change": "1"
+    },
+    {
+      "Response_measure": "IndoorOver50",
+      "Country": "Germany",
+      "date_end": "2020-06-29",
+      "date_start": "2020-03-23",
+      "change": "1"
+    },
+    {
+      "Response_measure": "IndoorOver50",
+      "Country": "Germany",
+      "date_end": "NA",
+      "date_start": "2020-09-29",
+      "change": "3"
+    },
+    {
+      "Response_measure": "MasksMandatoryClosedSpacesPartial",
+      "Country": "Germany",
+      "date_end": "NA",
+      "date_start": "2020-04-27",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MasksVoluntaryAllSpaces",
+      "Country": "Germany",
+      "date_end": "2020-04-27",
+      "date_start": "2020-04-02",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MassGatherAll",
+      "Country": "Germany",
+      "date_end": "2020-05-10",
+      "date_start": "2020-03-08",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MassGatherAllPartial",
+      "Country": "Germany",
+      "date_end": "NA",
+      "date_start": "2020-05-11",
+      "change": "1"
+    },
+    {
+      "Response_measure": "NonEssentialShops",
+      "Country": "Germany",
+      "date_end": "2020-04-20",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "OutdoorOver100",
+      "Country": "Germany",
+      "date_end": "NA",
+      "date_start": "2020-06-30",
+      "change": "1"
+    },
+    {
+      "Response_measure": "OutdoorOver5",
+      "Country": "Germany",
+      "date_end": "2020-06-29",
+      "date_start": "2020-03-23",
+      "change": "1"
+    },
+    {
+      "Response_measure": "RestaurantsCafes",
+      "Country": "Germany",
+      "date_end": "2020-05-04",
+      "date_start": "2020-03-23",
+      "change": "1"
+    },
+    {
+      "Response_measure": "RestaurantsCafesPartial",
+      "Country": "Germany",
+      "date_end": "2020-06-08",
+      "date_start": "2020-05-05",
+      "change": "1"
+    },
+    {
+      "Response_measure": "SocialCirclePartial",
+      "Country": "Germany",
+      "date_end": "NA",
+      "date_start": "2020-08-02",
+      "change": "1"
+    },
+    {
+      "Response_measure": "StayHomeGen",
+      "Country": "Germany",
+      "date_end": "2020-05-05",
+      "date_start": "2020-03-17",
+      "change": "1"
+    },
+    {
+      "Response_measure": "StayHomeGenPartial",
+      "Country": "Germany",
+      "date_end": "2020-06-29",
+      "date_start": "2020-05-06",
+      "change": "1"
+    }
+  ],
+  "Belgium": [
+    {
+      "Response_measure": "ClosDaycare",
+      "Country": "Belgium",
+      "date_end": "2020-06-02",
+      "date_start": "2020-05-01",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosHigh",
+      "Country": "Belgium",
+      "date_end": "NA",
+      "date_start": "2020-03-13",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosPrim",
+      "Country": "Belgium",
+      "date_end": "2020-05-17",
+      "date_start": "2020-03-13",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosPrimPartial",
+      "Country": "Belgium",
+      "date_end": "2020-06-08",
+      "date_start": "2020-05-18",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosPubAny",
+      "Country": "Belgium",
+      "date_end": "2020-05-03",
+      "date_start": "2020-03-13",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosPubAnyPartial",
+      "Country": "Belgium",
+      "date_end": "NA",
+      "date_start": "2020-05-04",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosSec",
+      "Country": "Belgium",
+      "date_end": "2020-05-17",
+      "date_start": "2020-03-13",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosSecPartial",
+      "Country": "Belgium",
+      "date_end": "2020-08-28",
+      "date_start": "2020-05-18",
+      "change": "1"
+    },
+    {
+      "Response_measure": "EntertainmentVenues",
+      "Country": "Belgium",
+      "date_end": "2020-05-17",
+      "date_start": "2020-03-13",
+      "change": "1"
+    },
+    {
+      "Response_measure": "EntertainmentVenuesPartial",
+      "Country": "Belgium",
+      "date_end": "NA",
+      "date_start": "2020-05-18",
+      "change": "1"
+    },
+    {
+      "Response_measure": "GymsSportsCentres",
+      "Country": "Belgium",
+      "date_end": "2020-05-03",
+      "date_start": "2020-03-13",
+      "change": "1"
+    },
+    {
+      "Response_measure": "GymsSportsCentresPartial",
+      "Country": "Belgium",
+      "date_end": "2020-07-01",
+      "date_start": "2020-05-04",
+      "change": "1"
+    },
+    {
+      "Response_measure": "IndoorOver1000",
+      "Country": "Belgium",
+      "date_end": "2020-03-17",
+      "date_start": "2020-03-10",
+      "change": "1"
+    },
+    {
+      "Response_measure": "IndoorOver5",
+      "Country": "Belgium",
+      "date_end": "2020-06-30",
+      "date_start": "2020-03-18",
+      "change": "1"
+    },
+    {
+      "Response_measure": "IndoorOver500",
+      "Country": "Belgium",
+      "date_end": "NA",
+      "date_start": "2020-07-01",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MasksMandatoryAllSpaces",
+      "Country": "Belgium",
+      "date_end": "2020-09-30",
+      "date_start": "2020-07-11",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MasksMandatoryClosedSpaces",
+      "Country": "Belgium",
+      "date_end": "NA",
+      "date_start": "2020-05-04",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MasksVoluntaryAllSpaces",
+      "Country": "Belgium",
+      "date_end": "2020-07-10",
+      "date_start": "2020-05-04",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MasksVoluntaryAllSpacesPartial",
+      "Country": "Belgium",
+      "date_end": "NA",
+      "date_start": "2020-10-01",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MassGatherAll",
+      "Country": "Belgium",
+      "date_end": "NA",
+      "date_start": "2020-03-10",
+      "change": "1"
+    },
+    {
+      "Response_measure": "NonEssentialShops",
+      "Country": "Belgium",
+      "date_end": "2020-05-03",
+      "date_start": "2020-03-13",
+      "change": "1"
+    },
+    {
+      "Response_measure": "NonEssentialShopsPartial",
+      "Country": "Belgium",
+      "date_end": "2020-06-02",
+      "date_start": "2020-05-04",
+      "change": "1"
+    },
+    {
+      "Response_measure": "OutdoorOver5",
+      "Country": "Belgium",
+      "date_end": "2020-06-30",
+      "date_start": "2020-03-18",
+      "change": "1"
+    },
+    {
+      "Response_measure": "OutdoorOver500",
+      "Country": "Belgium",
+      "date_end": "NA",
+      "date_start": "2020-07-01",
+      "change": "1"
+    },
+    {
+      "Response_measure": "PlaceOfWorship",
+      "Country": "Belgium",
+      "date_end": "2020-06-07",
+      "date_start": "2020-03-13",
+      "change": "1"
+    },
+    {
+      "Response_measure": "PlaceOfWorshipPartial",
+      "Country": "Belgium",
+      "date_end": "2020-10-05",
+      "date_start": "2020-06-08",
+      "change": "1"
+    },
+    {
+      "Response_measure": "RestaurantsCafes",
+      "Country": "Belgium",
+      "date_end": "2020-06-08",
+      "date_start": "2020-03-13",
+      "change": "1"
+    },
+    {
+      "Response_measure": "SocialCircle",
+      "Country": "Belgium",
+      "date_end": "NA",
+      "date_start": "2020-03-18",
+      "change": "1"
+    },
+    {
+      "Response_measure": "StayHomeGenPartial",
+      "Country": "Belgium",
+      "date_end": "2020-08-31",
+      "date_start": "2020-05-11",
+      "change": "1"
+    },
+    {
+      "Response_measure": "StayHomeOrder",
+      "Country": "Belgium",
+      "date_end": "2020-05-10",
+      "date_start": "2020-03-18",
+      "change": "1"
+    },
+    {
+      "Response_measure": "Teleworking",
+      "Country": "Belgium",
+      "date_end": "2020-06-07",
+      "date_start": "2020-03-10",
+      "change": "1"
+    },
+    {
+      "Response_measure": "TeleworkingPartial",
+      "Country": "Belgium",
+      "date_end": "NA",
+      "date_start": "2020-06-08",
+      "change": "1"
+    }
+  ],
+  "Spain": [
+    {
+      "Response_measure": "AdaptationOfWorkplace",
+      "Country": "Spain",
+      "date_end": "NA",
+      "date_start": "2020-04-11",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosDaycare",
+      "Country": "Spain",
+      "date_end": "2020-08-27",
+      "date_start": "2020-03-12",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosHigh",
+      "Country": "Spain",
+      "date_end": "2020-08-27",
+      "date_start": "2020-03-12",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosPrim",
+      "Country": "Spain",
+      "date_end": "2020-08-27",
+      "date_start": "2020-03-12",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosPubAny",
+      "Country": "Spain",
+      "date_end": "2020-05-03",
+      "date_start": "2020-03-14",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosPubAnyPartial",
+      "Country": "Spain",
+      "date_end": "NA",
+      "date_start": "2020-05-04",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosSec",
+      "Country": "Spain",
+      "date_end": "2020-08-27",
+      "date_start": "2020-03-12",
+      "change": "1"
+    },
+    {
+      "Response_measure": "EntertainmentVenues",
+      "Country": "Spain",
+      "date_end": "2020-05-10",
+      "date_start": "2020-03-14",
+      "change": "1"
+    },
+    {
+      "Response_measure": "EntertainmentVenuesPartial",
+      "Country": "Spain",
+      "date_end": "NA",
+      "date_start": "2020-05-11",
+      "change": "1"
+    },
+    {
+      "Response_measure": "GymsSportsCentres",
+      "Country": "Spain",
+      "date_end": "2020-05-03",
+      "date_start": "2020-03-14",
+      "change": "1"
+    },
+    {
+      "Response_measure": "GymsSportsCentresPartial",
+      "Country": "Spain",
+      "date_end": "NA",
+      "date_start": "2020-05-04",
+      "change": "1"
+    },
+    {
+      "Response_measure": "HotelsOtherAccommodation",
+      "Country": "Spain",
+      "date_end": "2020-05-31",
+      "date_start": "2020-03-14",
+      "change": "1"
+    },
+    {
+      "Response_measure": "HotelsOtherAccommodationPartial",
+      "Country": "Spain",
+      "date_end": "NA",
+      "date_start": "2020-06-01",
+      "change": "1"
+    },
+    {
+      "Response_measure": "IndoorOver5",
+      "Country": "Spain",
+      "date_end": "2020-06-01",
+      "date_start": "2020-03-14",
+      "change": "1"
+    },
+    {
+      "Response_measure": "IndoorOver50",
+      "Country": "Spain",
+      "date_end": "NA",
+      "date_start": "2020-06-02",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MasksMandatoryAllSpaces",
+      "Country": "Spain",
+      "date_end": "NA",
+      "date_start": "2020-08-04",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MasksMandatoryClosedSpaces",
+      "Country": "Spain",
+      "date_end": "2020-05-21",
+      "date_start": "2020-05-04",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MasksVoluntaryClosedSpaces",
+      "Country": "Spain",
+      "date_end": "2020-05-03",
+      "date_start": "2020-03-13",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MassGatherAll",
+      "Country": "Spain",
+      "date_end": "NA",
+      "date_start": "2020-03-14",
+      "change": "1"
+    },
+    {
+      "Response_measure": "NonEssentialShopsPartial",
+      "Country": "Spain",
+      "date_end": "NA",
+      "date_start": "2020-10-01",
+      "change": "1"
+    },
+    {
+      "Response_measure": "OutdoorOver5",
+      "Country": "Spain",
+      "date_end": "2020-06-01",
+      "date_start": "2020-03-14",
+      "change": "1"
+    },
+    {
+      "Response_measure": "OutdoorOver50",
+      "Country": "Spain",
+      "date_end": "NA",
+      "date_start": "2020-06-02",
+      "change": "1"
+    },
+    {
+      "Response_measure": "PlaceOfWorshipPartial",
+      "Country": "Spain",
+      "date_end": "NA",
+      "date_start": "2020-10-01",
+      "change": "1"
+    },
+    {
+      "Response_measure": "RestaurantsCafes",
+      "Country": "Spain",
+      "date_end": "2020-05-03",
+      "date_start": "2020-03-14",
+      "change": "1"
+    },
+    {
+      "Response_measure": "RestaurantsCafesPartial",
+      "Country": "Spain",
+      "date_end": "NA",
+      "date_start": "2020-05-04",
+      "change": "1"
+    },
+    {
+      "Response_measure": "SocialCircle",
+      "Country": "Spain",
+      "date_end": "NA",
+      "date_start": "2020-08-27",
+      "change": "1"
+    },
+    {
+      "Response_measure": "StayHomeGen",
+      "Country": "Spain",
+      "date_end": "2020-03-13",
+      "date_start": "2020-03-09",
+      "change": "1"
+    },
+    {
+      "Response_measure": "StayHomeOrder",
+      "Country": "Spain",
+      "date_end": "2020-05-03",
+      "date_start": "2020-03-14",
+      "change": "1"
+    },
+    {
+      "Response_measure": "StayHomeOrderPartial",
+      "Country": "Spain",
+      "date_end": "2020-05-11",
+      "date_start": "2020-05-04",
+      "change": "1"
+    },
+    {
+      "Response_measure": "StayHomeRiskG",
+      "Country": "Spain",
+      "date_end": "NA",
+      "date_start": "2020-03-12",
+      "change": "1"
+    },
+    {
+      "Response_measure": "Teleworking",
+      "Country": "Spain",
+      "date_end": "2020-04-12",
+      "date_start": "2020-03-09",
+      "change": "1"
+    },
+    {
+      "Response_measure": "TeleworkingPartial",
+      "Country": "Spain",
+      "date_end": "NA",
+      "date_start": "2020-04-13",
+      "change": "1"
+    }
+  ],
+  "Netherlands": [
+    {
+      "Response_measure": "AdaptationOfWorkplace",
+      "Country": "Netherlands",
+      "date_end": "NA",
+      "date_start": "2020-05-11",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosDaycare",
+      "Country": "Netherlands",
+      "date_end": "2020-05-10",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosDaycarePartial",
+      "Country": "Netherlands",
+      "date_end": "2020-06-08",
+      "date_start": "2020-05-11",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosHigh",
+      "Country": "Netherlands",
+      "date_end": "2020-06-14",
+      "date_start": "2020-03-12",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosHighPartial",
+      "Country": "Netherlands",
+      "date_end": "2020-09-01",
+      "date_start": "2020-06-15",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosPrim",
+      "Country": "Netherlands",
+      "date_end": "2020-05-10",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosPrimPartial",
+      "Country": "Netherlands",
+      "date_end": "2020-06-08",
+      "date_start": "2020-05-11",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosPubAnyPartial",
+      "Country": "Netherlands",
+      "date_end": "NA",
+      "date_start": "2020-03-12",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosSec",
+      "Country": "Netherlands",
+      "date_end": "2020-06-01",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosSecPartial",
+      "Country": "Netherlands",
+      "date_end": "2020-06-30",
+      "date_start": "2020-06-02",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosureOfPublicTransportPartial",
+      "Country": "Netherlands",
+      "date_end": "2020-05-31",
+      "date_start": "2020-03-12",
+      "change": "1"
+    },
+    {
+      "Response_measure": "EntertainmentVenues",
+      "Country": "Netherlands",
+      "date_end": "2020-03-23",
+      "date_start": "2020-03-12",
+      "change": "1"
+    },
+    {
+      "Response_measure": "EntertainmentVenuesPartial",
+      "Country": "Netherlands",
+      "date_end": "NA",
+      "date_start": "2020-03-24",
+      "change": "1"
+    },
+    {
+      "Response_measure": "GymsSportsCentres",
+      "Country": "Netherlands",
+      "date_end": "2020-04-28",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "GymsSportsCentresPartial",
+      "Country": "Netherlands",
+      "date_end": "2020-06-30",
+      "date_start": "2020-04-29",
+      "change": "1"
+    },
+    {
+      "Response_measure": "IndoorOver100",
+      "Country": "Netherlands",
+      "date_end": "2020-03-22",
+      "date_start": "2020-03-12",
+      "change": "1"
+    },
+    {
+      "Response_measure": "IndoorOver100",
+      "Country": "Netherlands",
+      "date_end": "2020-09-28",
+      "date_start": "2020-07-01",
+      "change": "3"
+    },
+    {
+      "Response_measure": "IndoorOver5",
+      "Country": "Netherlands",
+      "date_end": "2020-06-01",
+      "date_start": "2020-03-23",
+      "change": "1"
+    },
+    {
+      "Response_measure": "IndoorOver50",
+      "Country": "Netherlands",
+      "date_end": "2020-06-30",
+      "date_start": "2020-06-02",
+      "change": "1"
+    },
+    {
+      "Response_measure": "IndoorOver50",
+      "Country": "Netherlands",
+      "date_end": "NA",
+      "date_start": "2020-09-29",
+      "change": "3"
+    },
+    {
+      "Response_measure": "MasksMandatoryClosedSpaces",
+      "Country": "Netherlands",
+      "date_end": "NA",
+      "date_start": "2020-06-01",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MasksVoluntaryClosedSpaces",
+      "Country": "Netherlands",
+      "date_end": "NA",
+      "date_start": "2020-09-30",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MassGatherAll",
+      "Country": "Netherlands",
+      "date_end": "2020-06-30",
+      "date_start": "2020-03-12",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MassGatherAll",
+      "Country": "Netherlands",
+      "date_end": "NA",
+      "date_start": "2020-09-29",
+      "change": "3"
+    },
+    {
+      "Response_measure": "MassGatherAllPartial",
+      "Country": "Netherlands",
+      "date_end": "2020-09-28",
+      "date_start": "2020-07-01",
+      "change": "1"
+    },
+    {
+      "Response_measure": "OutdoorOver100",
+      "Country": "Netherlands",
+      "date_end": "2020-03-22",
+      "date_start": "2020-03-12",
+      "change": "1"
+    },
+    {
+      "Response_measure": "OutdoorOver5",
+      "Country": "Netherlands",
+      "date_end": "2020-06-01",
+      "date_start": "2020-03-23",
+      "change": "1"
+    },
+    {
+      "Response_measure": "OutdoorOver50",
+      "Country": "Netherlands",
+      "date_end": "NA",
+      "date_start": "2020-09-29",
+      "change": "1"
+    },
+    {
+      "Response_measure": "OutdoorOver500",
+      "Country": "Netherlands",
+      "date_end": "2020-09-28",
+      "date_start": "2020-07-01",
+      "change": "1"
+    },
+    {
+      "Response_measure": "PlaceOfWorship",
+      "Country": "Netherlands",
+      "date_end": "2020-05-31",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "PlaceOfWorshipPartial",
+      "Country": "Netherlands",
+      "date_end": "2020-06-30",
+      "date_start": "2020-06-01",
+      "change": "1"
+    },
+    {
+      "Response_measure": "RestaurantsCafes",
+      "Country": "Netherlands",
+      "date_end": "2020-05-31",
+      "date_start": "2020-03-15",
+      "change": "1"
+    },
+    {
+      "Response_measure": "RestaurantsCafesPartial",
+      "Country": "Netherlands",
+      "date_end": "2020-06-30",
+      "date_start": "2020-06-01",
+      "change": "1"
+    },
+    {
+      "Response_measure": "RestaurantsCafesPartial",
+      "Country": "Netherlands",
+      "date_end": "NA",
+      "date_start": "2020-09-29",
+      "change": "3"
+    },
+    {
+      "Response_measure": "StayHomeGen",
+      "Country": "Netherlands",
+      "date_end": "2020-05-10",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "StayHomeGenPartial",
+      "Country": "Netherlands",
+      "date_end": "2020-06-01",
+      "date_start": "2020-05-11",
+      "change": "1"
+    },
+    {
+      "Response_measure": "StayHomeRiskG",
+      "Country": "Netherlands",
+      "date_end": "2020-06-26",
+      "date_start": "2020-03-13",
+      "change": "1"
+    },
+    {
+      "Response_measure": "Teleworking",
+      "Country": "Netherlands",
+      "date_end": "NA",
+      "date_start": "2020-03-12",
+      "change": "1"
+    },
+    {
+      "Response_measure": "WorkplaceClosures",
+      "Country": "Netherlands",
+      "date_end": "2020-05-10",
+      "date_start": "2020-03-23",
+      "change": "1"
+    }
+  ],
+  "Denmark": [
+    {
+      "Response_measure": "AdaptationOfWorkplace",
+      "Country": "Denmark",
+      "date_end": "2020-05-19",
+      "date_start": "2020-05-08",
+      "change": "1"
+    },
+    {
+      "Response_measure": "AdaptationOfWorkplacePartial",
+      "Country": "Denmark",
+      "date_end": "NA",
+      "date_start": "2020-05-20",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosDaycare",
+      "Country": "Denmark",
+      "date_end": "2020-04-15",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosHigh",
+      "Country": "Denmark",
+      "date_end": "2020-07-31",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosPrim",
+      "Country": "Denmark",
+      "date_end": "2020-04-15",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosPubAny",
+      "Country": "Denmark",
+      "date_end": "2020-04-20",
+      "date_start": "2020-03-18",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosPubAnyPartial",
+      "Country": "Denmark",
+      "date_end": "NA",
+      "date_start": "2020-04-21",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosSec",
+      "Country": "Denmark",
+      "date_end": "2020-05-18",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "EntertainmentVenues",
+      "Country": "Denmark",
+      "date_end": "2020-06-08",
+      "date_start": "2020-03-18",
+      "change": "1"
+    },
+    {
+      "Response_measure": "GymsSportsCentres",
+      "Country": "Denmark",
+      "date_end": "2020-06-08",
+      "date_start": "2020-03-18",
+      "change": "1"
+    },
+    {
+      "Response_measure": "IndoorOver100",
+      "Country": "Denmark",
+      "date_end": "2020-03-17",
+      "date_start": "2020-03-14",
+      "change": "1"
+    },
+    {
+      "Response_measure": "IndoorOver5",
+      "Country": "Denmark",
+      "date_end": "2020-06-08",
+      "date_start": "2020-03-18",
+      "change": "1"
+    },
+    {
+      "Response_measure": "IndoorOver50",
+      "Country": "Denmark",
+      "date_end": "2020-08-31",
+      "date_start": "2020-06-09",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MasksMandatoryClosedSpaces",
+      "Country": "Denmark",
+      "date_end": "NA",
+      "date_start": "2020-08-22",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MasksVoluntaryAllSpacesPartial",
+      "Country": "Denmark",
+      "date_end": "NA",
+      "date_start": "2020-07-09",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MassGatherAll",
+      "Country": "Denmark",
+      "date_end": "2020-06-14",
+      "date_start": "2020-03-14",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MassGatherAllPartial",
+      "Country": "Denmark",
+      "date_end": "NA",
+      "date_start": "2020-06-15",
+      "change": "1"
+    },
+    {
+      "Response_measure": "NonEssentialShops",
+      "Country": "Denmark",
+      "date_end": "2020-04-20",
+      "date_start": "2020-03-18",
+      "change": "1"
+    },
+    {
+      "Response_measure": "NonEssentialShopsPartial",
+      "Country": "Denmark",
+      "date_end": "NA",
+      "date_start": "2020-04-21",
+      "change": "1"
+    },
+    {
+      "Response_measure": "OutdoorOver100",
+      "Country": "Denmark",
+      "date_end": "NA",
+      "date_start": "2020-06-15",
+      "change": "1"
+    },
+    {
+      "Response_measure": "OutdoorOver5",
+      "Country": "Denmark",
+      "date_end": "2020-06-08",
+      "date_start": "2020-03-18",
+      "change": "1"
+    },
+    {
+      "Response_measure": "OutdoorOver500",
+      "Country": "Denmark",
+      "date_end": "2020-06-14",
+      "date_start": "2020-06-09",
+      "change": "1"
+    },
+    {
+      "Response_measure": "PlaceOfWorship",
+      "Country": "Denmark",
+      "date_end": "2020-05-18",
+      "date_start": "2020-03-18",
+      "change": "1"
+    },
+    {
+      "Response_measure": "RestaurantsCafes",
+      "Country": "Denmark",
+      "date_end": "2020-05-18",
+      "date_start": "2020-03-18",
+      "change": "1"
+    },
+    {
+      "Response_measure": "RestaurantsCafes",
+      "Country": "Denmark",
+      "date_end": "2020-09-16",
+      "date_start": "2020-08-21",
+      "change": "3"
+    },
+    {
+      "Response_measure": "RestaurantsCafesPartial",
+      "Country": "Denmark",
+      "date_end": "NA",
+      "date_start": "2020-09-17",
+      "change": "1"
+    },
+    {
+      "Response_measure": "StayHomeRiskG",
+      "Country": "Denmark",
+      "date_end": "NA",
+      "date_start": "2020-03-14",
+      "change": "1"
+    },
+    {
+      "Response_measure": "Teleworking",
+      "Country": "Denmark",
+      "date_end": "2020-06-14",
+      "date_start": "2020-03-13",
+      "change": "1"
+    },
+    {
+      "Response_measure": "TeleworkingPartial",
+      "Country": "Denmark",
+      "date_end": "NA",
+      "date_start": "2020-06-15",
+      "change": "1"
+    },
+    {
+      "Response_measure": "WorkplaceClosures",
+      "Country": "Denmark",
+      "date_end": "2020-05-10",
+      "date_start": "2020-03-13",
+      "change": "1"
+    }
+  ],
+  "Poland": [
+    {
+      "Response_measure": "AdaptationOfWorkplace",
+      "Country": "Poland",
+      "date_end": "NA",
+      "date_start": "2020-04-02",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosDaycare",
+      "Country": "Poland",
+      "date_end": "2020-05-06",
+      "date_start": "2020-03-12",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosHigh",
+      "Country": "Poland",
+      "date_end": "2020-05-24",
+      "date_start": "2020-03-12",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosHighPartial",
+      "Country": "Poland",
+      "date_end": "2020-08-31",
+      "date_start": "2020-05-25",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosPrim",
+      "Country": "Poland",
+      "date_end": "2020-05-24",
+      "date_start": "2020-03-12",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosPrimPartial",
+      "Country": "Poland",
+      "date_end": "2020-08-31",
+      "date_start": "2020-05-25",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosPubAny",
+      "Country": "Poland",
+      "date_end": "2020-03-31",
+      "date_start": "2020-03-14",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosPubAnyPartial",
+      "Country": "Poland",
+      "date_end": "NA",
+      "date_start": "2020-04-01",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosSec",
+      "Country": "Poland",
+      "date_end": "2020-05-24",
+      "date_start": "2020-03-12",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosSecPartial",
+      "Country": "Poland",
+      "date_end": "2020-08-31",
+      "date_start": "2020-05-25",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosureOfPublicTransportPartial",
+      "Country": "Poland",
+      "date_end": "NA",
+      "date_start": "2020-04-01",
+      "change": "1"
+    },
+    {
+      "Response_measure": "EntertainmentVenues",
+      "Country": "Poland",
+      "date_end": "2020-06-06",
+      "date_start": "2020-03-14",
+      "change": "1"
+    },
+    {
+      "Response_measure": "EntertainmentVenuesPartial",
+      "Country": "Poland",
+      "date_end": "NA",
+      "date_start": "2020-06-07",
+      "change": "1"
+    },
+    {
+      "Response_measure": "GymsSportsCentres",
+      "Country": "Poland",
+      "date_end": "2020-06-04",
+      "date_start": "2020-03-14",
+      "change": "1"
+    },
+    {
+      "Response_measure": "GymsSportsCentresPartial",
+      "Country": "Poland",
+      "date_end": "NA",
+      "date_start": "2020-06-05",
+      "change": "1"
+    },
+    {
+      "Response_measure": "HotelsOtherAccommodation",
+      "Country": "Poland",
+      "date_end": "2020-05-04",
+      "date_start": "2020-03-14",
+      "change": "1"
+    },
+    {
+      "Response_measure": "IndoorOver100",
+      "Country": "Poland",
+      "date_end": "NA",
+      "date_start": "2020-08-06",
+      "change": "1"
+    },
+    {
+      "Response_measure": "IndoorOver1000",
+      "Country": "Poland",
+      "date_end": "2020-08-05",
+      "date_start": "2020-06-18",
+      "change": "1"
+    },
+    {
+      "Response_measure": "IndoorOver5",
+      "Country": "Poland",
+      "date_end": "2020-05-03",
+      "date_start": "2020-04-02",
+      "change": "1"
+    },
+    {
+      "Response_measure": "IndoorOver50",
+      "Country": "Poland",
+      "date_end": "2020-04-01",
+      "date_start": "2020-03-14",
+      "change": "1"
+    },
+    {
+      "Response_measure": "IndoorOver500",
+      "Country": "Poland",
+      "date_end": "2020-03-13",
+      "date_start": "2020-03-10",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MasksMandatoryAllSpaces",
+      "Country": "Poland",
+      "date_end": "2020-05-29",
+      "date_start": "2020-04-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MasksMandatoryAllSpacesPartial",
+      "Country": "Poland",
+      "date_end": "NA",
+      "date_start": "2020-05-30",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MasksMandatoryClosedSpacesPartial",
+      "Country": "Poland",
+      "date_end": "NA",
+      "date_start": "2020-05-30",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MassGatherAll",
+      "Country": "Poland",
+      "date_end": "2020-06-17",
+      "date_start": "2020-03-10",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MassGatherAllPartial",
+      "Country": "Poland",
+      "date_end": "NA",
+      "date_start": "2020-06-18",
+      "change": "1"
+    },
+    {
+      "Response_measure": "NonEssentialShops",
+      "Country": "Poland",
+      "date_end": "2020-05-03",
+      "date_start": "2020-03-14",
+      "change": "1"
+    },
+    {
+      "Response_measure": "NonEssentialShopsPartial",
+      "Country": "Poland",
+      "date_end": "2020-05-30",
+      "date_start": "2020-05-04",
+      "change": "1"
+    },
+    {
+      "Response_measure": "OutdoorOver100",
+      "Country": "Poland",
+      "date_end": "2020-07-16",
+      "date_start": "2020-05-30",
+      "change": "1"
+    },
+    {
+      "Response_measure": "OutdoorOver100",
+      "Country": "Poland",
+      "date_end": "NA",
+      "date_start": "2020-08-06",
+      "change": "3"
+    },
+    {
+      "Response_measure": "OutdoorOver1000",
+      "Country": "Poland",
+      "date_end": "2020-03-13",
+      "date_start": "2020-03-10",
+      "change": "1"
+    },
+    {
+      "Response_measure": "OutdoorOver1000",
+      "Country": "Poland",
+      "date_end": "2020-08-05",
+      "date_start": "2020-07-17",
+      "change": "3"
+    },
+    {
+      "Response_measure": "OutdoorOver5",
+      "Country": "Poland",
+      "date_end": "2020-05-29",
+      "date_start": "2020-04-02",
+      "change": "1"
+    },
+    {
+      "Response_measure": "OutdoorOver50",
+      "Country": "Poland",
+      "date_end": "2020-04-01",
+      "date_start": "2020-03-14",
+      "change": "1"
+    },
+    {
+      "Response_measure": "PlaceOfWorshipPartial",
+      "Country": "Poland",
+      "date_end": "2020-05-30",
+      "date_start": "2020-04-19",
+      "change": "1"
+    },
+    {
+      "Response_measure": "RestaurantsCafes",
+      "Country": "Poland",
+      "date_end": "2020-05-17",
+      "date_start": "2020-03-14",
+      "change": "1"
+    },
+    {
+      "Response_measure": "RestaurantsCafesPartial",
+      "Country": "Poland",
+      "date_end": "2020-05-29",
+      "date_start": "2020-05-18",
+      "change": "1"
+    },
+    {
+      "Response_measure": "StayHomeGen",
+      "Country": "Poland",
+      "date_end": "2020-05-04",
+      "date_start": "2020-04-20",
+      "change": "1"
+    },
+    {
+      "Response_measure": "StayHomeOrder",
+      "Country": "Poland",
+      "date_end": "2020-04-19",
+      "date_start": "2020-03-24",
+      "change": "1"
+    },
+    {
+      "Response_measure": "StayHomeRiskG",
+      "Country": "Poland",
+      "date_end": "NA",
+      "date_start": "2020-03-08",
+      "change": "1"
+    },
+    {
+      "Response_measure": "Teleworking",
+      "Country": "Poland",
+      "date_end": "NA",
+      "date_start": "2020-03-08",
+      "change": "1"
+    }
+  ],
+  "Finland": [
+    {
+      "Response_measure": "ClosHigh",
+      "Country": "Finland",
+      "date_end": "2020-08-04",
+      "date_start": "2020-03-18",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosPrim",
+      "Country": "Finland",
+      "date_end": "2020-05-14",
+      "date_start": "2020-03-18",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosPubAny",
+      "Country": "Finland",
+      "date_end": "2020-05-31",
+      "date_start": "2020-03-18",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosPubAnyPartial",
+      "Country": "Finland",
+      "date_end": "NA",
+      "date_start": "2020-06-01",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosSec",
+      "Country": "Finland",
+      "date_end": "2020-08-04",
+      "date_start": "2020-03-18",
+      "change": "1"
+    },
+    {
+      "Response_measure": "EntertainmentVenues",
+      "Country": "Finland",
+      "date_end": "2020-05-31",
+      "date_start": "2020-03-18",
+      "change": "1"
+    },
+    {
+      "Response_measure": "EntertainmentVenuesPartial",
+      "Country": "Finland",
+      "date_end": "NA",
+      "date_start": "2020-06-01",
+      "change": "1"
+    },
+    {
+      "Response_measure": "GymsSportsCentres",
+      "Country": "Finland",
+      "date_end": "2020-06-01",
+      "date_start": "2020-03-18",
+      "change": "1"
+    },
+    {
+      "Response_measure": "IndoorOver50",
+      "Country": "Finland",
+      "date_end": "2020-07-31",
+      "date_start": "2020-03-18",
+      "change": "1"
+    },
+    {
+      "Response_measure": "IndoorOver500",
+      "Country": "Finland",
+      "date_end": "2020-03-17",
+      "date_start": "2020-03-12",
+      "change": "1"
+    },
+    {
+      "Response_measure": "IndoorOver500",
+      "Country": "Finland",
+      "date_end": "NA",
+      "date_start": "2020-08-01",
+      "change": "3"
+    },
+    {
+      "Response_measure": "MasksVoluntaryClosedSpaces",
+      "Country": "Finland",
+      "date_end": "NA",
+      "date_start": "2020-09-18",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MasksVoluntaryClosedSpacesPartial",
+      "Country": "Finland",
+      "date_end": "2020-09-17",
+      "date_start": "2020-08-13",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MassGatherAll",
+      "Country": "Finland",
+      "date_end": "2020-06-30",
+      "date_start": "2020-03-12",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MassGatherAllPartial",
+      "Country": "Finland",
+      "date_end": "NA",
+      "date_start": "2020-07-01",
+      "change": "1"
+    },
+    {
+      "Response_measure": "OutdoorOver50",
+      "Country": "Finland",
+      "date_end": "2020-07-31",
+      "date_start": "2020-03-18",
+      "change": "1"
+    },
+    {
+      "Response_measure": "OutdoorOver500",
+      "Country": "Finland",
+      "date_end": "2020-03-17",
+      "date_start": "2020-03-12",
+      "change": "1"
+    },
+    {
+      "Response_measure": "OutdoorOver500",
+      "Country": "Finland",
+      "date_end": "NA",
+      "date_start": "2020-08-01",
+      "change": "3"
+    },
+    {
+      "Response_measure": "RestaurantsCafes",
+      "Country": "Finland",
+      "date_end": "2020-05-31",
+      "date_start": "2020-03-18",
+      "change": "1"
+    },
+    {
+      "Response_measure": "RestaurantsCafesPartial",
+      "Country": "Finland",
+      "date_end": "2020-07-13",
+      "date_start": "2020-06-01",
+      "change": "1"
+    },
+    {
+      "Response_measure": "RestaurantsCafesPartial",
+      "Country": "Finland",
+      "date_end": "NA",
+      "date_start": "2020-10-01",
+      "change": "3"
+    },
+    {
+      "Response_measure": "StayHomeRiskG",
+      "Country": "Finland",
+      "date_end": "2020-06-22",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "StayHomeRiskGPartial",
+      "Country": "Finland",
+      "date_end": "NA",
+      "date_start": "2020-06-23",
+      "change": "1"
+    },
+    {
+      "Response_measure": "Teleworking",
+      "Country": "Finland",
+      "date_end": "2020-08-01",
+      "date_start": "2020-03-18",
+      "change": "1"
+    },
+    {
+      "Response_measure": "TeleworkingPartial",
+      "Country": "Finland",
+      "date_end": "NA",
+      "date_start": "2020-08-13",
+      "change": "1"
+    }
+  ],
+  "Liechtenstein": [
+    {
+      "Response_measure": "ClosDaycare",
+      "Country": "Liechtenstein",
+      "date_end": "2020-05-11",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosHigh",
+      "Country": "Liechtenstein",
+      "date_end": "2020-06-08",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosPrim",
+      "Country": "Liechtenstein",
+      "date_end": "2020-06-08",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosPubAnyPartial",
+      "Country": "Liechtenstein",
+      "date_end": "2020-06-06",
+      "date_start": "2020-03-12",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosSec",
+      "Country": "Liechtenstein",
+      "date_end": "2020-06-08",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "EntertainmentVenues",
+      "Country": "Liechtenstein",
+      "date_end": "2020-06-06",
+      "date_start": "2020-03-17",
+      "change": "1"
+    },
+    {
+      "Response_measure": "GymsSportsCentresPartial",
+      "Country": "Liechtenstein",
+      "date_end": "2020-06-06",
+      "date_start": "2020-03-12",
+      "change": "1"
+    },
+    {
+      "Response_measure": "IndoorOver100",
+      "Country": "Liechtenstein",
+      "date_end": "2020-03-15",
+      "date_start": "2020-03-13",
+      "change": "1"
+    },
+    {
+      "Response_measure": "IndoorOver100",
+      "Country": "Liechtenstein",
+      "date_end": "2020-07-03",
+      "date_start": "2020-03-20",
+      "change": "3"
+    },
+    {
+      "Response_measure": "IndoorOver1000",
+      "Country": "Liechtenstein",
+      "date_end": "2020-03-12",
+      "date_start": "2020-02-28",
+      "change": "1"
+    },
+    {
+      "Response_measure": "IndoorOver1000",
+      "Country": "Liechtenstein",
+      "date_end": "2020-09-30",
+      "date_start": "2020-07-04",
+      "change": "3"
+    },
+    {
+      "Response_measure": "IndoorOver5",
+      "Country": "Liechtenstein",
+      "date_end": "2020-03-19",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MasksMandatoryClosedSpacesPartial",
+      "Country": "Liechtenstein",
+      "date_end": "NA",
+      "date_start": "2020-07-06",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MasksVoluntaryClosedSpaces",
+      "Country": "Liechtenstein",
+      "date_end": "2020-07-05",
+      "date_start": "2020-05-13",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MassGatherAll",
+      "Country": "Liechtenstein",
+      "date_end": "2020-09-30",
+      "date_start": "2020-02-28",
+      "change": "1"
+    },
+    {
+      "Response_measure": "NonEssentialShops",
+      "Country": "Liechtenstein",
+      "date_end": "2020-04-27",
+      "date_start": "2020-03-17",
+      "change": "1"
+    },
+    {
+      "Response_measure": "OutdoorOver100",
+      "Country": "Liechtenstein",
+      "date_end": "2020-03-15",
+      "date_start": "2020-03-13",
+      "change": "1"
+    },
+    {
+      "Response_measure": "OutdoorOver100",
+      "Country": "Liechtenstein",
+      "date_end": "2020-07-03",
+      "date_start": "2020-05-21",
+      "change": "3"
+    },
+    {
+      "Response_measure": "OutdoorOver1000",
+      "Country": "Liechtenstein",
+      "date_end": "2020-03-12",
+      "date_start": "2020-02-28",
+      "change": "1"
+    },
+    {
+      "Response_measure": "OutdoorOver5",
+      "Country": "Liechtenstein",
+      "date_end": "2020-05-20",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "RestaurantsCafes",
+      "Country": "Liechtenstein",
+      "date_end": "2020-05-15",
+      "date_start": "2020-03-17",
+      "change": "1"
+    },
+    {
+      "Response_measure": "StayHomeGen",
+      "Country": "Liechtenstein",
+      "date_end": "2020-05-18",
+      "date_start": "2020-03-21",
+      "change": "1"
+    },
+    {
+      "Response_measure": "StayHomeRiskG",
+      "Country": "Liechtenstein",
+      "date_end": "NA",
+      "date_start": "2020-03-16",
+      "change": "1"
+    }
+  ],
+  "Latvia": [
+    {
+      "Response_measure": "ClosDaycarePartial",
+      "Country": "Latvia",
+      "date_end": "2020-06-10",
+      "date_start": "2020-03-17",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosHigh",
+      "Country": "Latvia",
+      "date_end": "2020-08-31",
+      "date_start": "2020-03-17",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosPrim",
+      "Country": "Latvia",
+      "date_end": "2020-08-31",
+      "date_start": "2020-03-17",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosPubAny",
+      "Country": "Latvia",
+      "date_end": "2020-05-11",
+      "date_start": "2020-03-17",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosPubAnyPartial",
+      "Country": "Latvia",
+      "date_end": "2020-06-10",
+      "date_start": "2020-05-12",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosPubAnyPartial",
+      "Country": "Latvia",
+      "date_end": "NA",
+      "date_start": "2020-07-11",
+      "change": "3"
+    },
+    {
+      "Response_measure": "ClosSecPartial",
+      "Country": "Latvia",
+      "date_end": "2020-05-07",
+      "date_start": "2020-03-17",
+      "change": "1"
+    },
+    {
+      "Response_measure": "EntertainmentVenues",
+      "Country": "Latvia",
+      "date_end": "2020-05-11",
+      "date_start": "2020-03-17",
+      "change": "1"
+    },
+    {
+      "Response_measure": "EntertainmentVenuesPartial",
+      "Country": "Latvia",
+      "date_end": "2020-06-10",
+      "date_start": "2020-05-12",
+      "change": "1"
+    },
+    {
+      "Response_measure": "GymsSportsCentres",
+      "Country": "Latvia",
+      "date_end": "2020-05-11",
+      "date_start": "2020-03-17",
+      "change": "1"
+    },
+    {
+      "Response_measure": "GymsSportsCentresPartial",
+      "Country": "Latvia",
+      "date_end": "2020-06-10",
+      "date_start": "2020-05-12",
+      "change": "1"
+    },
+    {
+      "Response_measure": "IndoorOver100",
+      "Country": "Latvia",
+      "date_end": "2020-07-31",
+      "date_start": "2020-06-11",
+      "change": "1"
+    },
+    {
+      "Response_measure": "IndoorOver1000",
+      "Country": "Latvia",
+      "date_end": "NA",
+      "date_start": "2020-08-17",
+      "change": "1"
+    },
+    {
+      "Response_measure": "IndoorOver50",
+      "Country": "Latvia",
+      "date_end": "2020-06-10",
+      "date_start": "2020-03-17",
+      "change": "1"
+    },
+    {
+      "Response_measure": "IndoorOver500",
+      "Country": "Latvia",
+      "date_end": "2020-08-16",
+      "date_start": "2020-08-01",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MasksMandatoryAllSpacesPartial",
+      "Country": "Latvia",
+      "date_end": "2020-06-30",
+      "date_start": "2020-03-17",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MasksMandatoryClosedSpaces",
+      "Country": "Latvia",
+      "date_end": "NA",
+      "date_start": "2020-10-07",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MasksMandatoryClosedSpacesPartial",
+      "Country": "Latvia",
+      "date_end": "2020-06-30",
+      "date_start": "2020-05-12",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MasksVoluntaryAllSpacesPartial",
+      "Country": "Latvia",
+      "date_end": "2020-06-30",
+      "date_start": "2020-04-20",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MassGatherAll",
+      "Country": "Latvia",
+      "date_end": "2020-06-30",
+      "date_start": "2020-03-17",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MassGatherAll",
+      "Country": "Latvia",
+      "date_end": "NA",
+      "date_start": "2020-08-01",
+      "change": "3"
+    },
+    {
+      "Response_measure": "MassGatherAllPartial",
+      "Country": "Latvia",
+      "date_end": "2020-07-31",
+      "date_start": "2020-07-01",
+      "change": "1"
+    },
+    {
+      "Response_measure": "OutdoorOver100",
+      "Country": "Latvia",
+      "date_end": "2020-06-10",
+      "date_start": "2020-05-12",
+      "change": "1"
+    },
+    {
+      "Response_measure": "OutdoorOver1000",
+      "Country": "Latvia",
+      "date_end": "NA",
+      "date_start": "2020-07-01",
+      "change": "1"
+    },
+    {
+      "Response_measure": "OutdoorOver500",
+      "Country": "Latvia",
+      "date_end": "2020-06-30",
+      "date_start": "2020-06-11",
+      "change": "1"
+    },
+    {
+      "Response_measure": "PlaceOfWorship",
+      "Country": "Latvia",
+      "date_end": "2020-05-11",
+      "date_start": "2020-03-17",
+      "change": "1"
+    },
+    {
+      "Response_measure": "PlaceOfWorshipPartial",
+      "Country": "Latvia",
+      "date_end": "2020-06-10",
+      "date_start": "2020-05-12",
+      "change": "1"
+    },
+    {
+      "Response_measure": "RestaurantsCafesPartial",
+      "Country": "Latvia",
+      "date_end": "NA",
+      "date_start": "2020-07-11",
+      "change": "1"
+    },
+    {
+      "Response_measure": "StayHomeGen",
+      "Country": "Latvia",
+      "date_end": "2020-05-11",
+      "date_start": "2020-03-17",
+      "change": "1"
+    },
+    {
+      "Response_measure": "StayHomeGenPartial",
+      "Country": "Latvia",
+      "date_end": "2020-06-10",
+      "date_start": "2020-05-12",
+      "change": "1"
+    },
+    {
+      "Response_measure": "Teleworking",
+      "Country": "Latvia",
+      "date_end": "NA",
+      "date_start": "2020-03-17",
+      "change": "1"
+    }
+  ],
+  "Croatia": [
+    {
+      "Response_measure": "ClosDaycare",
+      "Country": "Croatia",
+      "date_end": "2020-05-11",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosHigh",
+      "Country": "Croatia",
+      "date_end": "NA",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosPrim",
+      "Country": "Croatia",
+      "date_end": "2020-05-10",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosPrimPartial",
+      "Country": "Croatia",
+      "date_end": "2020-05-25",
+      "date_start": "2020-05-11",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosPubAny",
+      "Country": "Croatia",
+      "date_end": "2020-05-28",
+      "date_start": "2020-03-19",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosPubAnyPartial",
+      "Country": "Croatia",
+      "date_end": "2020-09-22",
+      "date_start": "2020-08-14",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosSec",
+      "Country": "Croatia",
+      "date_end": "NA",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosureOfPublicTransport",
+      "Country": "Croatia",
+      "date_end": "2020-04-27",
+      "date_start": "2020-03-22",
+      "change": "1"
+    },
+    {
+      "Response_measure": "EntertainmentVenues",
+      "Country": "Croatia",
+      "date_end": "2020-05-28",
+      "date_start": "2020-03-19",
+      "change": "1"
+    },
+    {
+      "Response_measure": "GymsSportsCentres",
+      "Country": "Croatia",
+      "date_end": "2020-05-11",
+      "date_start": "2020-03-19",
+      "change": "1"
+    },
+    {
+      "Response_measure": "IndoorOver5",
+      "Country": "Croatia",
+      "date_end": "NA",
+      "date_start": "2020-03-19",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MasksMandatoryAllSpaces",
+      "Country": "Croatia",
+      "date_end": "NA",
+      "date_start": "2020-02-28",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MasksMandatoryClosedSpacesPartial",
+      "Country": "Croatia",
+      "date_end": "NA",
+      "date_start": "2020-06-25",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MassGatherAll",
+      "Country": "Croatia",
+      "date_end": "2020-08-23",
+      "date_start": "2020-03-19",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MassGatherAllPartial",
+      "Country": "Croatia",
+      "date_end": "NA",
+      "date_start": "2020-08-24",
+      "change": "1"
+    },
+    {
+      "Response_measure": "NonEssentialShops",
+      "Country": "Croatia",
+      "date_end": "2020-04-27",
+      "date_start": "2020-03-19",
+      "change": "1"
+    },
+    {
+      "Response_measure": "OutdoorOver5",
+      "Country": "Croatia",
+      "date_end": "2020-05-17",
+      "date_start": "2020-03-19",
+      "change": "1"
+    },
+    {
+      "Response_measure": "OutdoorOver50",
+      "Country": "Croatia",
+      "date_end": "2020-05-27",
+      "date_start": "2020-05-18",
+      "change": "1"
+    },
+    {
+      "Response_measure": "OutdoorOver50",
+      "Country": "Croatia",
+      "date_end": "NA",
+      "date_start": "2020-08-24",
+      "change": "3"
+    },
+    {
+      "Response_measure": "RestaurantsCafes",
+      "Country": "Croatia",
+      "date_end": "2020-05-11",
+      "date_start": "2020-03-19",
+      "change": "1"
+    },
+    {
+      "Response_measure": "RestaurantsCafesPartial",
+      "Country": "Croatia",
+      "date_end": "2020-09-22",
+      "date_start": "2020-08-14",
+      "change": "1"
+    },
+    {
+      "Response_measure": "StayHomeGen",
+      "Country": "Croatia",
+      "date_end": "2020-05-05",
+      "date_start": "2020-03-17",
+      "change": "1"
+    },
+    {
+      "Response_measure": "StayHomeRiskG",
+      "Country": "Croatia",
+      "date_end": "NA",
+      "date_start": "2020-03-03",
+      "change": "1"
+    },
+    {
+      "Response_measure": "Teleworking",
+      "Country": "Croatia",
+      "date_end": "2020-05-27",
+      "date_start": "2020-03-19",
+      "change": "1"
+    }
+  ],
+  "Malta": [
+    {
+      "Response_measure": "ClosDaycare",
+      "Country": "Malta",
+      "date_end": "NA",
+      "date_start": "2020-03-13",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosHigh",
+      "Country": "Malta",
+      "date_end": "2020-06-30",
+      "date_start": "2020-03-13",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosPrim",
+      "Country": "Malta",
+      "date_end": "2020-06-30",
+      "date_start": "2020-03-13",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosPubAny",
+      "Country": "Malta",
+      "date_end": "2020-05-21",
+      "date_start": "2020-03-18",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosPubAnyPartial",
+      "Country": "Malta",
+      "date_end": "NA",
+      "date_start": "2020-05-22",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosSec",
+      "Country": "Malta",
+      "date_end": "2020-06-30",
+      "date_start": "2020-03-13",
+      "change": "1"
+    },
+    {
+      "Response_measure": "EntertainmentVenues",
+      "Country": "Malta",
+      "date_end": "2020-05-21",
+      "date_start": "2020-03-18",
+      "change": "1"
+    },
+    {
+      "Response_measure": "EntertainmentVenues",
+      "Country": "Malta",
+      "date_end": "NA",
+      "date_start": "2020-08-17",
+      "change": "3"
+    },
+    {
+      "Response_measure": "GymsSportsCentres",
+      "Country": "Malta",
+      "date_end": "2020-06-02",
+      "date_start": "2020-03-18",
+      "change": "1"
+    },
+    {
+      "Response_measure": "GymsSportsCentresPartial",
+      "Country": "Malta",
+      "date_end": "NA",
+      "date_start": "2020-06-03",
+      "change": "1"
+    },
+    {
+      "Response_measure": "IndoorOver5",
+      "Country": "Malta",
+      "date_end": "NA",
+      "date_start": "2020-03-13",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MasksMandatoryClosedSpaces",
+      "Country": "Malta",
+      "date_end": "NA",
+      "date_start": "2020-05-22",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MassGatherAll",
+      "Country": "Malta",
+      "date_end": "NA",
+      "date_start": "2020-03-13",
+      "change": "1"
+    },
+    {
+      "Response_measure": "NonEssentialShops",
+      "Country": "Malta",
+      "date_end": "2020-05-21",
+      "date_start": "2020-03-23",
+      "change": "1"
+    },
+    {
+      "Response_measure": "NonEssentialShopsPartial",
+      "Country": "Malta",
+      "date_end": "NA",
+      "date_start": "2020-05-22",
+      "change": "1"
+    },
+    {
+      "Response_measure": "OutdoorOver5",
+      "Country": "Malta",
+      "date_end": "NA",
+      "date_start": "2020-03-13",
+      "change": "1"
+    },
+    {
+      "Response_measure": "RestaurantsCafes",
+      "Country": "Malta",
+      "date_end": "2020-05-21",
+      "date_start": "2020-03-18",
+      "change": "1"
+    },
+    {
+      "Response_measure": "RestaurantsCafesPartial",
+      "Country": "Malta",
+      "date_end": "NA",
+      "date_start": "2020-05-22",
+      "change": "1"
+    },
+    {
+      "Response_measure": "StayHomeRiskG",
+      "Country": "Malta",
+      "date_end": "NA",
+      "date_start": "2020-03-28",
+      "change": "1"
+    },
+    {
+      "Response_measure": "Teleworking",
+      "Country": "Malta",
+      "date_end": "NA",
+      "date_start": "2020-05-08",
+      "change": "1"
+    }
+  ],
+  "Bulgaria": [
+    {
+      "Response_measure": "ClosDaycare",
+      "Country": "Bulgaria",
+      "date_end": "2020-05-21",
+      "date_start": "2020-03-13",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosDaycarePartial",
+      "Country": "Bulgaria",
+      "date_end": "2020-06-14",
+      "date_start": "2020-05-22",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosHigh",
+      "Country": "Bulgaria",
+      "date_end": "2020-05-31",
+      "date_start": "2020-03-13",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosHighPartial",
+      "Country": "Bulgaria",
+      "date_end": "NA",
+      "date_start": "2020-06-01",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosPrim",
+      "Country": "Bulgaria",
+      "date_end": "NA",
+      "date_start": "2020-03-13",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosPubAny",
+      "Country": "Bulgaria",
+      "date_end": "2020-05-17",
+      "date_start": "2020-03-13",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosPubAnyPartial",
+      "Country": "Bulgaria",
+      "date_end": "NA",
+      "date_start": "2020-05-18",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosSec",
+      "Country": "Bulgaria",
+      "date_end": "NA",
+      "date_start": "2020-03-13",
+      "change": "1"
+    },
+    {
+      "Response_measure": "EntertainmentVenues",
+      "Country": "Bulgaria",
+      "date_end": "2020-05-17",
+      "date_start": "2020-03-13",
+      "change": "1"
+    },
+    {
+      "Response_measure": "EntertainmentVenuesPartial",
+      "Country": "Bulgaria",
+      "date_end": "NA",
+      "date_start": "2020-05-18",
+      "change": "1"
+    },
+    {
+      "Response_measure": "GymsSportsCentres",
+      "Country": "Bulgaria",
+      "date_end": "2020-05-31",
+      "date_start": "2020-03-13",
+      "change": "1"
+    },
+    {
+      "Response_measure": "GymsSportsCentresPartial",
+      "Country": "Bulgaria",
+      "date_end": "2020-06-14",
+      "date_start": "2020-06-01",
+      "change": "1"
+    },
+    {
+      "Response_measure": "IndoorOver5",
+      "Country": "Bulgaria",
+      "date_end": "2020-06-30",
+      "date_start": "2020-03-13",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MasksMandatoryAllSpaces",
+      "Country": "Bulgaria",
+      "date_end": "2020-03-31",
+      "date_start": "2020-03-30",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MasksMandatoryAllSpaces",
+      "Country": "Bulgaria",
+      "date_end": "2020-06-14",
+      "date_start": "2020-04-12",
+      "change": "3"
+    },
+    {
+      "Response_measure": "MasksMandatoryAllSpacesPartial",
+      "Country": "Bulgaria",
+      "date_end": "NA",
+      "date_start": "2020-06-15",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MassGatherAllPartial",
+      "Country": "Bulgaria",
+      "date_end": "2020-06-30",
+      "date_start": "2020-03-13",
+      "change": "1"
+    },
+    {
+      "Response_measure": "NonEssentialShops",
+      "Country": "Bulgaria",
+      "date_end": "2020-05-17",
+      "date_start": "2020-03-13",
+      "change": "1"
+    },
+    {
+      "Response_measure": "NonEssentialShopsPartial",
+      "Country": "Bulgaria",
+      "date_end": "NA",
+      "date_start": "2020-05-18",
+      "change": "1"
+    },
+    {
+      "Response_measure": "OutdoorOver5",
+      "Country": "Bulgaria",
+      "date_end": "2020-06-30",
+      "date_start": "2020-03-13",
+      "change": "1"
+    },
+    {
+      "Response_measure": "RestaurantsCafes",
+      "Country": "Bulgaria",
+      "date_end": "2020-05-31",
+      "date_start": "2020-03-13",
+      "change": "1"
+    },
+    {
+      "Response_measure": "RestaurantsCafesPartial",
+      "Country": "Bulgaria",
+      "date_end": "NA",
+      "date_start": "2020-06-01",
+      "change": "1"
+    },
+    {
+      "Response_measure": "StayHomeRiskG",
+      "Country": "Bulgaria",
+      "date_end": "NA",
+      "date_start": "2020-03-17",
+      "change": "1"
+    },
+    {
+      "Response_measure": "Teleworking",
+      "Country": "Bulgaria",
+      "date_end": "NA",
+      "date_start": "2020-03-13",
+      "change": "1"
+    }
+  ],
+  "Romania": [
+    {
+      "Response_measure": "AdaptationOfWorkplace",
+      "Country": "Romania",
+      "date_end": "NA",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosDaycare",
+      "Country": "Romania",
+      "date_end": "2020-06-14",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosDaycarePartial",
+      "Country": "Romania",
+      "date_end": "2020-09-14",
+      "date_start": "2020-06-15",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosHigh",
+      "Country": "Romania",
+      "date_end": "2020-06-14",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosHighPartial",
+      "Country": "Romania",
+      "date_end": "NA",
+      "date_start": "2020-08-31",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosPrim",
+      "Country": "Romania",
+      "date_end": "2020-06-14",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosPrimPartial",
+      "Country": "Romania",
+      "date_end": "2020-09-14",
+      "date_start": "2020-06-15",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosPubAny",
+      "Country": "Romania",
+      "date_end": "2020-05-13",
+      "date_start": "2020-03-18",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosPubAnyPartial",
+      "Country": "Romania",
+      "date_end": "NA",
+      "date_start": "2020-05-14",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosSec",
+      "Country": "Romania",
+      "date_end": "2020-06-01",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosSecPartial",
+      "Country": "Romania",
+      "date_end": "2020-09-14",
+      "date_start": "2020-06-02",
+      "change": "1"
+    },
+    {
+      "Response_measure": "EntertainmentVenues",
+      "Country": "Romania",
+      "date_end": "2020-05-13",
+      "date_start": "2020-03-18",
+      "change": "1"
+    },
+    {
+      "Response_measure": "EntertainmentVenuesPartial",
+      "Country": "Romania",
+      "date_end": "NA",
+      "date_start": "2020-05-14",
+      "change": "1"
+    },
+    {
+      "Response_measure": "GymsSportsCentres",
+      "Country": "Romania",
+      "date_end": "2020-05-30",
+      "date_start": "2020-03-18",
+      "change": "1"
+    },
+    {
+      "Response_measure": "GymsSportsCentresPartial",
+      "Country": "Romania",
+      "date_end": "2020-06-14",
+      "date_start": "2020-05-31",
+      "change": "1"
+    },
+    {
+      "Response_measure": "HotelsOtherAccommodation",
+      "Country": "Romania",
+      "date_end": "2020-05-15",
+      "date_start": "2020-03-18",
+      "change": "1"
+    },
+    {
+      "Response_measure": "IndoorOver5",
+      "Country": "Romania",
+      "date_end": "2020-05-31",
+      "date_start": "2020-03-22",
+      "change": "1"
+    },
+    {
+      "Response_measure": "IndoorOver50",
+      "Country": "Romania",
+      "date_end": "NA",
+      "date_start": "2020-09-01",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MasksMandatoryClosedSpaces",
+      "Country": "Romania",
+      "date_end": "NA",
+      "date_start": "2020-05-15",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MassGatherAll",
+      "Country": "Romania",
+      "date_end": "2020-05-30",
+      "date_start": "2020-03-18",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MassGatherAllPartial",
+      "Country": "Romania",
+      "date_end": "NA",
+      "date_start": "2020-05-31",
+      "change": "1"
+    },
+    {
+      "Response_measure": "NonEssentialShops",
+      "Country": "Romania",
+      "date_end": "2020-05-13",
+      "date_start": "2020-03-22",
+      "change": "1"
+    },
+    {
+      "Response_measure": "NonEssentialShopsPartial",
+      "Country": "Romania",
+      "date_end": "2020-06-14",
+      "date_start": "2020-05-14",
+      "change": "1"
+    },
+    {
+      "Response_measure": "OutdoorOver100",
+      "Country": "Romania",
+      "date_end": "2020-03-21",
+      "date_start": "2020-03-18",
+      "change": "1"
+    },
+    {
+      "Response_measure": "OutdoorOver100",
+      "Country": "Romania",
+      "date_end": "NA",
+      "date_start": "2020-06-15",
+      "change": "3"
+    },
+    {
+      "Response_measure": "OutdoorOver5",
+      "Country": "Romania",
+      "date_end": "2020-06-14",
+      "date_start": "2020-03-22",
+      "change": "1"
+    },
+    {
+      "Response_measure": "PlaceOfWorship",
+      "Country": "Romania",
+      "date_end": "2020-05-14",
+      "date_start": "2020-03-18",
+      "change": "1"
+    },
+    {
+      "Response_measure": "PlaceOfWorshipPartial",
+      "Country": "Romania",
+      "date_end": "NA",
+      "date_start": "2020-05-15",
+      "change": "1"
+    },
+    {
+      "Response_measure": "RestaurantsCafes",
+      "Country": "Romania",
+      "date_end": "2020-06-14",
+      "date_start": "2020-03-18",
+      "change": "1"
+    },
+    {
+      "Response_measure": "RestaurantsCafesPartial",
+      "Country": "Romania",
+      "date_end": "NA",
+      "date_start": "2020-06-15",
+      "change": "1"
+    },
+    {
+      "Response_measure": "StayHomeOrder",
+      "Country": "Romania",
+      "date_end": "2020-05-13",
+      "date_start": "2020-03-22",
+      "change": "1"
+    },
+    {
+      "Response_measure": "StayHomeOrderPartial",
+      "Country": "Romania",
+      "date_end": "2020-05-31",
+      "date_start": "2020-05-14",
+      "change": "1"
+    },
+    {
+      "Response_measure": "StayHomeRiskG",
+      "Country": "Romania",
+      "date_end": "2020-05-14",
+      "date_start": "2020-03-25",
+      "change": "1"
+    },
+    {
+      "Response_measure": "Teleworking",
+      "Country": "Romania",
+      "date_end": "2020-05-14",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "TeleworkingPartial",
+      "Country": "Romania",
+      "date_end": "NA",
+      "date_start": "2020-05-15",
+      "change": "1"
+    }
+  ],
+  "Portugal": [
+    {
+      "Response_measure": "ClosDaycare",
+      "Country": "Portugal",
+      "date_end": "2020-05-17",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosDaycarePartial",
+      "Country": "Portugal",
+      "date_end": "2020-05-31",
+      "date_start": "2020-05-18",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosHigh",
+      "Country": "Portugal",
+      "date_end": "2020-05-17",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosHighPartial",
+      "Country": "Portugal",
+      "date_end": "2020-09-07",
+      "date_start": "2020-05-18",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosPrim",
+      "Country": "Portugal",
+      "date_end": "2020-09-14",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosPubAny",
+      "Country": "Portugal",
+      "date_end": "2020-03-17",
+      "date_start": "2020-03-13",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosPubAnyPartial",
+      "Country": "Portugal",
+      "date_end": "NA",
+      "date_start": "2020-03-18",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosSec",
+      "Country": "Portugal",
+      "date_end": "2020-05-17",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosSecPartial",
+      "Country": "Portugal",
+      "date_end": "2020-09-14",
+      "date_start": "2020-05-18",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosureOfPublicTransportPartial",
+      "Country": "Portugal",
+      "date_end": "NA",
+      "date_start": "2020-03-18",
+      "change": "1"
+    },
+    {
+      "Response_measure": "EntertainmentVenues",
+      "Country": "Portugal",
+      "date_end": "2020-05-17",
+      "date_start": "2020-03-13",
+      "change": "1"
+    },
+    {
+      "Response_measure": "EntertainmentVenuesPartial",
+      "Country": "Portugal",
+      "date_end": "NA",
+      "date_start": "2020-05-18",
+      "change": "1"
+    },
+    {
+      "Response_measure": "GymsSportsCentres",
+      "Country": "Portugal",
+      "date_end": "2020-05-03",
+      "date_start": "2020-03-15",
+      "change": "1"
+    },
+    {
+      "Response_measure": "GymsSportsCentresPartial",
+      "Country": "Portugal",
+      "date_end": "NA",
+      "date_start": "2020-05-04",
+      "change": "1"
+    },
+    {
+      "Response_measure": "IndoorOver100",
+      "Country": "Portugal",
+      "date_end": "2020-05-02",
+      "date_start": "2020-03-15",
+      "change": "1"
+    },
+    {
+      "Response_measure": "IndoorOver50",
+      "Country": "Portugal",
+      "date_end": "NA",
+      "date_start": "2020-05-03",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MasksMandatoryClosedSpaces",
+      "Country": "Portugal",
+      "date_end": "NA",
+      "date_start": "2020-05-04",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MassGatherAll",
+      "Country": "Portugal",
+      "date_end": "NA",
+      "date_start": "2020-03-15",
+      "change": "1"
+    },
+    {
+      "Response_measure": "NonEssentialShops",
+      "Country": "Portugal",
+      "date_end": "2020-05-03",
+      "date_start": "2020-03-15",
+      "change": "1"
+    },
+    {
+      "Response_measure": "NonEssentialShopsPartial",
+      "Country": "Portugal",
+      "date_end": "NA",
+      "date_start": "2020-05-04",
+      "change": "1"
+    },
+    {
+      "Response_measure": "OutdoorOver100",
+      "Country": "Portugal",
+      "date_end": "2020-05-02",
+      "date_start": "2020-03-15",
+      "change": "1"
+    },
+    {
+      "Response_measure": "OutdoorOver50",
+      "Country": "Portugal",
+      "date_end": "NA",
+      "date_start": "2020-05-03",
+      "change": "1"
+    },
+    {
+      "Response_measure": "PlaceOfWorship",
+      "Country": "Portugal",
+      "date_end": "2020-05-30",
+      "date_start": "2020-03-13",
+      "change": "1"
+    },
+    {
+      "Response_measure": "RestaurantsCafes",
+      "Country": "Portugal",
+      "date_end": "2020-05-17",
+      "date_start": "2020-03-15",
+      "change": "1"
+    },
+    {
+      "Response_measure": "RestaurantsCafesPartial",
+      "Country": "Portugal",
+      "date_end": "NA",
+      "date_start": "2020-05-18",
+      "change": "1"
+    },
+    {
+      "Response_measure": "StayHomeGen",
+      "Country": "Portugal",
+      "date_end": "2020-05-02",
+      "date_start": "2020-03-19",
+      "change": "1"
+    },
+    {
+      "Response_measure": "StayHomeRiskG",
+      "Country": "Portugal",
+      "date_end": "NA",
+      "date_start": "2020-03-18",
+      "change": "1"
+    },
+    {
+      "Response_measure": "Teleworking",
+      "Country": "Portugal",
+      "date_end": "2020-05-31",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "TeleworkingPartial",
+      "Country": "Portugal",
+      "date_end": "NA",
+      "date_start": "2020-06-01",
+      "change": "1"
+    }
+  ],
+  "Estonia": [
+    {
+      "Response_measure": "ClosHigh",
+      "Country": "Estonia",
+      "date_end": "2020-05-17",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosPrim",
+      "Country": "Estonia",
+      "date_end": "2020-05-17",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosPubAny",
+      "Country": "Estonia",
+      "date_end": "2020-05-16",
+      "date_start": "2020-03-12",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosPubAnyPartial",
+      "Country": "Estonia",
+      "date_end": "2020-07-01",
+      "date_start": "2020-05-17",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosSec",
+      "Country": "Estonia",
+      "date_end": "2020-05-17",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "EntertainmentVenues",
+      "Country": "Estonia",
+      "date_end": "2020-05-16",
+      "date_start": "2020-03-12",
+      "change": "1"
+    },
+    {
+      "Response_measure": "EntertainmentVenuesPartial",
+      "Country": "Estonia",
+      "date_end": "2020-07-01",
+      "date_start": "2020-05-17",
+      "change": "1"
+    },
+    {
+      "Response_measure": "GymsSportsCentres",
+      "Country": "Estonia",
+      "date_end": "2020-05-17",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "IndoorOver100",
+      "Country": "Estonia",
+      "date_end": "2020-07-14",
+      "date_start": "2020-06-01",
+      "change": "1"
+    },
+    {
+      "Response_measure": "IndoorOver1000",
+      "Country": "Estonia",
+      "date_end": "2020-07-31",
+      "date_start": "2020-07-15",
+      "change": "1"
+    },
+    {
+      "Response_measure": "IndoorOver5",
+      "Country": "Estonia",
+      "date_end": "2020-05-17",
+      "date_start": "2020-03-12",
+      "change": "1"
+    },
+    {
+      "Response_measure": "IndoorOver50",
+      "Country": "Estonia",
+      "date_end": "2020-05-31",
+      "date_start": "2020-05-18",
+      "change": "1"
+    },
+    {
+      "Response_measure": "IndoorOver500",
+      "Country": "Estonia",
+      "date_end": "NA",
+      "date_start": "2020-09-29",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MasksVoluntaryAllSpaces",
+      "Country": "Estonia",
+      "date_end": "2020-05-16",
+      "date_start": "2020-03-12",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MasksVoluntaryAllSpacesPartial",
+      "Country": "Estonia",
+      "date_end": "2020-07-31",
+      "date_start": "2020-05-17",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MassGatherAll",
+      "Country": "Estonia",
+      "date_end": "2020-05-31",
+      "date_start": "2020-03-12",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MassGatherAll",
+      "Country": "Estonia",
+      "date_end": "NA",
+      "date_start": "2020-08-01",
+      "change": "3"
+    },
+    {
+      "Response_measure": "MassGatherAllPartial",
+      "Country": "Estonia",
+      "date_end": "2020-07-31",
+      "date_start": "2020-06-01",
+      "change": "1"
+    },
+    {
+      "Response_measure": "NonEssentialShops",
+      "Country": "Estonia",
+      "date_end": "2020-05-17",
+      "date_start": "2020-03-27",
+      "change": "1"
+    },
+    {
+      "Response_measure": "OutdoorOver100",
+      "Country": "Estonia",
+      "date_end": "2020-06-30",
+      "date_start": "2020-05-18",
+      "change": "1"
+    },
+    {
+      "Response_measure": "OutdoorOver1000",
+      "Country": "Estonia",
+      "date_end": "NA",
+      "date_start": "2020-07-01",
+      "change": "1"
+    },
+    {
+      "Response_measure": "OutdoorOver5",
+      "Country": "Estonia",
+      "date_end": "2020-05-17",
+      "date_start": "2020-03-12",
+      "change": "1"
+    },
+    {
+      "Response_measure": "PlaceOfWorship",
+      "Country": "Estonia",
+      "date_end": "2020-05-10",
+      "date_start": "2020-03-12",
+      "change": "1"
+    },
+    {
+      "Response_measure": "StayHomeGen",
+      "Country": "Estonia",
+      "date_end": "2020-05-17",
+      "date_start": "2020-03-12",
+      "change": "1"
+    },
+    {
+      "Response_measure": "Teleworking",
+      "Country": "Estonia",
+      "date_end": "NA",
+      "date_start": "2020-03-16",
+      "change": "1"
+    }
+  ],
+  "Sweden": [
+    {
+      "Response_measure": "AdaptationOfWorkplace",
+      "Country": "Sweden",
+      "date_end": "NA",
+      "date_start": "2020-07-08",
+      "change": "1"
+    },
+    {
+      "Response_measure": "AdaptationOfWorkplacePartial",
+      "Country": "Sweden",
+      "date_end": "2020-07-07",
+      "date_start": "2020-03-25",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosHigh",
+      "Country": "Sweden",
+      "date_end": "2020-06-15",
+      "date_start": "2020-03-18",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosPubAny",
+      "Country": "Sweden",
+      "date_end": "NA",
+      "date_start": "2020-07-01",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosSec",
+      "Country": "Sweden",
+      "date_end": "2020-06-15",
+      "date_start": "2020-03-18",
+      "change": "1"
+    },
+    {
+      "Response_measure": "IndoorOver50",
+      "Country": "Sweden",
+      "date_end": "NA",
+      "date_start": "2020-03-28",
+      "change": "1"
+    },
+    {
+      "Response_measure": "IndoorOver500",
+      "Country": "Sweden",
+      "date_end": "2020-03-27",
+      "date_start": "2020-03-12",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MassGatherAll",
+      "Country": "Sweden",
+      "date_end": "NA",
+      "date_start": "2020-03-12",
+      "change": "1"
+    },
+    {
+      "Response_measure": "OutdoorOver50",
+      "Country": "Sweden",
+      "date_end": "NA",
+      "date_start": "2020-03-29",
+      "change": "1"
+    },
+    {
+      "Response_measure": "OutdoorOver500",
+      "Country": "Sweden",
+      "date_end": "2020-03-28",
+      "date_start": "2020-03-12",
+      "change": "1"
+    },
+    {
+      "Response_measure": "RestaurantsCafes",
+      "Country": "Sweden",
+      "date_end": "NA",
+      "date_start": "2020-07-01",
+      "change": "1"
+    },
+    {
+      "Response_measure": "StayHomeGen",
+      "Country": "Sweden",
+      "date_end": "NA",
+      "date_start": "2020-03-10",
+      "change": "1"
+    },
+    {
+      "Response_measure": "StayHomeRiskG",
+      "Country": "Sweden",
+      "date_end": "NA",
+      "date_start": "2020-04-01",
+      "change": "1"
+    },
+    {
+      "Response_measure": "Teleworking",
+      "Country": "Sweden",
+      "date_end": "NA",
+      "date_start": "2020-03-16",
+      "change": "1"
+    }
+  ],
+  "United Kingdom": [
+    {
+      "Response_measure": "ClosDaycare",
+      "Country": "United Kingdom",
+      "date_end": "2020-05-31",
+      "date_start": "2020-03-23",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosDaycarePartial",
+      "Country": "United Kingdom",
+      "date_end": "2020-09-01",
+      "date_start": "2020-06-01",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosPrim",
+      "Country": "United Kingdom",
+      "date_end": "2020-05-31",
+      "date_start": "2020-03-23",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosPrimPartial",
+      "Country": "United Kingdom",
+      "date_end": "2020-09-01",
+      "date_start": "2020-06-01",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosPubAny",
+      "Country": "United Kingdom",
+      "date_end": "2020-05-09",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosPubAnyPartial",
+      "Country": "United Kingdom",
+      "date_end": "NA",
+      "date_start": "2020-05-10",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosSec",
+      "Country": "United Kingdom",
+      "date_end": "2020-06-14",
+      "date_start": "2020-03-23",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosSecPartial",
+      "Country": "United Kingdom",
+      "date_end": "2020-09-01",
+      "date_start": "2020-06-15",
+      "change": "1"
+    },
+    {
+      "Response_measure": "EntertainmentVenues",
+      "Country": "United Kingdom",
+      "date_end": "2020-07-02",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "EntertainmentVenuesPartial",
+      "Country": "United Kingdom",
+      "date_end": "NA",
+      "date_start": "2020-07-03",
+      "change": "1"
+    },
+    {
+      "Response_measure": "GymsSportsCentres",
+      "Country": "United Kingdom",
+      "date_end": "2020-05-12",
+      "date_start": "2020-03-20",
+      "change": "1"
+    },
+    {
+      "Response_measure": "GymsSportsCentresPartial",
+      "Country": "United Kingdom",
+      "date_end": "2020-07-09",
+      "date_start": "2020-05-13",
+      "change": "1"
+    },
+    {
+      "Response_measure": "HotelsOtherAccommodation",
+      "Country": "United Kingdom",
+      "date_end": "2020-07-02",
+      "date_start": "2020-03-24",
+      "change": "1"
+    },
+    {
+      "Response_measure": "IndoorOver5",
+      "Country": "United Kingdom",
+      "date_end": "2020-07-03",
+      "date_start": "2020-03-24",
+      "change": "1"
+    },
+    {
+      "Response_measure": "IndoorOver5",
+      "Country": "United Kingdom",
+      "date_end": "NA",
+      "date_start": "2020-09-14",
+      "change": "3"
+    },
+    {
+      "Response_measure": "IndoorOver50",
+      "Country": "United Kingdom",
+      "date_end": "2020-09-13",
+      "date_start": "2020-07-04",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MasksMandatoryClosedSpaces",
+      "Country": "United Kingdom",
+      "date_end": "NA",
+      "date_start": "2020-07-27",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MasksVoluntaryClosedSpaces",
+      "Country": "United Kingdom",
+      "date_end": "2020-07-26",
+      "date_start": "2020-06-09",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MassGatherAll",
+      "Country": "United Kingdom",
+      "date_end": "NA",
+      "date_start": "2020-03-24",
+      "change": "1"
+    },
+    {
+      "Response_measure": "NonEssentialShops",
+      "Country": "United Kingdom",
+      "date_end": "2020-05-09",
+      "date_start": "2020-03-23",
+      "change": "1"
+    },
+    {
+      "Response_measure": "NonEssentialShopsPartial",
+      "Country": "United Kingdom",
+      "date_end": "2020-06-12",
+      "date_start": "2020-05-10",
+      "change": "1"
+    },
+    {
+      "Response_measure": "OutdoorOver5",
+      "Country": "United Kingdom",
+      "date_end": "2020-05-27",
+      "date_start": "2020-03-24",
+      "change": "1"
+    },
+    {
+      "Response_measure": "OutdoorOver5",
+      "Country": "United Kingdom",
+      "date_end": "NA",
+      "date_start": "2020-09-14",
+      "change": "3"
+    },
+    {
+      "Response_measure": "OutdoorOver50",
+      "Country": "United Kingdom",
+      "date_end": "2020-09-13",
+      "date_start": "2020-05-28",
+      "change": "1"
+    },
+    {
+      "Response_measure": "PlaceOfWorship",
+      "Country": "United Kingdom",
+      "date_end": "2020-05-18",
+      "date_start": "2020-03-24",
+      "change": "1"
+    },
+    {
+      "Response_measure": "RestaurantsCafes",
+      "Country": "United Kingdom",
+      "date_end": "2020-07-02",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "RestaurantsCafesPartial",
+      "Country": "United Kingdom",
+      "date_end": "NA",
+      "date_start": "2020-09-24",
+      "change": "1"
+    },
+    {
+      "Response_measure": "SocialCircle",
+      "Country": "United Kingdom",
+      "date_end": "NA",
+      "date_start": "2020-09-09",
+      "change": "1"
+    },
+    {
+      "Response_measure": "StayHomeGen",
+      "Country": "United Kingdom",
+      "date_end": "2020-03-23",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "StayHomeOrder",
+      "Country": "United Kingdom",
+      "date_end": "2020-05-09",
+      "date_start": "2020-03-24",
+      "change": "1"
+    },
+    {
+      "Response_measure": "StayHomeOrderPartial",
+      "Country": "United Kingdom",
+      "date_end": "2020-07-04",
+      "date_start": "2020-05-10",
+      "change": "1"
+    },
+    {
+      "Response_measure": "StayHomeRiskG",
+      "Country": "United Kingdom",
+      "date_end": "2020-07-05",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "StayHomeRiskGPartial",
+      "Country": "United Kingdom",
+      "date_end": "2020-08-01",
+      "date_start": "2020-07-06",
+      "change": "1"
+    },
+    {
+      "Response_measure": "Teleworking",
+      "Country": "United Kingdom",
+      "date_end": "2020-05-09",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "TeleworkingPartial",
+      "Country": "United Kingdom",
+      "date_end": "NA",
+      "date_start": "2020-05-10",
+      "change": "1"
+    }
+  ],
+  "Austria": [
+    {
+      "Response_measure": "AdaptationOfWorkplace",
+      "Country": "Austria",
+      "date_end": "NA",
+      "date_start": "2020-03-10",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosDaycare",
+      "Country": "Austria",
+      "date_end": "2020-05-04",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosHigh",
+      "Country": "Austria",
+      "date_end": "2020-09-30",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosPrim",
+      "Country": "Austria",
+      "date_end": "2020-05-18",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosPubAny",
+      "Country": "Austria",
+      "date_end": "2020-04-13",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosPubAnyPartial",
+      "Country": "Austria",
+      "date_end": "NA",
+      "date_start": "2020-04-14",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosSec",
+      "Country": "Austria",
+      "date_end": "2020-05-03",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosSecPartial",
+      "Country": "Austria",
+      "date_end": "2020-06-03",
+      "date_start": "2020-05-04",
+      "change": "1"
+    },
+    {
+      "Response_measure": "EntertainmentVenues",
+      "Country": "Austria",
+      "date_end": "2020-04-30",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "EntertainmentVenuesPartial",
+      "Country": "Austria",
+      "date_end": "2020-05-29",
+      "date_start": "2020-05-01",
+      "change": "1"
+    },
+    {
+      "Response_measure": "GymsSportsCentres",
+      "Country": "Austria",
+      "date_end": "2020-04-30",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "GymsSportsCentresPartial",
+      "Country": "Austria",
+      "date_end": "2020-05-29",
+      "date_start": "2020-05-01",
+      "change": "1"
+    },
+    {
+      "Response_measure": "HotelsOtherAccommodation",
+      "Country": "Austria",
+      "date_end": "2020-05-29",
+      "date_start": "2020-03-31",
+      "change": "1"
+    },
+    {
+      "Response_measure": "IndoorOver100",
+      "Country": "Austria",
+      "date_end": "2020-03-15",
+      "date_start": "2020-03-10",
+      "change": "1"
+    },
+    {
+      "Response_measure": "IndoorOver100",
+      "Country": "Austria",
+      "date_end": "2020-07-01",
+      "date_start": "2020-05-01",
+      "change": "3"
+    },
+    {
+      "Response_measure": "IndoorOver1000",
+      "Country": "Austria",
+      "date_end": "2020-07-31",
+      "date_start": "2020-07-02",
+      "change": "1"
+    },
+    {
+      "Response_measure": "IndoorOver1000",
+      "Country": "Austria",
+      "date_end": "NA",
+      "date_start": "2020-09-21",
+      "change": "3"
+    },
+    {
+      "Response_measure": "IndoorOver5",
+      "Country": "Austria",
+      "date_end": "2020-04-30",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MasksMandatoryAllSpaces",
+      "Country": "Austria",
+      "date_end": "NA",
+      "date_start": "2020-09-14",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MasksMandatoryClosedSpaces",
+      "Country": "Austria",
+      "date_end": "2020-06-14",
+      "date_start": "2020-04-06",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MasksMandatoryClosedSpacesPartial",
+      "Country": "Austria",
+      "date_end": "2020-09-13",
+      "date_start": "2020-06-15",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MasksVoluntaryClosedSpacesPartial",
+      "Country": "Austria",
+      "date_end": "2020-04-05",
+      "date_start": "2020-03-31",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MassGatherAll",
+      "Country": "Austria",
+      "date_end": "2020-07-31",
+      "date_start": "2020-03-10",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MassGatherAll",
+      "Country": "Austria",
+      "date_end": "NA",
+      "date_start": "2020-09-21",
+      "change": "3"
+    },
+    {
+      "Response_measure": "NonEssentialShops",
+      "Country": "Austria",
+      "date_end": "2020-04-13",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "NonEssentialShopsPartial",
+      "Country": "Austria",
+      "date_end": "2020-05-01",
+      "date_start": "2020-04-14",
+      "change": "1"
+    },
+    {
+      "Response_measure": "OutdoorOver1000",
+      "Country": "Austria",
+      "date_end": "2020-07-31",
+      "date_start": "2020-07-02",
+      "change": "1"
+    },
+    {
+      "Response_measure": "OutdoorOver1000",
+      "Country": "Austria",
+      "date_end": "NA",
+      "date_start": "2020-09-21",
+      "change": "3"
+    },
+    {
+      "Response_measure": "OutdoorOver5",
+      "Country": "Austria",
+      "date_end": "2020-04-30",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "OutdoorOver50",
+      "Country": "Austria",
+      "date_end": "2020-05-29",
+      "date_start": "2020-05-01",
+      "change": "1"
+    },
+    {
+      "Response_measure": "OutdoorOver500",
+      "Country": "Austria",
+      "date_end": "2020-03-15",
+      "date_start": "2020-03-10",
+      "change": "1"
+    },
+    {
+      "Response_measure": "OutdoorOver500",
+      "Country": "Austria",
+      "date_end": "2020-07-01",
+      "date_start": "2020-05-30",
+      "change": "3"
+    },
+    {
+      "Response_measure": "PlaceOfWorship",
+      "Country": "Austria",
+      "date_end": "2020-05-14",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "PlaceOfWorshipPartial",
+      "Country": "Austria",
+      "date_end": "NA",
+      "date_start": "2020-05-15",
+      "change": "1"
+    },
+    {
+      "Response_measure": "RestaurantsCafes",
+      "Country": "Austria",
+      "date_end": "2020-05-15",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "StayHomeGen",
+      "Country": "Austria",
+      "date_end": "2020-03-15",
+      "date_start": "2020-03-10",
+      "change": "1"
+    },
+    {
+      "Response_measure": "StayHomeOrder",
+      "Country": "Austria",
+      "date_end": "2020-04-30",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "Teleworking",
+      "Country": "Austria",
+      "date_end": "NA",
+      "date_start": "2020-03-10",
+      "change": "1"
+    }
+  ],
+  "Greece": [
+    {
+      "Response_measure": "ClosDaycare",
+      "Country": "Greece",
+      "date_end": "2020-06-01",
+      "date_start": "2020-03-11",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosHigh",
+      "Country": "Greece",
+      "date_end": "2020-05-24",
+      "date_start": "2020-03-11",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosHighPartial",
+      "Country": "Greece",
+      "date_end": "NA",
+      "date_start": "2020-05-25",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosPrim",
+      "Country": "Greece",
+      "date_end": "2020-06-01",
+      "date_start": "2020-03-11",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosPubAny",
+      "Country": "Greece",
+      "date_end": "2020-05-03",
+      "date_start": "2020-03-14",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosPubAnyPartial",
+      "Country": "Greece",
+      "date_end": "NA",
+      "date_start": "2020-05-04",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosSec",
+      "Country": "Greece",
+      "date_end": "2020-05-10",
+      "date_start": "2020-03-11",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosSecPartial",
+      "Country": "Greece",
+      "date_end": "2020-05-18",
+      "date_start": "2020-05-11",
+      "change": "1"
+    },
+    {
+      "Response_measure": "EntertainmentVenues",
+      "Country": "Greece",
+      "date_end": "2020-05-17",
+      "date_start": "2020-03-14",
+      "change": "1"
+    },
+    {
+      "Response_measure": "EntertainmentVenuesPartial",
+      "Country": "Greece",
+      "date_end": "2020-06-15",
+      "date_start": "2020-05-18",
+      "change": "1"
+    },
+    {
+      "Response_measure": "EntertainmentVenuesPartial",
+      "Country": "Greece",
+      "date_end": "NA",
+      "date_start": "2020-07-13",
+      "change": "3"
+    },
+    {
+      "Response_measure": "GymsSportsCentres",
+      "Country": "Greece",
+      "date_end": "2020-06-05",
+      "date_start": "2020-03-14",
+      "change": "1"
+    },
+    {
+      "Response_measure": "GymsSportsCentresPartial",
+      "Country": "Greece",
+      "date_end": "2020-06-15",
+      "date_start": "2020-06-06",
+      "change": "1"
+    },
+    {
+      "Response_measure": "HotelsOtherAccommodation",
+      "Country": "Greece",
+      "date_end": "2020-05-24",
+      "date_start": "2020-03-15",
+      "change": "1"
+    },
+    {
+      "Response_measure": "HotelsOtherAccommodationPartial",
+      "Country": "Greece",
+      "date_end": "2020-07-01",
+      "date_start": "2020-05-25",
+      "change": "1"
+    },
+    {
+      "Response_measure": "IndoorOver100",
+      "Country": "Greece",
+      "date_end": "NA",
+      "date_start": "2020-08-09",
+      "change": "1"
+    },
+    {
+      "Response_measure": "IndoorOver5",
+      "Country": "Greece",
+      "date_end": "2020-05-03",
+      "date_start": "2020-03-19",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MasksMandatoryClosedSpaces",
+      "Country": "Greece",
+      "date_end": "NA",
+      "date_start": "2020-04-28",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MasksVoluntaryClosedSpaces",
+      "Country": "Greece",
+      "date_end": "2020-08-07",
+      "date_start": "2020-04-28",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MassGatherAll",
+      "Country": "Greece",
+      "date_end": "2020-05-03",
+      "date_start": "2020-03-19",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MassGatherAll",
+      "Country": "Greece",
+      "date_end": "NA",
+      "date_start": "2020-08-09",
+      "change": "3"
+    },
+    {
+      "Response_measure": "NonEssentialShops",
+      "Country": "Greece",
+      "date_end": "2020-05-03",
+      "date_start": "2020-03-14",
+      "change": "1"
+    },
+    {
+      "Response_measure": "NonEssentialShopsPartial",
+      "Country": "Greece",
+      "date_end": "2020-06-01",
+      "date_start": "2020-05-04",
+      "change": "1"
+    },
+    {
+      "Response_measure": "OutdoorOver100",
+      "Country": "Greece",
+      "date_end": "NA",
+      "date_start": "2020-08-09",
+      "change": "1"
+    },
+    {
+      "Response_measure": "OutdoorOver5",
+      "Country": "Greece",
+      "date_end": "2020-05-03",
+      "date_start": "2020-03-19",
+      "change": "1"
+    },
+    {
+      "Response_measure": "PlaceOfWorship",
+      "Country": "Greece",
+      "date_end": "2020-05-16",
+      "date_start": "2020-03-14",
+      "change": "1"
+    },
+    {
+      "Response_measure": "PlaceOfWorshipPartial",
+      "Country": "Greece",
+      "date_end": "2020-06-05",
+      "date_start": "2020-05-17",
+      "change": "1"
+    },
+    {
+      "Response_measure": "RestaurantsCafes",
+      "Country": "Greece",
+      "date_end": "2020-05-31",
+      "date_start": "2020-03-14",
+      "change": "1"
+    },
+    {
+      "Response_measure": "RestaurantsCafesPartial",
+      "Country": "Greece",
+      "date_end": "NA",
+      "date_start": "2020-06-01",
+      "change": "1"
+    },
+    {
+      "Response_measure": "StayHomeGen",
+      "Country": "Greece",
+      "date_end": "2020-03-22",
+      "date_start": "2020-02-27",
+      "change": "1"
+    },
+    {
+      "Response_measure": "StayHomeOrder",
+      "Country": "Greece",
+      "date_end": "2020-05-04",
+      "date_start": "2020-03-23",
+      "change": "1"
+    },
+    {
+      "Response_measure": "StayHomeRiskG",
+      "Country": "Greece",
+      "date_end": "NA",
+      "date_start": "2020-03-11",
+      "change": "1"
+    },
+    {
+      "Response_measure": "Teleworking",
+      "Country": "Greece",
+      "date_end": "NA",
+      "date_start": "2020-03-19",
+      "change": "1"
+    }
+  ],
+  "Hungary": [
+    {
+      "Response_measure": "ClosDaycare",
+      "Country": "Hungary",
+      "date_end": "2020-06-02",
+      "date_start": "2020-03-25",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosHigh",
+      "Country": "Hungary",
+      "date_end": "2020-05-18",
+      "date_start": "2020-03-25",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosPrim",
+      "Country": "Hungary",
+      "date_end": "2020-06-01",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosPrimPartial",
+      "Country": "Hungary",
+      "date_end": "2020-06-26",
+      "date_start": "2020-06-02",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosPubAny",
+      "Country": "Hungary",
+      "date_end": "2020-05-18",
+      "date_start": "2020-03-13",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosPubAny",
+      "Country": "Hungary",
+      "date_end": "NA",
+      "date_start": "2020-09-21",
+      "change": "3"
+    },
+    {
+      "Response_measure": "ClosSec",
+      "Country": "Hungary",
+      "date_end": "2020-06-01",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosSecPartial",
+      "Country": "Hungary",
+      "date_end": "2020-06-26",
+      "date_start": "2020-06-02",
+      "change": "1"
+    },
+    {
+      "Response_measure": "EntertainmentVenues",
+      "Country": "Hungary",
+      "date_end": "2020-05-18",
+      "date_start": "2020-03-13",
+      "change": "1"
+    },
+    {
+      "Response_measure": "EntertainmentVenues",
+      "Country": "Hungary",
+      "date_end": "NA",
+      "date_start": "2020-09-21",
+      "change": "3"
+    },
+    {
+      "Response_measure": "IndoorOver100",
+      "Country": "Hungary",
+      "date_end": "2020-03-15",
+      "date_start": "2020-03-11",
+      "change": "1"
+    },
+    {
+      "Response_measure": "IndoorOver5",
+      "Country": "Hungary",
+      "date_end": "2020-06-11",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MasksMandatoryClosedSpaces",
+      "Country": "Hungary",
+      "date_end": "NA",
+      "date_start": "2020-05-04",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MassGatherAll",
+      "Country": "Hungary",
+      "date_end": "2020-06-11",
+      "date_start": "2020-03-11",
+      "change": "1"
+    },
+    {
+      "Response_measure": "NonEssentialShops",
+      "Country": "Hungary",
+      "date_end": "2020-05-18",
+      "date_start": "2020-03-28",
+      "change": "1"
+    },
+    {
+      "Response_measure": "OutdoorOver5",
+      "Country": "Hungary",
+      "date_end": "2020-06-11",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "RestaurantsCafes",
+      "Country": "Hungary",
+      "date_end": "2020-05-18",
+      "date_start": "2020-03-28",
+      "change": "1"
+    },
+    {
+      "Response_measure": "StayHomeGen",
+      "Country": "Hungary",
+      "date_end": "2020-03-26",
+      "date_start": "2020-03-21",
+      "change": "1"
+    },
+    {
+      "Response_measure": "StayHomeOrder",
+      "Country": "Hungary",
+      "date_end": "2020-05-18",
+      "date_start": "2020-03-27",
+      "change": "1"
+    }
+  ],
+  "Cyprus": [
+    {
+      "Response_measure": "ClosDaycare",
+      "Country": "Cyprus",
+      "date_end": "2020-06-09",
+      "date_start": "2020-03-10",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosHigh",
+      "Country": "Cyprus",
+      "date_end": "2020-05-11",
+      "date_start": "2020-03-10",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosPrim",
+      "Country": "Cyprus",
+      "date_end": "2020-05-21",
+      "date_start": "2020-03-10",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosPubAny",
+      "Country": "Cyprus",
+      "date_end": "2020-05-03",
+      "date_start": "2020-03-13",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosPubAnyPartial",
+      "Country": "Cyprus",
+      "date_end": "2020-06-29",
+      "date_start": "2020-05-04",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosSec",
+      "Country": "Cyprus",
+      "date_end": "2020-05-10",
+      "date_start": "2020-03-10",
+      "change": "1"
+    },
+    {
+      "Response_measure": "ClosSecPartial",
+      "Country": "Cyprus",
+      "date_end": "2020-05-21",
+      "date_start": "2020-05-11",
+      "change": "1"
+    },
+    {
+      "Response_measure": "EntertainmentVenues",
+      "Country": "Cyprus",
+      "date_end": "2020-05-20",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "EntertainmentVenuesPartial",
+      "Country": "Cyprus",
+      "date_end": "2020-06-29",
+      "date_start": "2020-05-21",
+      "change": "1"
+    },
+    {
+      "Response_measure": "GymsSportsCentres",
+      "Country": "Cyprus",
+      "date_end": "2020-05-03",
+      "date_start": "2020-03-13",
+      "change": "1"
+    },
+    {
+      "Response_measure": "GymsSportsCentresPartial",
+      "Country": "Cyprus",
+      "date_end": "2020-06-13",
+      "date_start": "2020-05-04",
+      "change": "1"
+    },
+    {
+      "Response_measure": "HotelsOtherAccommodation",
+      "Country": "Cyprus",
+      "date_end": "2020-05-03",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "HotelsOtherAccommodationPartial",
+      "Country": "Cyprus",
+      "date_end": "2020-06-09",
+      "date_start": "2020-05-04",
+      "change": "1"
+    },
+    {
+      "Response_measure": "IndoorOver100",
+      "Country": "Cyprus",
+      "date_end": "NA",
+      "date_start": "2020-07-12",
+      "change": "1"
+    },
+    {
+      "Response_measure": "IndoorOver50",
+      "Country": "Cyprus",
+      "date_end": "2020-07-11",
+      "date_start": "2020-03-10",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MasksMandatoryClosedSpaces",
+      "Country": "Cyprus",
+      "date_end": "NA",
+      "date_start": "2020-05-04",
+      "change": "1"
+    },
+    {
+      "Response_measure": "MassGatherAll",
+      "Country": "Cyprus",
+      "date_end": "NA",
+      "date_start": "2020-03-10",
+      "change": "1"
+    },
+    {
+      "Response_measure": "NonEssentialShops",
+      "Country": "Cyprus",
+      "date_end": "2020-05-03",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "NonEssentialShopsPartial",
+      "Country": "Cyprus",
+      "date_end": "2020-06-09",
+      "date_start": "2020-05-04",
+      "change": "1"
+    },
+    {
+      "Response_measure": "OutdoorOver100",
+      "Country": "Cyprus",
+      "date_end": "NA",
+      "date_start": "2020-07-12",
+      "change": "1"
+    },
+    {
+      "Response_measure": "OutdoorOver5",
+      "Country": "Cyprus",
+      "date_end": "2020-06-24",
+      "date_start": "2020-03-10",
+      "change": "1"
+    },
+    {
+      "Response_measure": "OutdoorOver50",
+      "Country": "Cyprus",
+      "date_end": "2020-07-11",
+      "date_start": "2020-06-25",
+      "change": "1"
+    },
+    {
+      "Response_measure": "PlaceOfWorship",
+      "Country": "Cyprus",
+      "date_end": "2020-05-03",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "PlaceOfWorshipPartial",
+      "Country": "Cyprus",
+      "date_end": "2020-06-01",
+      "date_start": "2020-05-04",
+      "change": "1"
+    },
+    {
+      "Response_measure": "RestaurantsCafes",
+      "Country": "Cyprus",
+      "date_end": "2020-05-20",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "RestaurantsCafesPartial",
+      "Country": "Cyprus",
+      "date_end": "2020-06-09",
+      "date_start": "2020-05-21",
+      "change": "1"
+    },
+    {
+      "Response_measure": "StayHomeOrder",
+      "Country": "Cyprus",
+      "date_end": "2020-05-03",
+      "date_start": "2020-03-24",
+      "change": "1"
+    },
+    {
+      "Response_measure": "StayHomeOrderPartial",
+      "Country": "Cyprus",
+      "date_end": "2020-05-21",
+      "date_start": "2020-05-04",
+      "change": "1"
+    },
+    {
+      "Response_measure": "WorkplaceClosures",
+      "Country": "Cyprus",
+      "date_end": "2020-04-14",
+      "date_start": "2020-03-16",
+      "change": "1"
+    },
+    {
+      "Response_measure": "WorkplaceClosuresPartial",
+      "Country": "Cyprus",
+      "date_end": "2020-06-29",
+      "date_start": "2020-04-15",
+      "change": "1"
+    }
+  ]
+}
