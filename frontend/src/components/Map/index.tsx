@@ -12,10 +12,6 @@ const position: LatLngTuple = [54.83312727008725, 39.43954467773438];
 
 const StyledMap = styled(LMap)`
   flex: 1;
-
-  .leaflet-pane {
-    z-index: initial;
-  }
 `;
 
 interface Props {
@@ -76,7 +72,23 @@ export const Map: React.FC<Props> = (props) => {
         data={store.geoJson}
         style={styleFeature}
         onEachFeature={(feature, layer) => {
-          layer.on({ click: handleClick });
+          const country = feature?.properties.NAME;
+          const value = store.resultForSelectedDate[country].count;
+
+          layer.on({
+            click: handleClick,
+            mouseover: (e) => {
+              layer
+                .bindTooltip(
+                  `<b>${country}: ${Math.round(
+                    value || 99999
+                  )} </b><br/> 14-day cumulative number of <br/>COVID-19 cases per 100 000`
+                )
+                .openTooltip();
+              console.log("e", feature.properties);
+            },
+            mouseout: (e) => {},
+          });
         }}
       />
     </StyledMap>
