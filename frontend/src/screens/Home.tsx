@@ -1,10 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 import { observer } from "mobx-react";
 import styled from "styled-components";
 
 import { Map } from "../components/Map";
 import "leaflet/dist/leaflet.css";
-import { DataStore } from "../store/Data";
+import { store } from "../store/Data";
 import { Details } from "../components/Details";
 
 const Container = styled.div`
@@ -32,12 +32,13 @@ const Tile = styled.div<TileProps>`
 `;
 
 export const Home: React.FC = observer(() => {
-  const [store, setStore] = useState(new DataStore());
-
   return (
     <Container>
       <Tile area="1 / 1 / 8 / 7">
-        <Map onSelect={(country: string) => store.selectCountry(country)} />
+        <Map
+          store={store}
+          onSelect={(country: string) => store.selectCountry(country)}
+        />
       </Tile>
       <Tile area="1 / 7 / 8 / -1">
         <Details store={store} />
