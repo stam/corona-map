@@ -1,7 +1,7 @@
 {
   "name": "corona-measures",
   "version": "0.1.0",
-  "homepage": "https://jasper.wtf/corona-measures/",
+  "homepage": "https://jasper.wtf/corona-map/",
   "private": true,
   "dependencies": {
     "axios": "^0.19.2",

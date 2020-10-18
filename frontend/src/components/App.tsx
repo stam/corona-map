@@ -6,7 +6,7 @@ import { Home } from "../screens/Home";
 
 export const App: React.FC = observer(() => {
   return (
-    <Router>
+    <Router basename="/corona-map">
       <Switch>
         <Route path="/" exact>
           <Home />
