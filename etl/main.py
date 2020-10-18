@@ -6,7 +6,7 @@ import xlrd
 # result_countries = ['Albania', 'Andorra', 'Armenia', 'Austria', 'Azerbaijan', 'Belarus', 'Belgium', 'Bosnia and Herzegovina', 'Bulgaria', 'Croatia', 'Cyprus', 'Czechia', 'Denmark', 'Estonia', 'Faroe Islands', 'Finland', 'France', 'Georgia', 'Germany', 'Gibraltar', 'Greece', 'Guernsey', 'Holy See', 'Hungary', 'Iceland', 'Ireland', 'Isle of Man', 'Italy', 'Jersey', 'Kosovo', 'Latvia', 'Liechtenstein', 'Lithuania', 'Luxembourg', 'Malta', 'Moldova', 'Monaco', 'Montenegro', 'Netherlands', 'North Macedonia', 'Norway', 'Poland', 'Portugal', 'Romania', 'Russia', 'San Marino', 'Serbia', 'Slovakia', 'Slovenia', 'Spain', 'Sweden', 'Switzerland', 'Ukraine', 'United Kingdom']
 measure_countries = []
 
-def convert_measures_to_json(file_path='data_response_graphs_0.csv', output_file_path='measures.json'):
+def convert_measures_to_json(file_path='data_response_graphs_0.csv', output_file_path='../frontend/src/store/measures.json'):
   output = {}
   measures = None
   with open(file_path, 'r') as file:
@@ -30,7 +30,7 @@ def convert_measures_to_json(file_path='data_response_graphs_0.csv', output_file
   return output
 
 
-def parse_corona_results(file_path='COVID-19-geographic-disbtribution-worldwide-2020-10-13.xlsx', output_file_path='distribution.json', country_whitelist=None):
+def parse_corona_results(file_path='COVID-19-geographic-disbtribution-worldwide-2020-10-13.xlsx', output_file_path='../frontend/src/store/distribution.json', country_whitelist=None):
   output = {}
   data = None
 
