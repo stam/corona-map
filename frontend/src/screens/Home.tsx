@@ -31,6 +31,8 @@ const Tile = styled.div<TileProps>`
   grid-area: ${(props) => props.area};
   z-index: 1;
   padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
 `;
 
 const Background = styled.div`

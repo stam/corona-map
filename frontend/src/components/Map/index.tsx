@@ -85,9 +85,9 @@ export const Map: React.FC<Props> = observer((props) => {
             mouseover: (e) => {
               layer
                 .bindTooltip(
-                  `<b>${country}: ${Math.round(
-                    store.resultForSelectedDate[country].count || 99999
-                  )} </b><br/> 14-day cumulative number of <br/>COVID-19 cases per 100 000`
+                  `<b>${country}: ${
+                    store.resultForSelectedDate[country].count || "???"
+                  } </b><br/> 14-day cumulative number of <br/>COVID-19 cases per 100 000`
                 )
                 .openTooltip();
             },

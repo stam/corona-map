@@ -11,6 +11,19 @@ const StyledTable = styled.table`
   }
 `;
 
+const Container = styled.div`
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+`;
+
+const BottomText = styled.div`
+  margin-top: auto;
+  font-size: 0.8rem;
+  color: rgba(0, 0, 0, 0.5);
+  padding-bottom: 1rem;
+`;
+
 interface DetailsProps {
   store: DataStore;
 }
@@ -29,11 +42,11 @@ export const Details: React.FC<DetailsProps> = observer((props) => {
     b: result?.population?.toLocaleString(),
   });
   return (
-    <div>
+    <Container>
       <h2>{store.selectedCountry}</h2>
       {store.error && <p>{store.error}</p>}
       {result && (
-        <div>
+        <>
           <StyledTable>
             <tbody>
               <tr>
@@ -50,8 +63,17 @@ export const Details: React.FC<DetailsProps> = observer((props) => {
               </tr>
             </tbody>
           </StyledTable>
-        </div>
+        </>
       )}
-    </div>
+      <BottomText>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.ecdc.europa.eu/en/publications-data/download-todays-data-geographic-distribution-covid-19-cases-worldwide"
+        >
+          https://www.ecdc.europa.eu/en/publications-data/download-todays-data-geographic-distribution-covid-19-cases-worldwide
+        </a>
+      </BottomText>
+    </Container>
   );
 });
