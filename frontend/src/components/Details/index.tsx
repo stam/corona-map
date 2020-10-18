@@ -1,11 +1,13 @@
 import React from "react";
 import { observer } from "mobx-react";
+import styled from "styled-components";
+import { sortBy } from "lodash";
 
 import { DataStore } from "../../store/Data";
-import styled from "styled-components";
+import { translateMeasure } from "./util";
 
 const StyledTable = styled.table`
-  td:first-of-type {
+  table:first-of-type td:first-of-type {
     width: 3rem;
     text-align: right;
   }
@@ -41,7 +43,7 @@ export const Details: React.FC<DetailsProps> = observer((props) => {
       <h2>{store.selectedCountry}</h2>
       {store.error && <p>{store.error}</p>}
       {result && (
-        <>
+        <div>
           <StyledTable>
             <tbody>
               <tr>
@@ -58,7 +60,25 @@ export const Details: React.FC<DetailsProps> = observer((props) => {
               </tr>
             </tbody>
           </StyledTable>
-        </>
+          <StyledTable>
+            <thead>
+              <tr>
+                <td>measure</td>
+                <td>from</td>
+                <td>until</td>
+              </tr>
+            </thead>
+            <tbody>
+              {sortBy(result.measures, "date_start").map((measure) => (
+                <tr key={measure.Response_measure}>
+                  <td>{translateMeasure(measure.Response_measure)}</td>
+                  <td>{measure.date_start}</td>
+                  <td>{measure.date_end}</td>
+                </tr>
+              ))}
+            </tbody>
+          </StyledTable>
+        </div>
       )}
       <BottomText>
         <a
@@ -67,6 +87,13 @@ export const Details: React.FC<DetailsProps> = observer((props) => {
           href="https://www.ecdc.europa.eu/en/publications-data/download-todays-data-geographic-distribution-covid-19-cases-worldwide"
         >
           https://www.ecdc.europa.eu/en/publications-data/download-todays-data-geographic-distribution-covid-19-cases-worldwide
+        </a>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.ecdc.europa.eu/en/publications-data/download-data-response-measures-covid-19"
+        >
+          https://www.ecdc.europa.eu/en/publications-data/download-data-response-measures-covid-19
         </a>
       </BottomText>
     </Container>

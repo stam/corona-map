@@ -41,6 +41,7 @@ const Tile = styled.div<TileProps>`
   padding: 0 1rem;
   display: flex;
   flex-direction: column;
+  overflow-y: scroll;
 `;
 
 const Background = styled.div`
