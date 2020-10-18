@@ -29,6 +29,26 @@ def convert_measures_to_json(file_path='data_response_graphs_0.csv', output_file
   # measure_countries = list(output.keys())
   return output
 
+def parse_datum(datum):
+  output = datum
+
+  if 'year' not in datum:
+    print(datum)
+
+  year = int(datum['year'])
+  month = int(datum['month'])
+  day = int(datum['day'])
+
+  date = f'{year}-{month}-{day}'
+  del output['year']
+  del output['month']
+  del output['day']
+  output['date'] = date
+
+  output['cum_14day_100k'] = datum['Cumulative_number_for_14_days_of_COVID-19_cases_per_100000']
+  del output['Cumulative_number_for_14_days_of_COVID-19_cases_per_100000']
+
+  return output
 
 def parse_corona_results(file_path='COVID-19-geographic-disbtribution-worldwide-2020-10-13.xlsx', output_file_path='../frontend/src/store/distribution.json', country_whitelist=None):
   output = {}
@@ -50,7 +70,9 @@ def parse_corona_results(file_path='COVID-19-geographic-disbtribution-worldwide-
       if country not in output:
         output[country] = []
 
-      output[country].append(datum)
+      d = parse_datum(datum)
+
+      output[country].append(d)
 
   with open(output_file_path, 'w') as output_file:
     json.dump(output, output_file)
@@ -74,5 +96,5 @@ def list_diff(list_a, list_b):
 if __name__ == '__main__':
   measures = convert_measures_to_json()
   countries_with_measures = list(measures.keys())
-  result_countries = parse_corona_results(country_whitelist=countries_with_measures)
+  results = parse_corona_results(country_whitelist=countries_with_measures)
   # list_diff(countries_with_measures, result_countries)

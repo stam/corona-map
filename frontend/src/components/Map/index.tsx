@@ -11,9 +11,15 @@ const StyledMap = styled(LMap)`
   flex: 1;
 `;
 
-export const Map: React.FC = () => {
+interface MapProps {
+  onSelect: (country: string) => void;
+}
+
+export const Map: React.FC<MapProps> = (props) => {
+  const { onSelect } = props;
   const handleClick: LeafletMouseEventHandlerFn = (event) => {
-    console.log(event.target.feature);
+    onSelect(event.target.feature.properties.NAME);
+    // console.log(event.target.feature);
   };
   return (
     <StyledMap center={position} zoom={4}>

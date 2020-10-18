@@ -4,6 +4,8 @@ import styled from "styled-components";
 
 import { Map } from "../components/Map";
 import "leaflet/dist/leaflet.css";
+import { DataStore } from "../store/Data";
+import { Details } from "../components/Details";
 
 const Container = styled.div`
   height: 100vh;
@@ -31,12 +33,15 @@ const Tile = styled.div<TileProps>`
 
 export const Home: React.FC = observer(() => {
   const [store, setStore] = useState(new DataStore());
+
   return (
     <Container>
       <Tile area="1 / 1 / 8 / 7">
-        <Map />
+        <Map onSelect={(country: string) => store.selectCountry(country)} />
       </Tile>
-      <Tile area="1 / 7 / 8 / -1">details</Tile>
+      <Tile area="1 / 7 / 8 / -1">
+        <Details store={store} />
+      </Tile>
       <Tile area="8 / 1 / -1 / -1">timeline</Tile>
     </Container>
   );
