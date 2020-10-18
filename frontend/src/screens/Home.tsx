@@ -14,9 +14,17 @@ const Container = styled.div`
   display: grid;
   background: #f9f9f9;
   padding: 1rem;
-  grid-template-columns: repeat(8, 1fr);
-  grid-template-rows: repeat(8, 1fr);
+  grid-template-columns: 1fr 37%;
+  grid-template-areas: "_ details";
   grid-gap: 1rem;
+
+  @media (max-width: 800px) {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 60%;
+    grid-template-areas: "_" "details";
+
+    max-width: 800px;
+  }
 `;
 
 interface TileProps {
@@ -58,7 +66,7 @@ export const Home: React.FC = observer(() => {
           onSelect={(country: string) => store.selectCountry(country)}
         />
       </Background>
-      <Tile area="1 / 6 / -1 / -1">
+      <Tile area="details">
         <Timeline />
         <Details store={store} />
       </Tile>

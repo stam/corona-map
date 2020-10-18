@@ -9,7 +9,13 @@ import styled from "styled-components";
 import { DataStore } from "../../store/Data";
 import { observer } from "mobx-react";
 
-const position: LatLngTuple = [54.83312727008725, 39.43954467773438];
+let position: LatLngTuple = [54.83312727008725, 39.43954467773438];
+let zoom = 4;
+
+if (window.innerWidth < 800) {
+  position = [35.20607492223198, 11.62731170654297];
+  zoom = 4;
+}
 
 const StyledMap = styled(LMap)`
   flex: 1;
@@ -60,7 +66,7 @@ export const Map: React.FC<Props> = observer((props) => {
   return (
     <StyledMap
       center={position}
-      zoom={4}
+      zoom={zoom}
       // onViewportChanged={(a: any) => {
       //   console.log("viewPortChanged", a);
       // }}
