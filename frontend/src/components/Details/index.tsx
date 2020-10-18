@@ -36,11 +36,6 @@ export const Details: React.FC<DetailsProps> = observer((props) => {
     result = store.resultForSelectedDate[store.selectedCountry];
   }
 
-  // const resultForCountry = store.resultForSelectedDate[store.selectedCountry];
-  console.log({
-    a: result?.population,
-    b: result?.population?.toLocaleString(),
-  });
   return (
     <Container>
       <h2>{store.selectedCountry}</h2>

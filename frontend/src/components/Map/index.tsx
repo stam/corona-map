@@ -57,10 +57,6 @@ export const Map: React.FC<Props> = observer((props) => {
     };
   }, [store.resultForSelectedDate]);
 
-  useMemo(() => {
-    console.log("map store", store.date);
-  }, [store.date]);
-
   return (
     <StyledMap
       center={position}
