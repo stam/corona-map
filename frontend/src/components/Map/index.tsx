@@ -8,13 +8,17 @@ import {
 import styled from "styled-components";
 import { DataStore } from "../../store/Data";
 
-const position: LatLngTuple = [51.925885006913674, 13.146858215332033];
+const position: LatLngTuple = [54.83312727008725, 39.43954467773438];
 
 const StyledMap = styled(LMap)`
   flex: 1;
+
+  .leaflet-pane {
+    z-index: initial;
+  }
 `;
 
-interface MapProps {
+interface Props {
   onSelect: (country: string) => void;
   store: DataStore;
 }
@@ -35,11 +39,10 @@ const findColorForValue = (value: number) => {
   return legendItem ? legendItem[1] : "hotpink";
 };
 
-export const Map: React.FC<MapProps> = (props) => {
+export const Map: React.FC<Props> = (props) => {
   const { store, onSelect } = props;
   const handleClick: LeafletMouseEventHandlerFn = (event) => {
     onSelect(event.target.feature.properties.NAME);
-    console.log(event.target.feature);
   };
 
   const styleFeature: StyleFunction<any> = useMemo(() => {
@@ -58,7 +61,13 @@ export const Map: React.FC<MapProps> = (props) => {
   }, [store.resultForSelectedDate]);
 
   return (
-    <StyledMap center={position} zoom={4}>
+    <StyledMap
+      center={position}
+      zoom={4}
+      // onViewportChanged={(a: any) => {
+      //   console.log("viewPortChanged", a);
+      // }}
+    >
       <TileLayer
         url="https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png"
         attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
