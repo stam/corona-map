@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/corona-measures/static/css/main.85b28ecb.chunk.css",
-    "main.js": "/corona-measures/static/js/main.38f6084c.chunk.js",
-    "main.js.map": "/corona-measures/static/js/main.38f6084c.chunk.js.map",
-    "runtime-main.js": "/corona-measures/static/js/runtime-main.3bf0d73b.js",
-    "runtime-main.js.map": "/corona-measures/static/js/runtime-main.3bf0d73b.js.map",
-    "static/css/2.a4567992.chunk.css": "/corona-measures/static/css/2.a4567992.chunk.css",
-    "static/js/2.bfbff8fd.chunk.js": "/corona-measures/static/js/2.bfbff8fd.chunk.js",
-    "static/js/2.bfbff8fd.chunk.js.map": "/corona-measures/static/js/2.bfbff8fd.chunk.js.map",
-    "index.html": "/corona-measures/index.html",
-    "precache-manifest.856ee57127fe66e7a9eb3fcaa977a1ff.js": "/corona-measures/precache-manifest.856ee57127fe66e7a9eb3fcaa977a1ff.js",
-    "service-worker.js": "/corona-measures/service-worker.js",
-    "static/css/2.a4567992.chunk.css.map": "/corona-measures/static/css/2.a4567992.chunk.css.map",
-    "static/css/main.85b28ecb.chunk.css.map": "/corona-measures/static/css/main.85b28ecb.chunk.css.map",
-    "static/js/2.bfbff8fd.chunk.js.LICENSE.txt": "/corona-measures/static/js/2.bfbff8fd.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/corona-measures/static/media/ibm-plex-sans-v7-latin-regular.a2c56f94.woff"
+    "main.css": "/corona-map/static/css/main.9f884f7c.chunk.css",
+    "main.js": "/corona-map/static/js/main.cf696882.chunk.js",
+    "main.js.map": "/corona-map/static/js/main.cf696882.chunk.js.map",
+    "runtime-main.js": "/corona-map/static/js/runtime-main.fae37fc7.js",
+    "runtime-main.js.map": "/corona-map/static/js/runtime-main.fae37fc7.js.map",
+    "static/css/2.a4567992.chunk.css": "/corona-map/static/css/2.a4567992.chunk.css",
+    "static/js/2.99207876.chunk.js": "/corona-map/static/js/2.99207876.chunk.js",
+    "static/js/2.99207876.chunk.js.map": "/corona-map/static/js/2.99207876.chunk.js.map",
+    "index.html": "/corona-map/index.html",
+    "precache-manifest.f28fb2fd4757cf65836fe9b9492e0839.js": "/corona-map/precache-manifest.f28fb2fd4757cf65836fe9b9492e0839.js",
+    "service-worker.js": "/corona-map/service-worker.js",
+    "static/css/2.a4567992.chunk.css.map": "/corona-map/static/css/2.a4567992.chunk.css.map",
+    "static/css/main.9f884f7c.chunk.css.map": "/corona-map/static/css/main.9f884f7c.chunk.css.map",
+    "static/js/2.99207876.chunk.js.LICENSE.txt": "/corona-map/static/js/2.99207876.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/corona-map/static/media/ibm-plex-sans-v7-latin-regular.a2c56f94.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.3bf0d73b.js",
+    "static/js/runtime-main.fae37fc7.js",
     "static/css/2.a4567992.chunk.css",
-    "static/js/2.bfbff8fd.chunk.js",
-    "static/css/main.85b28ecb.chunk.css",
-    "static/js/main.38f6084c.chunk.js"
+    "static/js/2.99207876.chunk.js",
+    "static/css/main.9f884f7c.chunk.css",
+    "static/js/main.cf696882.chunk.js"
   ]
 }
