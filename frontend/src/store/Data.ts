@@ -5,12 +5,25 @@ import distributionData from "./distribution.json";
 import measuresData from "./measures.json";
 import europeGeoJson from "./europe.json";
 
-interface Summary {
+export interface Summary {
   count: number | undefined;
+  newCases: number | undefined;
+  newDeaths: number | undefined;
+  population: number | undefined;
 }
 
 interface CountrySummary {
   [country: string]: Summary;
+}
+
+function normalizeWeirdInput(weirdInput: undefined | string | number) {
+  if (weirdInput === undefined) {
+    return undefined;
+  }
+  if (typeof weirdInput === "string") {
+    return undefined;
+  }
+  return Math.round(weirdInput);
 }
 
 export class DataStore {
@@ -96,10 +109,10 @@ export class DataStore {
       this.dateCount = val.length;
       this.startDate = new Date(val[val.length - 1].date);
       output[key] = {
-        count:
-          targetDatum?.cum_14day_100k !== undefined
-            ? (targetDatum?.cum_14day_100k as number)
-            : undefined,
+        count: normalizeWeirdInput(targetDatum?.cum_14day_100k),
+        newCases: normalizeWeirdInput(targetDatum?.cases),
+        newDeaths: normalizeWeirdInput(targetDatum?.deaths),
+        population: normalizeWeirdInput(targetDatum?.popData2019),
       };
     });
 
