@@ -78,7 +78,7 @@ export const Map: React.FC<Props> = observer((props) => {
         style={styleFeature}
         onEachFeature={(feature, layer) => {
           const country = feature?.properties.NAME;
-          const value = store.resultForSelectedDate[country].count;
+          // const value = store.resultForSelectedDate[country].count;
 
           layer.on({
             click: handleClick,
@@ -86,7 +86,7 @@ export const Map: React.FC<Props> = observer((props) => {
               layer
                 .bindTooltip(
                   `<b>${country}: ${Math.round(
-                    value || 99999
+                    store.resultForSelectedDate[country].count || 99999
                   )} </b><br/> 14-day cumulative number of <br/>COVID-19 cases per 100 000`
                 )
                 .openTooltip();
