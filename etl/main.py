@@ -29,15 +29,20 @@ def convert_measures_to_json(file_path='data_response_graphs_0.csv', output_file
   # measure_countries = list(output.keys())
   return output
 
+# 1.0 to 01
+# 30.0 to 30
+def float_to_date(date):
+  return str(int(date)).zfill(2)
+
 def parse_datum(datum):
   output = datum
 
   if 'year' not in datum:
     print(datum)
 
-  year = int(datum['year'])
-  month = int(datum['month'])
-  day = int(datum['day'])
+  year = float_to_date(datum['year'])
+  month = float_to_date(datum['month'])
+  day = float_to_date(datum['day'])
 
   date = f'{year}-{month}-{day}'
   del output['year']

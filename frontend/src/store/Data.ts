@@ -61,7 +61,7 @@ export class DataStore {
     // current date
     this.visibleDate = date;
     this.date = date;
-    // this.calculateResultForDate();
+    this.calculateResultForDate();
     // if (this._dateTimeoutHandler) {
     //   clearTimeout(this._dateTimeoutHandler);
     // }
