@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.f64d7af5.chunk.css",
-    "main.js": "/static/js/main.38f6084c.chunk.js",
-    "main.js.map": "/static/js/main.38f6084c.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.eed02bf0.js",
-    "runtime-main.js.map": "/static/js/runtime-main.eed02bf0.js.map",
-    "static/css/2.a4567992.chunk.css": "/static/css/2.a4567992.chunk.css",
-    "static/js/2.5f5bea48.chunk.js": "/static/js/2.5f5bea48.chunk.js",
-    "static/js/2.5f5bea48.chunk.js.map": "/static/js/2.5f5bea48.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.60634c5a3028f8ec4074b3be3536397f.js": "/precache-manifest.60634c5a3028f8ec4074b3be3536397f.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.a4567992.chunk.css.map": "/static/css/2.a4567992.chunk.css.map",
-    "static/css/main.f64d7af5.chunk.css.map": "/static/css/main.f64d7af5.chunk.css.map",
-    "static/js/2.5f5bea48.chunk.js.LICENSE.txt": "/static/js/2.5f5bea48.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/static/media/ibm-plex-sans-v7-latin-regular.a2c56f94.woff"
+    "main.css": "/corona-measures/static/css/main.85b28ecb.chunk.css",
+    "main.js": "/corona-measures/static/js/main.38f6084c.chunk.js",
+    "main.js.map": "/corona-measures/static/js/main.38f6084c.chunk.js.map",
+    "runtime-main.js": "/corona-measures/static/js/runtime-main.3bf0d73b.js",
+    "runtime-main.js.map": "/corona-measures/static/js/runtime-main.3bf0d73b.js.map",
+    "static/css/2.a4567992.chunk.css": "/corona-measures/static/css/2.a4567992.chunk.css",
+    "static/js/2.bfbff8fd.chunk.js": "/corona-measures/static/js/2.bfbff8fd.chunk.js",
+    "static/js/2.bfbff8fd.chunk.js.map": "/corona-measures/static/js/2.bfbff8fd.chunk.js.map",
+    "index.html": "/corona-measures/index.html",
+    "precache-manifest.856ee57127fe66e7a9eb3fcaa977a1ff.js": "/corona-measures/precache-manifest.856ee57127fe66e7a9eb3fcaa977a1ff.js",
+    "service-worker.js": "/corona-measures/service-worker.js",
+    "static/css/2.a4567992.chunk.css.map": "/corona-measures/static/css/2.a4567992.chunk.css.map",
+    "static/css/main.85b28ecb.chunk.css.map": "/corona-measures/static/css/main.85b28ecb.chunk.css.map",
+    "static/js/2.bfbff8fd.chunk.js.LICENSE.txt": "/corona-measures/static/js/2.bfbff8fd.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/corona-measures/static/media/ibm-plex-sans-v7-latin-regular.a2c56f94.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.eed02bf0.js",
+    "static/js/runtime-main.3bf0d73b.js",
     "static/css/2.a4567992.chunk.css",
-    "static/js/2.5f5bea48.chunk.js",
-    "static/css/main.f64d7af5.chunk.css",
+    "static/js/2.bfbff8fd.chunk.js",
+    "static/css/main.85b28ecb.chunk.css",
     "static/js/main.38f6084c.chunk.js"
   ]
 }
