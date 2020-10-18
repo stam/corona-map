@@ -14,7 +14,12 @@ interface CountrySummary {
 }
 
 export class DataStore {
+  @observable visibleDate = new Date("2020-10-13");
   @observable date = new Date("2020-10-13");
+  _dateTimeoutHandler?: any;
+
+  @observable dateCount = 0;
+  @observable startDate = new Date();
 
   @observable measures = [];
   @observable distribution = [];
@@ -52,6 +57,20 @@ export class DataStore {
     this.error = undefined;
   }
 
+  @action changeDate(date: Date) {
+    // current date
+    this.visibleDate = date;
+    this.date = date;
+    // this.calculateResultForDate();
+    // if (this._dateTimeoutHandler) {
+    //   clearTimeout(this._dateTimeoutHandler);
+    // }
+    // this._dateTimeoutHandler = setTimeout(() => {
+
+    //   this.date = date;
+    // }, 100);
+  }
+
   // Should be done in etl
   @action parseGeoJson(json: any) {
     const countries = Object.keys(measuresData);
@@ -74,6 +93,8 @@ export class DataStore {
       const targetDatum = val.find(
         (v) => v.date === currentDateStr || v.date < currentDateStr // sorted by date desc, so get next in line if not found for current date
       );
+      this.dateCount = val.length;
+      this.startDate = new Date(val[val.length - 1].date);
       output[key] = {
         count:
           targetDatum?.cum_14day_100k !== undefined

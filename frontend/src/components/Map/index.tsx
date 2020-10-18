@@ -7,6 +7,7 @@ import {
 } from "leaflet";
 import styled from "styled-components";
 import { DataStore } from "../../store/Data";
+import { observer } from "mobx-react";
 
 const position: LatLngTuple = [54.83312727008725, 39.43954467773438];
 
@@ -35,7 +36,7 @@ const findColorForValue = (value: number) => {
   return legendItem ? legendItem[1] : "hotpink";
 };
 
-export const Map: React.FC<Props> = (props) => {
+export const Map: React.FC<Props> = observer((props) => {
   const { store, onSelect } = props;
   const handleClick: LeafletMouseEventHandlerFn = (event) => {
     onSelect(event.target.feature.properties.NAME);
@@ -55,6 +56,10 @@ export const Map: React.FC<Props> = (props) => {
       };
     };
   }, [store.resultForSelectedDate]);
+
+  useMemo(() => {
+    console.log("map store", store.date);
+  }, [store.date]);
 
   return (
     <StyledMap
@@ -85,7 +90,6 @@ export const Map: React.FC<Props> = (props) => {
                   )} </b><br/> 14-day cumulative number of <br/>COVID-19 cases per 100 000`
                 )
                 .openTooltip();
-              console.log("e", feature.properties);
             },
             mouseout: (e) => {},
           });
@@ -93,4 +97,4 @@ export const Map: React.FC<Props> = (props) => {
       />
     </StyledMap>
   );
-};
+});
