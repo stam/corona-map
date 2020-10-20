@@ -4,7 +4,6 @@ import styled from "styled-components";
 import { sortBy } from "lodash";
 
 import { DataStore } from "../../store/Data";
-import { translateMeasure } from "./util";
 
 const StyledTable = styled.table`
   table:first-of-type td:first-of-type {
@@ -71,7 +70,8 @@ export const Details: React.FC<DetailsProps> = observer((props) => {
             <tbody>
               {sortBy(result.measures, "date_start").map((measure) => (
                 <tr key={measure.Response_measure}>
-                  <td>{translateMeasure(measure.Response_measure)}</td>
+                  {/* <td>{translateMeasure(measure.Response_measure)}</td> */}
+                  <td>{measure.Response_measure}</td>
                   <td>{measure.date_start}</td>
                   <td>{measure.date_end}</td>
                 </tr>

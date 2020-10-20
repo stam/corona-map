@@ -1,0 +1,98 @@
+{
+  "StayHome": {
+    "StayHomeOrder": 100,
+    "StayHomeGen": 75,
+    "StayHomeRiskG": 40,
+    "StayHomeOrderPartial": 30,
+    "StayHomeGenPartial": 20,
+    "StayHomeRiskGPartial": 10
+  },
+  "Social": {
+    "SocialCircle": 100,
+    "SocialCirclePartial": 75,
+    "MassGatherAll": 50,
+    "MassGatherAllPartial": 25
+  },
+  "Indoor": {
+    "IndoorOver5": 100,
+    "IndoorOver50 ": 75,
+    "IndoorOver100 ": 25,
+    "IndoorOver500 ": 10,
+    "IndoorOver1000 ": 5,
+    "IndoorOver5Partial": 0,
+    "IndoorOver50Partial": 0,
+    "IndoorOver100Partial": 0,
+    "IndoorOver500Partial": 0,
+    "IndoorOver1000Partial": 0
+  },
+  "Outdoor": {
+    "OutdoorOver5": 100,
+    "OutdoorOver50": 75,
+    "OutdoorOver100": 25,
+    "OutdoorOver500": 10,
+    "OutdoorOver1000": 5,
+    "OutdoorOver5Partial": 0,
+    "OutdoorOver50Partial": 0,
+    "OutdoorOver100Partial": 0,
+    "OutdoorOver500Partial": 0,
+    "OutdoorOver1000Partial": 0
+  },
+  "Schools": {
+    "ClosDaycare": 50,
+    "ClosPrim": 50,
+    "ClosSec": 50,
+    "ClosHigh": 50,
+    "ClosDaycarePartial ": 25,
+    "ClosPrimPartial ": 25,
+    "ClosSecPartial ": 25,
+    "ClosHighPartial": 25
+  },
+  "ClosureSport": {
+    "GymsSportsCentres": 100,
+    "GymsSportsCentresPartial": 50
+  },
+  "ClosureEntertainment": {
+    "EntertainmentVenues": 100,
+    "EntertainmentVenuesPartial": 50,
+    "HotelsAccommodation": 100,
+    "HotelsAccommodationPartial": 50
+  },
+  "ClosureShops": {
+    "NonEssentialShops": 100,
+    "NonEssentialShopsPartial": 50
+  },
+  "ClosurePub": {
+    "ClosPubAny": 100,
+    "ClosPubAnyPartial": 50
+  },
+  "ClosureFood": {
+    "RestaurantsCafes": 100,
+    "RestaurantsCafesPartial": 50
+  },
+  "PublicTransport": {
+    "ClosureOfPublicTransport": 100,
+    "ClosureOfPublicTransportPartial": 50
+  },
+  "Mask": {
+    "MasksMandatoryAllSpaces": 100,
+    "MasksMandatoryClosedSpaces": 50,
+    "MasksVoluntaryAllSpaces": 25,
+    "MasksVoluntaryClosedSpaces": 10,
+    "MasksVoluntaryAllSpacesPartial": 10,
+    "MasksVoluntaryClosedSpacesPartial": 10,
+    "MasksMandatoryAllSpacesPartial": 10,
+    "MasksMandatoryClosedSpacesPartial": 10
+  },
+  "Worship": {
+    "PlaceOfWorship": 100,
+    "PlaceOfWorshipPartial": 50
+  },
+  "Workplace": {
+    "Teleworking": 25,
+    "AdaptationOfWorkplace": 10,
+    "WorkplaceClosures": 100,
+    "TeleworkingPartial": 10,
+    "AdaptationOfWorkplacePartial": 10,
+    "WorkplaceClosuresPartial": 10
+  }
+}
