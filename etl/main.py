@@ -55,7 +55,7 @@ def parse_datum(datum):
 
   return output
 
-def parse_corona_results(file_path='COVID-19-geographic-disbtribution-worldwide-2020-10-13.xlsx', output_file_path='../frontend/src/store/distribution.json', country_whitelist=None):
+def parse_corona_results(file_path='COVID-19-geographic-disbtribution-worldwide-2020-10-20.xlsx', output_file_path='../frontend/src/store/distribution.json', country_whitelist=None):
   output = {}
   data = None
 
