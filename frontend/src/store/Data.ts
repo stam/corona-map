@@ -41,8 +41,8 @@ export class DataStore {
   @observable dateCount = 0;
   @observable startDate = new Date();
 
-  @observable measures = [];
-  @observable distribution = [];
+  @observable.ref measuresForCountry: any[] = [];
+  @observable.ref casesForCountry: any[] = [];
 
   @observable.ref geoJson: any;
   @observable error?: string;
@@ -75,6 +75,8 @@ export class DataStore {
       return;
     }
     this.error = undefined;
+    this.measuresForCountry = m;
+    this.casesForCountry = d;
   }
 
   @action changeDate(date: Date) {
