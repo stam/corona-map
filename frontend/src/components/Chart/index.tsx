@@ -1,7 +1,12 @@
 import React, { useMemo } from "react";
-import AChart from "react-apexcharts";
-import { eachRight } from "lodash";
-import dayjs from "dayjs";
+import {
+  LineChart,
+  XAxis,
+  YAxis,
+  CartesianGrid,
+  Line,
+  Tooltip,
+} from "recharts";
 
 import { DataStore } from "../../store/Data";
 
@@ -22,74 +27,33 @@ interface ChartData {
 export const Chart: React.FC<Props> = (props) => {
   const { store } = props;
 
-  const chartData: ChartData = useMemo(() => {
-    const output: ChartData = {
-      options: {
-        id: "Corona",
-        yaxis: {
-          min: 0,
-          max: 1000,
-          labels: {
-            formatter: (val: number) => Math.round(val),
-          },
-        },
-        chart: {
-          animations: {
-            enabled: false,
-          },
-          zoom: {
-            enabled: false,
-          },
-        },
-        marker: {
-          show: false,
-        },
-        tooltip: {
-          custom: function (props: any) {
-            const { dataPointIndex, w } = props;
-            const value = w.config.series[0].data[dataPointIndex];
-            return `
-              <div class="arrow_box">
-              <span>
-            ${value.x}:<br/> ${Math.round(value.y)} cum. cases/100k
-              </span>
-              </div>
-            `;
-          },
-        },
-        xaxis: {
-          hideOverlappingLabels: true,
-          tickAmount: 8,
-          tooltip: {
-            enabled: false,
-          },
-          labels: {
-            formatter: function (date: string) {
-              return dayjs(date).format("DD MMM");
-            },
-          },
-        },
-      },
-      series: [
-        {
-          name: "14day Cumulative per 100k",
-          data: [],
-        },
-      ],
-    };
-    eachRight(store.casesForCountry, (d) => {
-      output.series[0].data.push({
-        x: d.date,
-        y: d.cum_14day_100k || 0,
+  const data = useMemo(() => {
+    return store.casesForCountry
+      .slice()
+      .reverse()
+      .map((d) => {
+        return {
+          date: d.date,
+          cum_14day_100k: Math.round(d.cum_14day_100k || 0),
+        };
       });
-    });
-
-    return output;
   }, [store.casesForCountry]);
 
   return (
     <div>
-      <AChart type="line" width="100%" height={320} {...chartData} />
+      <LineChart width={500} height={400} data={data}>
+        <XAxis dataKey="date" />
+        <YAxis domain={[0, 1000]} />
+        <CartesianGrid stroke="#eee" strokeDasharray="5 5" />
+        <Tooltip isAnimationActive={false} />
+        <Line
+          type="monotone"
+          dot={false}
+          dataKey="cum_14day_100k"
+          isAnimationActive={false}
+          stroke="#8884d8"
+        />
+      </LineChart>
     </div>
   );
 };
