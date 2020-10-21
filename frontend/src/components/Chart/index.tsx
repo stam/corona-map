@@ -9,8 +9,9 @@ import {
   ResponsiveContainer,
   ReferenceLine,
 } from "recharts";
+import dayjs from "dayjs";
 
-import { DataStore } from "../../store/Data";
+import { DataStore, store as dataStore } from "../../store/Data";
 
 interface Props {
   store: DataStore;
@@ -37,33 +38,27 @@ interface AnnotationProps {
   x: string;
 }
 
-const annotationContext = React.createContext({ measures: ["a", "b"] });
+export const AnnotationShape: React.FC<any> = (props) => {
+  const { x } = props;
 
-const AnnotationShape: React.FC<any> = (props) => {
-  const { stroke, strokeWidth, ...otherProps } = props;
-  console.log("render line", props);
+  // Not clean to use singleton without context or props, but recharts sucks and is not extensible at all.
+  // Can't even use context here, or use a custom component which wraps ReferenceLine...
+  const measures = dataStore.measuresForCountry[x];
+
   return (
     <g>
       <line {...props} className="recharts-reference-line-line" />
-      <text x={props.x1} y={20}>
-        foo
-      </text>
+      {measures.map((m: string, i: number) => (
+        <text key={i} x={props.x1} y={20 + 15 * i}>
+          {m}
+        </text>
+      ))}
     </g>
-    // <circle cx={props.cx} r="10" cy={props.cy} fill="gold">
-    //   <animate
-    //     attributeName="r"
-    //     from="8"
-    //     to="20"
-    //     dur="1.5s"
-    //     begin="0s"
-    //     repeatCount="indefinite"
-    //   />
-    // </circle>
   );
 };
 
-// const Annotation: React.FC = (props) => {
-//   return;
+// const ReferenceLine: React.FC = (props) => {
+//   return <RLine x="2020-04-22" shape={AnnotationShape} />;
 // };
 
 export const Chart: React.FC<Props> = (props) => {
@@ -89,7 +84,10 @@ export const Chart: React.FC<Props> = (props) => {
           <YAxis domain={[0, 1000]} />
           <CartesianGrid stroke="#eee" strokeDasharray="5 5" />
           <Tooltip isAnimationActive={false} />
-          <ReferenceLine x="2020-04-22" shape={AnnotationShape} />
+          <ReferenceLine x={dayjs(store.date).format("YYYY-MM-DD")} />
+          {/* {Object.keys(store.measuresForCountry).map((d) => (
+              <ReferenceLine key={d} x={d} shape={AnnotationShape} />
+            ))} */}
           <Line
             type="monotone"
             dot={false}

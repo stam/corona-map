@@ -34,12 +34,15 @@ const LEGEND = {
   100000: "#7d1008",
 };
 
-const findColorForValue = (value: number) => {
+const findColorForValue = (value: number | undefined) => {
+  if (value === undefined) {
+    return "lightskyblue";
+  }
   const legendItem = Object.entries(LEGEND).find(([maxValue, color]) => {
     return value < parseInt(maxValue);
   });
 
-  return legendItem ? legendItem[1] : "hotpink";
+  return legendItem ? legendItem[1] : "lightskyblue";
 };
 
 export const Map: React.FC<Props> = observer((props) => {
@@ -54,7 +57,7 @@ export const Map: React.FC<Props> = observer((props) => {
       const value = store.resultForSelectedDate[country].count;
 
       return {
-        fillColor: value === undefined ? "hotpink" : findColorForValue(value),
+        fillColor: findColorForValue(value),
         weight: 1,
         opacity: 0.5,
         color: "black",

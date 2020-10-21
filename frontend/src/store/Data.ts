@@ -41,7 +41,7 @@ export class DataStore {
   @observable dateCount = 0;
   @observable startDate = new Date();
 
-  @observable.ref measuresForCountry: any[] = [];
+  @observable.ref measuresForCountry: any = {};
   @observable.ref casesForCountry: any[] = [];
 
   @observable.ref geoJson: any;
@@ -79,14 +79,14 @@ export class DataStore {
     const measures: any = {};
     m.forEach((d: any) => {
       if (!measures.hasOwnProperty(d.date_start)) {
-        measures[d.date_start] = "";
-        measures[d.date_end] += "+";
+        measures[d.date_start] = [];
       }
+      measures[d.date_start].push("+");
       if (d.date_end !== "NA") {
         if (!measures.hasOwnProperty(d.date_end)) {
-          measures[d.date_end] = "";
+          measures[d.date_end] = [];
         }
-        measures[d.date_end] += "-";
+        measures[d.date_end].push("-");
       }
     });
 
