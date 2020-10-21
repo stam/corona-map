@@ -34,8 +34,8 @@ function normalizeWeirdInput(weirdInput: undefined | string | number) {
 }
 
 export class DataStore {
-  @observable visibleDate = new Date("2020-10-13");
-  @observable date = new Date("2020-10-13");
+  @observable visibleDate = new Date("2020-10-20");
+  @observable date = new Date("2020-10-20");
   _dateTimeoutHandler?: any;
 
   @observable dateCount = 0;
@@ -75,7 +75,22 @@ export class DataStore {
       return;
     }
     this.error = undefined;
-    this.measuresForCountry = m;
+
+    const measures: any = {};
+    m.forEach((d: any) => {
+      if (!measures.hasOwnProperty(d.date_start)) {
+        measures[d.date_start] = "";
+        measures[d.date_end] += "+";
+      }
+      if (d.date_end !== "NA") {
+        if (!measures.hasOwnProperty(d.date_end)) {
+          measures[d.date_end] = "";
+        }
+        measures[d.date_end] += "-";
+      }
+    });
+
+    this.measuresForCountry = measures;
     this.casesForCountry = d;
   }
 
