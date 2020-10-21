@@ -34,15 +34,15 @@ function normalizeWeirdInput(weirdInput: undefined | string | number) {
 }
 
 export class DataStore {
-  @observable visibleDate = new Date("2020-10-13");
-  @observable date = new Date("2020-10-13");
+  @observable visibleDate = new Date("2020-10-20");
+  @observable date = new Date("2020-10-20");
   _dateTimeoutHandler?: any;
 
   @observable dateCount = 0;
   @observable startDate = new Date();
 
-  @observable measures = [];
-  @observable distribution = [];
+  @observable.ref measuresForCountry: any = {};
+  @observable.ref casesForCountry: any[] = [];
 
   @observable.ref geoJson: any;
   @observable error?: string;
@@ -75,6 +75,23 @@ export class DataStore {
       return;
     }
     this.error = undefined;
+
+    const measures: any = {};
+    m.forEach((d: any) => {
+      if (!measures.hasOwnProperty(d.date_start)) {
+        measures[d.date_start] = [];
+      }
+      measures[d.date_start].push("+");
+      if (d.date_end !== "NA") {
+        if (!measures.hasOwnProperty(d.date_end)) {
+          measures[d.date_end] = [];
+        }
+        measures[d.date_end].push("-");
+      }
+    });
+
+    this.measuresForCountry = measures;
+    this.casesForCountry = d;
   }
 
   @action changeDate(date: Date) {

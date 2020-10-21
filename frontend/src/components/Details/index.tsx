@@ -4,7 +4,7 @@ import styled from "styled-components";
 import { sortBy } from "lodash";
 
 import { DataStore } from "../../store/Data";
-import { translateMeasure } from "./util";
+import { Chart } from "../Chart";
 
 const StyledTable = styled.table`
   table:first-of-type td:first-of-type {
@@ -33,14 +33,17 @@ interface DetailsProps {
 export const Details: React.FC<DetailsProps> = observer((props) => {
   const { store } = props;
 
-  let result;
-  if (store.selectedCountry) {
-    result = store.resultForSelectedDate[store.selectedCountry];
+  const country = store.selectedCountry;
+  if (!country) {
+    return <Container />;
   }
+
+  const result = store.resultForSelectedDate[country];
 
   return (
     <Container>
-      <h2>{store.selectedCountry}</h2>
+      <h2>{country}</h2>
+      <Chart store={store} />
       {store.error && <p>{store.error}</p>}
       {result && (
         <div>
@@ -60,24 +63,27 @@ export const Details: React.FC<DetailsProps> = observer((props) => {
               </tr>
             </tbody>
           </StyledTable>
-          <StyledTable>
-            <thead>
-              <tr>
-                <td>measure</td>
-                <td>from</td>
-                <td>until</td>
-              </tr>
-            </thead>
-            <tbody>
-              {sortBy(result.measures, "date_start").map((measure) => (
-                <tr key={measure.Response_measure}>
-                  <td>{translateMeasure(measure.Response_measure)}</td>
-                  <td>{measure.date_start}</td>
-                  <td>{measure.date_end}</td>
+          {false && (
+            <StyledTable>
+              <thead>
+                <tr>
+                  <td>measure</td>
+                  <td>from</td>
+                  <td>until</td>
                 </tr>
-              ))}
-            </tbody>
-          </StyledTable>
+              </thead>
+              <tbody>
+                {sortBy(result.measures, "date_start").map((measure) => (
+                  <tr key={measure.Response_measure}>
+                    {/* <td>{translateMeasure(measure.Response_measure)}</td> */}
+                    <td>{measure.Response_measure}</td>
+                    <td>{measure.date_start}</td>
+                    <td>{measure.date_end}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </StyledTable>
+          )}
         </div>
       )}
       <BottomText>
