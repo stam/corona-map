@@ -77,8 +77,8 @@ export const Chart: React.FC<Props> = (props) => {
   }, [store.casesForCountry]);
 
   return (
-    <div style={{ width: "100%", height: 300 }}>
-      <ResponsiveContainer>
+    <div>
+      <ResponsiveContainer aspect={16 / 7}>
         <LineChart data={data}>
           <XAxis dataKey="date" />
           <YAxis domain={[0, 1000]} />
@@ -86,8 +86,8 @@ export const Chart: React.FC<Props> = (props) => {
           <Tooltip isAnimationActive={false} />
           <ReferenceLine x={dayjs(store.date).format("YYYY-MM-DD")} />
           {/* {Object.keys(store.measuresForCountry).map((d) => (
-              <ReferenceLine key={d} x={d} shape={AnnotationShape} />
-            ))} */}
+          <ReferenceLine key={d} x={d} shape={AnnotationShape} />
+        ))} */}
           <Line
             type="monotone"
             dot={false}
