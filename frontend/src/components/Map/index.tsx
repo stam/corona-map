@@ -54,7 +54,9 @@ export const Map: React.FC<Props> = observer((props) => {
   const styleFeature: StyleFunction<any> = useMemo(() => {
     return (feature) => {
       const country = feature?.properties.NAME;
-      const value = store.resultForSelectedDate[country].count;
+
+      console.log(country, store.resultForSelectedDate[country]);
+      const value = store.resultForSelectedDate[country]?.count;
 
       return {
         fillColor: findColorForValue(value),
@@ -78,28 +80,30 @@ export const Map: React.FC<Props> = observer((props) => {
         url="https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png"
         attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
       />
-      <GeoJSON
-        data={store.geoJson}
-        style={styleFeature}
-        onEachFeature={(feature, layer) => {
-          const country = feature?.properties.NAME;
-          // const value = store.resultForSelectedDate[country].count;
+      {store.geoJson && (
+        <GeoJSON
+          data={store.geoJson}
+          style={styleFeature}
+          onEachFeature={(feature, layer) => {
+            const country = feature?.properties.NAME;
+            // const value = store.resultForSelectedDate[country].count;
 
-          layer.on({
-            click: handleClick,
-            mouseover: (e) => {
-              layer
-                .bindTooltip(
-                  `<b>${country}: ${
-                    store.resultForSelectedDate[country].count || "???"
-                  } </b><br/> 14-day cumulative number of <br/>COVID-19 cases per 100 000`
-                )
-                .openTooltip();
-            },
-            mouseout: (e) => {},
-          });
-        }}
-      />
+            layer.on({
+              click: handleClick,
+              mouseover: (e) => {
+                layer
+                  .bindTooltip(
+                    `<b>${country}: ${
+                      store.resultForSelectedDate[country]?.count || "???"
+                    } </b><br/> 14-day cumulative number of <br/>COVID-19 cases per 100 000`
+                  )
+                  .openTooltip();
+              },
+              mouseout: (e) => {},
+            });
+          }}
+        />
+      )}
     </StyledMap>
   );
 });

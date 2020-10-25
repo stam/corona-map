@@ -39,6 +39,8 @@ class DataStore():
   date_summary_path = '../frontend/public/world.json'
   country_summary_path = '../frontend/public/countries.json'
 
+  country_whitelist = []
+
   def _set(self, target_dict, keys, val):
     '''
     a = {}
@@ -55,6 +57,10 @@ class DataStore():
 
     d[last_key] = val
 
+  def _set_array(self, target_array, val):
+    if val not in target_array:
+      target_array.append(val)
+
   def parse_case_row(self, case_row):
     date = case_row['date']
     country = case_row['country']
@@ -68,6 +74,7 @@ class DataStore():
         'deaths': case_row['deaths']
     }
 
+    self._set_array(self.country_whitelist, country)
     self._set(self.date_summary, [date, country], summary)
     self._set(self.country_summary, [country, date], summary)
 
@@ -82,6 +89,29 @@ class DataStore():
 
 
 store = DataStore()
+
+
+class GeoJsonParser():
+  file_path = 'input/europe.geojson'
+  output_path = '../frontend/public/europe.geojson'
+
+  def compile(self, whitelist=[]):
+    output = {
+        'type': 'FeatureCollection',
+        'features': [],
+    }
+    with open(self.file_path, 'r') as file:
+      data = json.load(file)
+
+      for feature in data['features']:
+        if feature['properties']['NAME'] in whitelist:
+          output['features'].append(feature)
+
+    with open(self.output_path, 'w') as output_file:
+      json.dump(output, output_file)
+
+
+geoJsonParser = GeoJsonParser()
 
 
 class DistributionParser():
@@ -141,7 +171,6 @@ distributionParser = DistributionParser()
 
 
 def parse_hospital_data(file_path='hospital_data.csv'):
-  output = {}
   hosp = None
   with open(file_path, 'r') as file:
     reader = csv.DictReader(file)
@@ -174,6 +203,7 @@ def list_diff(list_a, list_b):
 
 if __name__ == '__main__':
   distributionParser.parse()
+  geoJsonParser.compile(whitelist=store.country_whitelist)
   store.write_to_file()
   # measures = convert_measures_to_json()
   # countries_with_measures = list(measures.keys())

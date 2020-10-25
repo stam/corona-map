@@ -3,7 +3,7 @@ import { map } from "lodash";
 
 import distributionData from "./distribution.json";
 import measuresData from "./measures.json";
-import europeGeoJson from "./europe.json";
+// import europeGeoJson from "./europe.json";
 
 export interface Measure {
   Response_measure: string;
@@ -52,7 +52,8 @@ export class DataStore {
   selectedCountry?: string = "Netherlands";
 
   constructor() {
-    this.parseGeoJson(europeGeoJson);
+    this.fetchGeoJson();
+
     if (this.selectedCountry) {
       this.selectCountry(this.selectedCountry);
     }
@@ -108,19 +109,19 @@ export class DataStore {
     // }, 100);
   }
 
-  // Should be done in etl
-  @action parseGeoJson(json: any) {
-    const countries = Object.keys(measuresData);
-    const output: any = { type: "FeatureCollection", features: [] };
-
-    json.features.forEach((f: any) => {
-      if (!countries.includes(f.properties.NAME)) {
-        return;
-      }
-      output.features.push(f);
-    });
-
-    this.geoJson = output;
+  @action async fetchGeoJson() {
+    const res = await fetch(`${process.env.PUBLIC_URL}/europe.geojson`);
+    this.geoJson = await res.json();
+    console.log("geoJson");
+    // const countries = Object.keys(measuresData);
+    // const output: any = { type: "FeatureCollection", features: [] };
+    // json.features.forEach((f: any) => {
+    //   if (!countries.includes(f.properties.NAME)) {
+    //     return;
+    //   }
+    //   output.features.push(f);
+    // });
+    // this.geoJson = output;
   }
 
   @action calculateResultForDate() {
