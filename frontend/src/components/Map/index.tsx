@@ -36,7 +36,7 @@ const LEGEND = {
 
 const findColorForValue = (value: number | undefined) => {
   if (value === undefined) {
-    return "lightskyblue";
+    return "rgba(0, 0, 0, 0.3)";
   }
   const legendItem = Object.entries(LEGEND).find(([maxValue, color]) => {
     return value < parseInt(maxValue);
@@ -54,9 +54,7 @@ export const Map: React.FC<Props> = observer((props) => {
   const styleFeature: StyleFunction<any> = useMemo(() => {
     return (feature) => {
       const country = feature?.properties.NAME;
-
-      console.log(country, store.resultForSelectedDate[country]);
-      const value = store.resultForSelectedDate[country]?.count;
+      const value = store.selectedDateWorldData[country]?.biweeklyTotalPer100k;
 
       return {
         fillColor: findColorForValue(value),
@@ -66,7 +64,7 @@ export const Map: React.FC<Props> = observer((props) => {
         fillOpacity: 0.79,
       };
     };
-  }, [store.resultForSelectedDate]);
+  }, [store.selectedDateWorldData]);
 
   return (
     <StyledMap
@@ -80,7 +78,7 @@ export const Map: React.FC<Props> = observer((props) => {
         url="https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png"
         attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
       />
-      {store.geoJson && (
+      {!store.loading && (
         <GeoJSON
           data={store.geoJson}
           style={styleFeature}
@@ -94,7 +92,8 @@ export const Map: React.FC<Props> = observer((props) => {
                 layer
                   .bindTooltip(
                     `<b>${country}: ${
-                      store.resultForSelectedDate[country]?.count || "???"
+                      store.selectedDateWorldData[country]
+                        ?.biweeklyTotalPer100k || "???"
                     } </b><br/> 14-day cumulative number of <br/>COVID-19 cases per 100 000`
                   )
                   .openTooltip();

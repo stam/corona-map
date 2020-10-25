@@ -1,9 +1,4 @@
-import { observable, action } from "mobx";
-import { map } from "lodash";
-
-import distributionData from "./distribution.json";
-import measuresData from "./measures.json";
-// import europeGeoJson from "./europe.json";
+import { observable, action, computed } from "mobx";
 
 export interface Measure {
   Response_measure: string;
@@ -11,95 +6,95 @@ export interface Measure {
   date_start: string;
 }
 
-export interface Summary {
-  count: number | undefined;
-  newCases: number | undefined;
-  newDeaths: number | undefined;
-  population: number | undefined;
-  measures: Measure[];
+interface DayResult {
+  biweeklyTotalPer100k: number;
+  cases: number;
+  date: string;
+  deaths: number;
 }
 
-interface CountrySummary {
-  [country: string]: Summary;
+interface DateMap<T> {
+  [date: string]: T;
 }
-
-function normalizeWeirdInput(weirdInput: undefined | string | number) {
-  if (weirdInput === undefined) {
-    return undefined;
-  }
-  if (typeof weirdInput === "string") {
-    return undefined;
-  }
-  return Math.round(weirdInput);
+interface CountryMap<T> {
+  [country: string]: T;
 }
 
 export class DataStore {
+  @observable loading = true;
   @observable visibleDate = new Date("2020-10-20");
   @observable date = new Date("2020-10-20");
+  @computed get dateIndex() {
+    return this.date.toISOString().split("T")[0];
+  }
   _dateTimeoutHandler?: any;
 
-  @observable dateCount = 0;
-  @observable startDate = new Date();
-
-  @observable.ref measuresForCountry: any = {};
-  @observable.ref casesForCountry: any[] = [];
-
+  @observable.ref worldData: DateMap<CountryMap<DayResult>> = {};
+  @observable.ref countryData: CountryMap<DateMap<DayResult>> = {};
   @observable.ref geoJson: any;
-  @observable error?: string;
 
-  @observable resultForSelectedDate: CountrySummary = {};
+  @observable dateCount = 0;
+  @observable startDate = new Date("2020-01-01");
+
   @observable
   selectedCountry?: string = "Netherlands";
 
   constructor() {
-    this.fetchGeoJson();
+    this.bootstrap();
+  }
+
+  @computed get selectedCountryData() {
+    if (!this.selectedCountry) {
+      return {};
+    }
+    return this.countryData[this.selectedCountry];
+  }
+
+  @computed get selectedDateWorldData() {
+    return this.worldData[this.dateIndex];
+  }
+
+  @action async bootstrap() {
+    await this.fetchGeoJson();
+    await this.fetchData();
 
     if (this.selectedCountry) {
       this.selectCountry(this.selectedCountry);
     }
-    this.calculateResultForDate();
+    this.loading = false;
+  }
+
+  @action private async fetchData() {
+    const res = await fetch(`${process.env.PUBLIC_URL}/countries.json`);
+    this.countryData = await res.json();
+    const res2 = await fetch(`${process.env.PUBLIC_URL}/world.json`);
+    this.worldData = await res2.json();
   }
 
   @action selectCountry(country: string) {
     this.selectedCountry = country;
+    // this.dateCount = val.length;
+    // this.startDate = new Date(val[val.length - 1].date);
 
-    // @ts-ignore
-    const d = distributionData[country];
-    if (!d) {
-      this.error = "No distribution data";
+    const selectedCountryData = this.countryData[country];
+    const lastDate = Object.keys(selectedCountryData)[0];
+
+    if (!lastDate) {
       return;
     }
-    // @ts-ignore
-    const m = measuresData[country];
-    if (!m) {
-      this.error = "No countermeasure data";
-      return;
-    }
-    this.error = undefined;
 
-    const measures: any = {};
-    m.forEach((d: any) => {
-      if (!measures.hasOwnProperty(d.date_start)) {
-        measures[d.date_start] = [];
-      }
-      measures[d.date_start].push("+");
-      if (d.date_end !== "NA") {
-        if (!measures.hasOwnProperty(d.date_end)) {
-          measures[d.date_end] = [];
-        }
-        measures[d.date_end].push("-");
-      }
-    });
-
-    this.measuresForCountry = measures;
-    this.casesForCountry = d;
+    this.dateCount =
+      (new Date(lastDate).getTime() - this.startDate.getTime()) /
+      1000 /
+      60 /
+      60 /
+      24;
   }
 
   @action changeDate(date: Date) {
-    // current date
     this.visibleDate = date;
     this.date = date;
-    this.calculateResultForDate();
+    // this.calculateResultForDate();
     // if (this._dateTimeoutHandler) {
     //   clearTimeout(this._dateTimeoutHandler);
     // }
@@ -112,42 +107,6 @@ export class DataStore {
   @action async fetchGeoJson() {
     const res = await fetch(`${process.env.PUBLIC_URL}/europe.geojson`);
     this.geoJson = await res.json();
-    console.log("geoJson");
-    // const countries = Object.keys(measuresData);
-    // const output: any = { type: "FeatureCollection", features: [] };
-    // json.features.forEach((f: any) => {
-    //   if (!countries.includes(f.properties.NAME)) {
-    //     return;
-    //   }
-    //   output.features.push(f);
-    // });
-    // this.geoJson = output;
-  }
-
-  @action calculateResultForDate() {
-    const output: CountrySummary = {};
-    const currentDateStr = this.date.toISOString().split("T")[0];
-    map(distributionData, (val, key) => {
-      const targetDatum = val.find(
-        (v) => v.date === currentDateStr || v.date < currentDateStr // sorted by date desc, so get next in line if not found for current date
-      );
-      this.dateCount = val.length;
-      this.startDate = new Date(val[val.length - 1].date);
-
-      // @ts-ignore
-      const measures = measuresData[key].filter((m) => {
-        return m.date_start <= currentDateStr && m.date_end > currentDateStr;
-      });
-      output[key] = {
-        count: normalizeWeirdInput(targetDatum?.cum_14day_100k),
-        newCases: normalizeWeirdInput(targetDatum?.cases),
-        newDeaths: normalizeWeirdInput(targetDatum?.deaths),
-        population: normalizeWeirdInput(targetDatum?.popData2019),
-        measures,
-      };
-    });
-
-    this.resultForSelectedDate = output;
   }
 }
 

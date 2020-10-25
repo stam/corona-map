@@ -11,7 +11,7 @@ import {
 } from "recharts";
 import dayjs from "dayjs";
 
-import { DataStore, store as dataStore } from "../../store/Data";
+import { DataStore } from "../../store/Data";
 
 interface Props {
   store: DataStore;
@@ -38,24 +38,24 @@ interface AnnotationProps {
   x: string;
 }
 
-export const AnnotationShape: React.FC<any> = (props) => {
-  const { x } = props;
+// export const AnnotationShape: React.FC<any> = (props) => {
+//   const { x } = props;
 
-  // Not clean to use singleton without context or props, but recharts sucks and is not extensible at all.
-  // Can't even use context here, or use a custom component which wraps ReferenceLine...
-  const measures = dataStore.measuresForCountry[x];
+//   // Not clean to use singleton without context or props, but recharts sucks and is not extensible at all.
+//   // Can't even use context here, or use a custom component which wraps ReferenceLine...
+//   const measures = dataStore.measuresForCountry[x];
 
-  return (
-    <g>
-      <line {...props} className="recharts-reference-line-line" />
-      {measures.map((m: string, i: number) => (
-        <text key={i} x={props.x1} y={20 + 15 * i}>
-          {m}
-        </text>
-      ))}
-    </g>
-  );
-};
+//   return (
+//     <g>
+//       <line {...props} className="recharts-reference-line-line" />
+//       {measures.map((m: string, i: number) => (
+//         <text key={i} x={props.x1} y={20 + 15 * i}>
+//           {m}
+//         </text>
+//       ))}
+//     </g>
+//   );
+// };
 
 // const ReferenceLine: React.FC = (props) => {
 //   return <RLine x="2020-04-22" shape={AnnotationShape} />;
@@ -65,16 +65,20 @@ export const Chart: React.FC<Props> = (props) => {
   const { store } = props;
 
   const data = useMemo(() => {
-    return store.casesForCountry
-      .slice()
-      .reverse()
-      .map((d) => {
-        return {
-          date: d.date,
-          cum_14day_100k: Math.round(d.cum_14day_100k || 0),
-        };
-      });
-  }, [store.casesForCountry]);
+    return Object.values(store.selectedCountryData).reverse();
+    // return _.mapRe(store.selectedCountryData, (summary, date) => {
+
+    // })
+    // return store.selectedCountryData
+    //   .slice()
+    //   .reverse()
+    //   .map((d) => {
+    //     return {
+    //       date: d.date,
+    //       cum_14day_100k: Math.round(d.cum_14day_100k || 0),
+    //     };
+    //   });
+  }, [store.selectedCountryData]);
 
   return (
     <div>
@@ -91,7 +95,7 @@ export const Chart: React.FC<Props> = (props) => {
           <Line
             type="monotone"
             dot={false}
-            dataKey="cum_14day_100k"
+            dataKey="biweeklyTotalPer100k"
             isAnimationActive={false}
             stroke="#8884d8"
           />

@@ -30,6 +30,13 @@ def convert_measures_to_json(file_path='data_response_graphs_0.csv', output_file
   return output
 
 
+def clean_value(val):
+  if val == '':
+    return None
+  else:
+    return int(val)
+
+
 class DataStore():
   # indexed by date -> country
   date_summary = {}
@@ -69,9 +76,10 @@ class DataStore():
       return
 
     summary = {
-        'biweeklyTotalPer100k': case_row['biweeklyTotalPer100k'],
+        'biweeklyTotalPer100k': clean_value(case_row['biweeklyTotalPer100k']),
         'cases': case_row['cases'],
-        'deaths': case_row['deaths']
+        'deaths': case_row['deaths'],
+        'date': date,
     }
 
     self._set_array(self.country_whitelist, country)
