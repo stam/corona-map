@@ -10,7 +10,7 @@ interface DayResult {
   biweeklyTotalPer100k: number;
   cases: number;
   date: string;
-  hospitalOccupancy?: number;
+  hospitalOccupancyPer100k?: number;
   deaths: number;
 }
 
@@ -23,8 +23,8 @@ interface CountryMap<T> {
 
 export class DataStore {
   @observable loading = true;
-  @observable visibleDate = new Date("2020-10-20");
-  @observable date = new Date("2020-10-20");
+  @observable visibleDate = new Date("2020-10-25");
+  @observable date = new Date("2020-10-25");
   @computed get dateIndex() {
     return this.date.toISOString().split("T")[0];
   }

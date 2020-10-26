@@ -108,7 +108,7 @@ export const Chart: React.FC<Props> = (props) => {
             type="monotone"
             yAxisId="hospital"
             dot={false}
-            dataKey="hospitalOccupancy"
+            dataKey="hospitalOccupancyPer100k"
             isAnimationActive={false}
             stroke="hotpink"
           />
