@@ -1,6 +1,7 @@
 import csv
 import json
 import xlrd
+import urllib.request
 
 # measure_countries = ['Austria', 'Belgium', 'Bulgaria', 'Croatia', 'Cyprus', 'Czechia', 'Denmark', 'Estonia', 'Finland', 'France', 'Germany', 'Greece', 'Hungary', 'Iceland', 'Ireland', 'Italy', 'Latvia', 'Liechtenstein', 'Lithuania', 'Luxembourg', 'Malta', 'Netherlands', 'Norway', 'Poland', 'Portugal', 'Romania', 'Slovakia', 'Slovenia', 'Spain', 'Sweden', 'United Kingdom']
 # result_countries = ['Albania', 'Andorra', 'Armenia', 'Austria', 'Azerbaijan', 'Belarus', 'Belgium', 'Bosnia and Herzegovina', 'Bulgaria', 'Croatia', 'Cyprus', 'Czechia', 'Denmark', 'Estonia', 'Faroe Islands', 'Finland', 'France', 'Georgia', 'Germany', 'Gibraltar', 'Greece', 'Guernsey', 'Holy See', 'Hungary', 'Iceland', 'Ireland', 'Isle of Man', 'Italy', 'Jersey', 'Kosovo', 'Latvia', 'Liechtenstein', 'Lithuania', 'Luxembourg', 'Malta', 'Moldova', 'Monaco', 'Montenegro', 'Netherlands', 'North Macedonia', 'Norway', 'Poland', 'Portugal', 'Romania', 'Russia', 'San Marino', 'Serbia', 'Slovakia', 'Slovenia', 'Spain', 'Sweden', 'Switzerland', 'Ukraine', 'United Kingdom']
@@ -100,12 +101,12 @@ class DataStore():
 
     # We don't want total daily hospital occupancy, we want it normalized for the population
     population = self.meta[country]['populationIn100k']
-    occupancy_per_100k = row['value'] / population
+    occupancy_per_100k = round(row['value'] / population, 2)
 
     self._set(self.date_summary, [date, country,
-                                  'hospitalOccupancy'], occupancy_per_100k)
+                                  'hospitalOccupancyPer100k'], occupancy_per_100k)
     self._set(self.country_summary, [country, date,
-                                     'hospitalOccupancy'], occupancy_per_100k)
+                                     'hospitalOccupancyPer100k'], occupancy_per_100k)
 
   def write_to_file(self):
     with open(self.date_summary_path, 'w') as output_file:
@@ -144,7 +145,8 @@ geoJsonParser = GeoJsonParser()
 
 
 class DistributionParser():
-  file_path = 'COVID-19-geographic-disbtribution-worldwide-2020-10-20.xlsx'
+  file_path = 'input/distribution.xlsx'
+  url = 'https://www.ecdc.europa.eu/sites/default/files/documents/COVID-19-geographic-disbtribution-worldwide-2020-10-26.xlsx'
 
   # 1.0 to 01
   # 30.0 to 30
@@ -173,7 +175,10 @@ class DistributionParser():
 
     return output
 
-  def parse(self):
+  def parse(self, sync=False):
+    if sync:
+      urllib.request.urlretrieve(self.url, self.file_path)
+
     with xlrd.open_workbook(self.file_path) as wb:
       sheet = wb.sheet_by_index(0)
 
@@ -191,7 +196,9 @@ distributionParser = DistributionParser()
 
 
 class HospitalParser():
+  # dutch_data = 'https://lcps.nu/wp-content/uploads/covid-19.csv'
   file_path = 'input/hospital_data.csv'
+  url = 'https://opendata.ecdc.europa.eu/covid19/hospitalicuadmissionrates/csv/data.csv'
 
   def _parse_row(self, input_row):
     output = {}
@@ -205,7 +212,10 @@ class HospitalParser():
 
     return output
 
-  def parse(self):
+  def parse(self, sync=False):
+    if sync:
+      urllib.request.urlretrieve(self.url, self.file_path)
+
     with open(self.file_path, 'r') as file:
       reader = csv.DictReader(file)
       rows = list(reader)
@@ -219,8 +229,8 @@ hospitalParser = HospitalParser()
 
 
 if __name__ == '__main__':
-  distributionParser.parse()
-  hospitalParser.parse()
+  distributionParser.parse(sync=True)
+  hospitalParser.parse(sync=True)
   geoJsonParser.compile(whitelist=store.country_whitelist)
   store.write_to_file()
 
