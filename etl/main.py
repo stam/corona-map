@@ -1,7 +1,9 @@
 import csv
 import json
+import sys
 import xlrd
 import urllib.request
+from datetime import datetime
 
 # measure_countries = ['Austria', 'Belgium', 'Bulgaria', 'Croatia', 'Cyprus', 'Czechia', 'Denmark', 'Estonia', 'Finland', 'France', 'Germany', 'Greece', 'Hungary', 'Iceland', 'Ireland', 'Italy', 'Latvia', 'Liechtenstein', 'Lithuania', 'Luxembourg', 'Malta', 'Netherlands', 'Norway', 'Poland', 'Portugal', 'Romania', 'Slovakia', 'Slovenia', 'Spain', 'Sweden', 'United Kingdom']
 # result_countries = ['Albania', 'Andorra', 'Armenia', 'Austria', 'Azerbaijan', 'Belarus', 'Belgium', 'Bosnia and Herzegovina', 'Bulgaria', 'Croatia', 'Cyprus', 'Czechia', 'Denmark', 'Estonia', 'Faroe Islands', 'Finland', 'France', 'Georgia', 'Germany', 'Gibraltar', 'Greece', 'Guernsey', 'Holy See', 'Hungary', 'Iceland', 'Ireland', 'Isle of Man', 'Italy', 'Jersey', 'Kosovo', 'Latvia', 'Liechtenstein', 'Lithuania', 'Luxembourg', 'Malta', 'Moldova', 'Monaco', 'Montenegro', 'Netherlands', 'North Macedonia', 'Norway', 'Poland', 'Portugal', 'Romania', 'Russia', 'San Marino', 'Serbia', 'Slovakia', 'Slovenia', 'Spain', 'Sweden', 'Switzerland', 'Ukraine', 'United Kingdom']
@@ -108,6 +110,19 @@ class DataStore():
     self._set(self.country_summary, [country, date,
                                      'hospitalOccupancyPer100k'], occupancy_per_100k)
 
+  def parse_nl_hospital_row(self, row):
+    date = datetime.strptime(row['Datum'], '%d-%m-%Y').strftime('%Y-%m-%d')
+    country = 'Netherlands'
+
+    value = int(row['Kliniek_Bedden']) + int(row['IC_Bedden_COVID'])
+    population = self.meta[country]['populationIn100k']
+    occupancy_per_100k = round(value / population, 2)
+
+    self._set(self.date_summary, [date, country,
+                                  'hospitalOccupancyPer100k'], occupancy_per_100k)
+    self._set(self.country_summary, [country, date,
+                                     'hospitalOccupancyPer100k'], occupancy_per_100k)
+
   def write_to_file(self):
     with open(self.date_summary_path, 'w') as output_file:
       json.dump(self.date_summary, output_file)
@@ -196,8 +211,10 @@ distributionParser = DistributionParser()
 
 
 class HospitalParser():
-  # dutch_data = 'https://lcps.nu/wp-content/uploads/covid-19.csv'
   file_path = 'input/hospital_data.csv'
+  nl_file_path = 'input/hospital_nl_data.csv'
+
+  nl_url = 'https://lcps.nu/wp-content/uploads/covid-19.csv'
   url = 'https://opendata.ecdc.europa.eu/covid19/hospitalicuadmissionrates/csv/data.csv'
 
   def _parse_row(self, input_row):
@@ -213,6 +230,8 @@ class HospitalParser():
     return output
 
   def parse(self, sync=False):
+    self.parse_dutch(sync=sync)
+
     if sync:
       urllib.request.urlretrieve(self.url, self.file_path)
 
@@ -224,13 +243,25 @@ class HospitalParser():
       normalized_row = self._parse_row(row)
       store.parse_hospital_row(normalized_row)
 
+  def parse_dutch(self, sync=False):
+    if sync:
+      urllib.request.urlretrieve(self.nl_url, self.nl_file_path)
+
+    with open(self.nl_file_path, 'r') as file:
+      reader = csv.DictReader(file)
+      rows = list(reader)
+
+    for row in rows:
+      store.parse_nl_hospital_row(row)
+
 
 hospitalParser = HospitalParser()
 
 
 if __name__ == '__main__':
-  distributionParser.parse(sync=True)
-  hospitalParser.parse(sync=True)
+  sync = '--sync' in sys.argv
+  distributionParser.parse(sync=sync)
+  hospitalParser.parse(sync=sync)
   geoJsonParser.compile(whitelist=store.country_whitelist)
   store.write_to_file()
 
