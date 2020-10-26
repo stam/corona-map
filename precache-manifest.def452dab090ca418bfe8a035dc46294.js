@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ac1b365611a66388aa7a631e2143a15e",
+    "revision": "6a2255fc8aed6c31a682a261ae235bb9",
     "url": "/corona-map/index.html"
   },
   {
-    "revision": "cad7f141fd4e121bc6fa",
+    "revision": "1f9cbedcd82a6ab28e70",
     "url": "/corona-map/static/css/2.a4567992.chunk.css"
   },
   {
-    "revision": "5064cf55912417d261b7",
+    "revision": "af1e72244be6a7f5515b",
     "url": "/corona-map/static/css/main.9f884f7c.chunk.css"
   },
   {
-    "revision": "cad7f141fd4e121bc6fa",
-    "url": "/corona-map/static/js/2.0d7982da.chunk.js"
+    "revision": "1f9cbedcd82a6ab28e70",
+    "url": "/corona-map/static/js/2.85556bdd.chunk.js"
   },
   {
-    "revision": "3438168394d419ff84381b94f5e9ed45",
-    "url": "/corona-map/static/js/2.0d7982da.chunk.js.LICENSE.txt"
+    "revision": "eb53dbf7da9259dd8655fc09fbd76017",
+    "url": "/corona-map/static/js/2.85556bdd.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5064cf55912417d261b7",
-    "url": "/corona-map/static/js/main.11fc1515.chunk.js"
+    "revision": "af1e72244be6a7f5515b",
+    "url": "/corona-map/static/js/main.136ed9ae.chunk.js"
   },
   {
     "revision": "eded023b0a48926aab1c",
