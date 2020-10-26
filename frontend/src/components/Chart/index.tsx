@@ -85,19 +85,32 @@ export const Chart: React.FC<Props> = (props) => {
       <ResponsiveContainer aspect={16 / 7}>
         <LineChart data={data}>
           <XAxis dataKey="date" />
-          <YAxis domain={[0, 1000]} />
+          <YAxis yAxisId="cases" domain={[0, 1000]} />
+          <YAxis yAxisId="hospital" domain={[0, 100]} orientation="right" />
           <CartesianGrid stroke="#eee" strokeDasharray="5 5" />
           <Tooltip isAnimationActive={false} />
-          <ReferenceLine x={dayjs(store.date).format("YYYY-MM-DD")} />
+          <ReferenceLine
+            yAxisId="cases"
+            x={dayjs(store.date).format("YYYY-MM-DD")}
+          />
           {/* {Object.keys(store.measuresForCountry).map((d) => (
-          <ReferenceLine key={d} x={d} shape={AnnotationShape} />
-        ))} */}
+            <ReferenceLine key={d} x={d} shape={AnnotationShape} />
+          ))} */}
           <Line
             type="monotone"
+            yAxisId="cases"
             dot={false}
             dataKey="biweeklyTotalPer100k"
             isAnimationActive={false}
             stroke="#8884d8"
+          />
+          <Line
+            type="monotone"
+            yAxisId="hospital"
+            dot={false}
+            dataKey="hospitalOccupancy"
+            isAnimationActive={false}
+            stroke="hotpink"
           />
         </LineChart>
       </ResponsiveContainer>

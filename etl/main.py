@@ -46,6 +46,8 @@ class DataStore():
   date_summary_path = '../frontend/public/world.json'
   country_summary_path = '../frontend/public/countries.json'
 
+  meta = {}
+
   country_whitelist = []
 
   def _set(self, target_dict, keys, val):
@@ -82,9 +84,28 @@ class DataStore():
         'date': date,
     }
 
+    countryPopulation100k = round(case_row['countryPopulation'] / 100000)
+
     self._set_array(self.country_whitelist, country)
     self._set(self.date_summary, [date, country], summary)
     self._set(self.country_summary, [country, date], summary)
+    self._set(self.meta, [country, 'populationIn100k'], countryPopulation100k)
+
+  def parse_hospital_row(self, row):
+    if row['type'] != 'Daily hospital occupancy':
+      return
+
+    date = row['date']
+    country = row['country']
+
+    # We don't want total daily hospital occupancy, we want it normalized for the population
+    population = self.meta[country]['populationIn100k']
+    occupancy_per_100k = row['value'] / population
+
+    self._set(self.date_summary, [date, country,
+                                  'hospitalOccupancy'], occupancy_per_100k)
+    self._set(self.country_summary, [country, date,
+                                     'hospitalOccupancy'], occupancy_per_100k)
 
   def write_to_file(self):
     with open(self.date_summary_path, 'w') as output_file:
@@ -147,6 +168,7 @@ class DistributionParser():
     output['country'] = input_row['countriesAndTerritories'].replace('_', ' ')
     output['cases'] = input_row['cases']
     output['deaths'] = input_row['deaths']
+    output['countryPopulation'] = input_row['popData2019']
     output['continent'] = input_row['continentExp']
 
     return output
@@ -164,55 +186,44 @@ class DistributionParser():
 
         store.parse_case_row(parsed_row)
 
-        # country = row_dict['countriesAndTerritories'].replace('_', ' ')
-        # if country_whitelist is not None:
-        #   if country not in country_whitelist:
-        #     continue
-        # else:
-        #   if row_dict['continentExp'] != 'Europe':
-        #     continue
-
-        # output[country].append(d)
-
 
 distributionParser = DistributionParser()
 
 
-def parse_hospital_data(file_path='hospital_data.csv'):
-  hosp = None
-  with open(file_path, 'r') as file:
-    reader = csv.DictReader(file)
-    hosp = list(reader)
+class HospitalParser():
+  file_path = 'input/hospital_data.csv'
 
-  print(hosp[0])
+  def _parse_row(self, input_row):
+    output = {}
 
-  # for measure in hosp:
-  #   country = measure['Country']
+    val = input_row['value'] or '0'
+    output['country'] = input_row['\ufeffcountry']  # idk
+    output['date'] = input_row['date']
 
-  #   if country not in output:
-  #     output[country] = []
+    output['value'] = float(val) if '.' in val else int(val)
+    output['type'] = input_row['indicator']
 
-  #   output[country].append(measure)
+    return output
+
+  def parse(self):
+    with open(self.file_path, 'r') as file:
+      reader = csv.DictReader(file)
+      rows = list(reader)
+
+    for row in rows:
+      normalized_row = self._parse_row(row)
+      store.parse_hospital_row(normalized_row)
 
 
-def list_diff(list_a, list_b):
-  set_a = set(list_a)
-  set_b = set(list_b)
-
-  print('only in a')
-  print(set_a - set_b)
-
-  print('in both')
-  print(set_a.intersection(set_b))
-
-  print('only in b')
-  print(set_b - set_a)
+hospitalParser = HospitalParser()
 
 
 if __name__ == '__main__':
   distributionParser.parse()
+  hospitalParser.parse()
   geoJsonParser.compile(whitelist=store.country_whitelist)
   store.write_to_file()
+
   # measures = convert_measures_to_json()
   # countries_with_measures = list(measures.keys())
   # results = parse_cases()

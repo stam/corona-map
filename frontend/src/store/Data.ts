@@ -10,6 +10,7 @@ interface DayResult {
   biweeklyTotalPer100k: number;
   cases: number;
   date: string;
+  hospitalOccupancy?: number;
   deaths: number;
 }
 
