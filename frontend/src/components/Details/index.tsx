@@ -53,7 +53,11 @@ export const Details: React.FC<DetailsProps> = observer((props) => {
             <tbody>
               <tr>
                 <td>{result.biweeklyTotalPer100k}</td>
-                <td>14-day total cases per 100k</td>
+                <td>Biweekly total cases per 100k</td>
+              </tr>
+              <tr>
+                <td>{result.hospitalOccupancyPer100k ?? "??"}</td>
+                <td>Hospital occupancy per 100k</td>
               </tr>
               <tr>
                 <td>{result.cases}</td>
