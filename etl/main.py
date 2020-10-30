@@ -161,7 +161,7 @@ geoJsonParser = GeoJsonParser()
 
 class DistributionParser():
   file_path = 'input/distribution.xlsx'
-  url = 'https://www.ecdc.europa.eu/sites/default/files/documents/COVID-19-geographic-disbtribution-worldwide-2020-10-26.xlsx'
+  url = 'https://www.ecdc.europa.eu/sites/default/files/documents/COVID-19-geographic-disbtribution-worldwide-2020-10-30.xlsx'
 
   # 1.0 to 01
   # 30.0 to 30
